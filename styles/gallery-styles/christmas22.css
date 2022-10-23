@@ -1,0 +1,74 @@
+.gn {
+    background-color: #f4bf54;
+}
+
+    .gn a {
+        color: #182945;
+    }
+
+.christmas22-intro-img {
+    background-image: url(../../images/220919_riverworks-announcement_1140.png);
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: #182945;
+    color: #fff;
+}
+
+.christmas22-title {
+    font-family: nautica, sans-serif;
+    color: #f4bf54;
+    font-weight: 400;
+    font-size: 4rem;
+
+    line-height: 4rem;
+    padding: 0 2vw;
+}
+
+.button {
+    background-color: #f4bf54;
+    color: #182945;
+}
+
+    .button a {
+        color: #182945;
+    }
+
+    .button:hover {
+        border: #f4bf54 solid 4px;
+    }
+
+    .button:hover p {
+        color: #f4bf54;
+    }
+
+#galleryhd {
+    background-color: #182945;
+}
+
+.christmas22-header {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.christmas22-byline {
+    text-align: center;
+}
+
+.christmas22-panel {
+    background-color: #182945;
+    color: #f4bf54;
+}
+
+.top-link a {
+    color: #f4bf54;
+}
+
+.footer {
+    background-color: #182945;
+}
+
+.social a:hover {
+    color: #f4bf54;
+}

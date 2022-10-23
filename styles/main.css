@@ -1,0 +1,247 @@
+/* background-color: #182945;
+	background-color: #f4bf54; */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2rem;
+
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 1.75rem;
+}
+
+.button {
+    background-color: #fff;
+    border-radius: 1vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: rgba(0, 0, 0, 0) solid 4px;
+    max-width: 45vw;
+    padding-top: .3rem;
+}
+    @media (min-width: 420px) {
+        .button {
+            padding-right: 2vw;
+            padding-left: 2vw;
+        }
+    }
+    @media (min-width: 687px) {
+        .button {
+            padding-right: 4vw;
+            padding-left: 4vw;
+        }
+    }
+
+    .button p {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .button a {
+        color: #000;
+    }
+
+    .button:hover {
+        border: #fff solid 4px;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .button:hover a {
+        color: #fff;
+    }
+
+/* ==== TYPOGRAPHY ==== */
+
+    .head-font {
+        font-weight: 700;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+        font-style: italic;
+    }
+
+    .italics {
+        font-style: italic;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+/* ==== HEADER & NAVIGATION ==== */
+
+    header {
+        padding: 4vh auto 4vh;
+        height: 100%;
+        overflow: hidden;
+        z-index: 25;
+    }
+
+    .header-image {
+        position: absolute;
+        z-index: -5;
+        width: 100vw;
+        height: calc(25vh + 6vh + 1rem);
+        background-size: cover;
+        background-position: center;
+        filter: brightness(.42);
+    }
+
+    .logo {
+        width: 100vw;
+        height: 25vh;
+        padding: 5vh auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    svg {
+        width: 55vw;
+        height: auto;
+        filter: brightness(1);
+    }
+        @media (min-width: 420px) {
+            svg {
+                width: 42vw;
+            }
+        }
+        @media (min-width: 687px) {
+            svg {
+                width: 25vw;
+            }
+        }
+        @media (min-width: 1080px) {
+            svg {
+                width: 18vw;
+            }
+        }
+
+    .gn {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 3vh 28vw;
+
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        text-align: center;
+        font-size: .85rem;
+    }
+        @media (min-width: 687px) {
+            .gn {
+                flex-direction: row;
+                font-size: 1rem;
+            }
+        }
+
+    .gn li:hover {
+        font-weight: 700;
+    }
+
+/* ==== MAIN ==== */
+
+    main {
+        width: 100vw;
+        /* margin: 5vh auto; */
+    }
+
+    /* ==== INTRO ==== */
+
+        .intro {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            gap: 15vh;
+        }
+            @media (min-width: 320px) {
+                .intro {
+                    padding-top: 2vh;
+                    padding-bottom: 2vh;
+                }
+            }
+            @media (min-width: 1080px) {
+                .intro {
+                    padding-top: 7vh;
+                    padding-bottom: 7vh;
+                }
+            }
+
+    /* ==== ABOUT ==== */
+
+        #about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row-reverse;
+            gap: 5vw;
+            margin: 8vh auto;
+        }
+
+        .about-img {
+            width: 25vw;
+        }
+
+        .about-text {
+            width: 50vw;
+        }
+
+/* ==== FOOTER ==== */
+
+        .footer {
+            height: 20vh;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: .85rem;
+        }
+
+        .social {
+            display: flex;
+            flex-direction: row;
+            gap: 5vw;
+            font-size: 1.5rem;
+        }
