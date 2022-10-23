@@ -79,7 +79,7 @@
             <section id="galleryhd">
                 <div class="gallery-wrap">
                     <div role="main" id="gallery">
-                        <section class="grid" >
+                        <section class="grid">
 
                             <div class="grid-item">
                                 <img src="images/cs_bm-post-field.jpg">
@@ -219,14 +219,17 @@
             <!-- == ISOTOPE == -->
                 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
                 <script>
-                    var $grid = $('.grid').isotope({
+                    var grid = document.querySelector('.grid');
+                    var iso;
+                
+                    imagesLoaded( grid, function() {
+                    // init Isotope after all images have loaded
+                    iso = new Isotope( grid, {
                         itemSelector: '.grid-item',
+                        percentPosition: true,
                         layoutMode: 'masonry',
-                        });
-                        // layout Isotope after each image loads
-                        $grid.imagesLoaded().progress( function() {
-                        $grid.isotope('layout');
-                        });  
+                    });
+                    });
                 </script>
 
             <!-- == SLIDE GALLERY : https://codepen.io/joe-watkins/pen/RPZbrW/ == -->
