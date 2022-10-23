@@ -79,7 +79,7 @@
             <section id="galleryhd">
                 <div class="gallery-wrap">
                     <div role="main" id="gallery">
-                        <section class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "masonry" }'>
+                        <section class="grid" >
 
                             <div class="grid-item">
                                 <img src="images/cs_bm-post-field.jpg">
@@ -217,10 +217,16 @@
                 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
             <!-- == ISOTOPE == -->
-                <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js">
-                    $('.grid').imagesLoadedMB().progress( function() {
-                        $('.grid').isotope('layout');
-                    });
+                <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+                <script>
+                    var $grid = $('.grid').isotope({
+                        itemSelector: '.grid-item',
+                        layoutMode: 'masonry',
+                        });
+                        // layout Isotope after each image loads
+                        $grid.imagesLoaded().progress( function() {
+                        $grid.isotope('layout');
+                        });  
                 </script>
 
             <!-- == SLIDE GALLERY : https://codepen.io/joe-watkins/pen/RPZbrW/ == -->
