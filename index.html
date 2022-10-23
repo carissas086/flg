@@ -6,6 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fraser Lands Gallery</title>
 
+        <!-- horizontal gallery sequence at top
+        flc logo on top -->
+
         <link rel="stylesheet" href="https://use.typekit.net/kqc7bpl.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -210,8 +213,15 @@
             <!-- == JQUERY == -->
                 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+            <!-- == IMAGES LOADED == -->
+                <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
             <!-- == ISOTOPE == -->
-                <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+                <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js">
+                    $('.grid').imagesLoadedMB().progress( function() {
+                        $('.grid').isotope('layout');
+                    });
+                </script>
 
             <!-- == SLIDE GALLERY : https://codepen.io/joe-watkins/pen/RPZbrW/ == -->
                 <script src="scripts/gallery.js"></script>
