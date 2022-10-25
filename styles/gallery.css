@@ -176,7 +176,13 @@
 					transform: translateX(-62%);
 				}
 			}
-	
+
+	/* ==== GALLERY CONTROLS ==== */
+
+			.gallery-control {
+				cursor: pointer;
+			}
+
 	/* ==== DESCRIPTION STYLING ==== */
 
 		.aside-img {
