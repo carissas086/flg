@@ -52,14 +52,14 @@ function setControlIds(target) {
 	}
 
 	var setId = curr.replace("flg","");
-	
+
 	// ==== sets current id +1
 		var setNext = Number(setId) + 1;
 	// ==== sets current id -1
 		var setPrev = Number(setId) - 1;
 		
 	// ==== STOP AT MIN GALLERY ITEMS
-	if (curr == '1') {
+	if (setId == '1') {
 		cntlPrev.setAttribute('data-id','flg1');
 		cntlNext.setAttribute('data-id','flg2');
 		return;
@@ -68,7 +68,7 @@ function setControlIds(target) {
 	};
 
 	// ==== SET MAX GALLERY ITEMS
-	if(curr == '4') {
+	if(setId == '4') {
 		cntlPrev.setAttribute('data-id','flg' + setPrev.toString());
 		cntlNext.setAttribute('data-id',thisId);
 		return;
@@ -76,14 +76,6 @@ function setControlIds(target) {
 		cntlNext.setAttribute('data-id','flg' + setNext.toString());
 	};
 };
-
-// kill aside
-$asideClose.on("click", function (e) {
-	e.preventDefault();
-	$asideTarget.html("");
-	$asideImgTarget.html("");
-	killAside();
-});
 
 // load data to aside
 function loadTileData(target) {
@@ -105,6 +97,14 @@ function showAside() {
 		focusCloseButton();
 	}
 }
+
+// kill aside
+$asideClose.on("click", function (e) {
+	e.preventDefault();
+	$asideTarget.html("");
+	$asideImgTarget.html("");
+	killAside();
+});
 
 // handle esc key
 window.addEventListener(
@@ -130,7 +130,7 @@ $parent.on("click", function (e) {
 	}
 });
 
-// kill aside
+// kill function
 function killAside() {
 
 	if ($("html").hasClass(slideClass)) {

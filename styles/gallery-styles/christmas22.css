@@ -1,3 +1,9 @@
+/* ==== A CHRISTMAS ART EXHIBIT
+    background-color: #182945;
+	background-color: #f4bf54;
+==== */
+
+
 .gn {
     background-color: #f4bf54;
 }
@@ -61,7 +67,7 @@
     color: #f4bf54;
 }
 
-.top-link a {
+#toplink {
     color: #f4bf54;
 }
 

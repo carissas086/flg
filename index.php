@@ -29,7 +29,7 @@
             <!-- ==== HEADER IMG (css defined) ==== -->
                 <div class="header-image christmas22-head-img"></div>
 
-            <div class="logo">
+            <div class="logo is-flex flex-centers">
                 <a href="index.html">
                     <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1998.03 765.17">
                         <g id="Layer_1-2"><g><g>
@@ -59,7 +59,7 @@
 
             <!-- ==== GLOABL NAVIGATION ==== -->
                 <div>
-                    <ul class="gn">
+                    <ul class="gn is-flex">
                         <li><a href="#galleryhd" alt="See Latest Gallery">Gallery</a></li>
                         <!-- <li>Archive</li> -->
                         <li><a href="#about" alt="About the Fraser Lands Gallery">About</a></li>
@@ -69,8 +69,8 @@
         <main>
             <!-- ==== LANDING SECTION ==== -->
                 <!-- current gallery tag: christmas22 -->
-                <section class="intro christmas22-intro-img">
-                    <div class="gallery-header christmass22-header">
+                <section class="intro is-flex flex-centers christmas22-intro-img">
+                    <div class="gallery-header is-flex flex-centers christmass22-header">
                         <h4 class="head-font">Fraser Lands Gallery Presents:</h4>
                         <h1 class="christmas22-title">A Christmas Art Exhibit</h1>
                         <div class="verse-box">
@@ -85,7 +85,7 @@
                 </section>
 
             <!-- ==== CURRENT GALLERY ==== -->
-                <section id="galleryhd">
+                <section id="galleryhd" class="is-flex flex-centers">
                     <div class="gallery-wrap">
                         <div role="main" id="gallery">
 
@@ -105,20 +105,26 @@
                             <aside role="complementary" id="panel" class="christmas22-panel" aria-hidden="true" aria-expanded="false">
 
                                 <!-- ==== IMAGE TOP ==== -->
-                                    <div style="display:flex;">
-                                        <p class="cntl-prev gallery-control">&lt;</p>
+                                    <div id="panel-top" class="is-flex flex-centers">
+                                        <div class="gallery-control-box is-flex">
+                                            <div class="cntl-prev gallery-control is-flex flex-centers">
+                                                <p>&lt;</p>
+                                            </div>
+                                            <div class="cntl-next gallery-control is-flex flex-centers">
+                                                <p>&gt;</p>
+                                            </div>
+                                        </div>
                                         <div class="aside--image" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Read More"></div>
-                                        <p class="cntl-next gallery-control">&gt;</p>
                                     </div>
 
 
 
                                     <!-- =====================
-                                
-                                        = STYLE:
-                                        = widen aside
-                                        = place buttons
-                                        = figure out how to handle mobile
+
+                                        = video & audio support
+                                        = CSS hover gallery name/artist
+                                        = isotope filters
+                                        = 3D support?
                                 
                                 -->
 
@@ -131,13 +137,13 @@
 
                                 <!-- ==== CLOSE & TOP FUNCTION BUTTONS ==== -->
                                     <p class="close"><span>&#10540;</span></p>
-                                    <a href="#" id="toplink">back to top</a>
+                                    <a href="#" id="toplink" class="is-flex">back to top</a>
                             </aside>
                     </div>
                 </section>
 
         <!-- ==== ABOUT ==== -->
-            <section id="about">
+            <section id="about" class="is-flex flex-centers">
                 <div class="about-img">
                     <img src="images/aurie-image.jpg" alt="">
                 </div>
@@ -147,10 +153,10 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer is-flex flex-centers">
             <p>&copy; 2022 Fraser Lands Gallery</p>
                 <div>
-                    <ul class="social">
+                    <ul class="social is-flex">
                         <li><a href="" class="fa fa-facebook"></a></li>
                         <li><a href="" class="fa fa-instagram"></a></li>
                     </ul>

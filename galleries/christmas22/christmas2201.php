@@ -11,13 +11,14 @@
             <div class="visually-hidden">
 
             <!-- ==== FULL RESOLUTION IMAGE/CONTENT ==== -->
-                <!-- styled in aside -->
                 <div class="aside-img">
-                    <img src="images/cs_interest.jpg">
+                    <div class="aside-top">
+                        <img src="images/cs_interest.jpg">
+                    </div>
                 </div>
 
             <!-- ==== WRITTEN DESCRIPTION ==== -->
-                <div class="details panel-box">
+                <div class="details panel-box is-flex">
                     <div class="aside-text">
 
                     <!-- ==== PIECE NAME ==== -->
