@@ -34,8 +34,14 @@ a {
 }
 
 p {
+    font-size: .9rem;
     margin-bottom: 1.75rem;
 }
+    @media (min-width: 687px) {
+        p {
+            font-size: 1rem;
+        }
+    }
 
 .button {
     background-color: #fff;
@@ -46,22 +52,11 @@ p {
     max-width: 45vw;
     padding-top: .3rem;
 }
-    @media (min-width: 420px) {
-        .button {
-            padding-right: 2vw;
-            padding-left: 2vw;
-        }
-    }
-    @media (min-width: 687px) {
-        .button {
-            padding-right: 4vw;
-            padding-left: 4vw;
-        }
-    }
 
     .button p {
-        margin-bottom: 0;
+        margin: 0 2vw 0;
         text-align: center;
+        font-size: .9rem
     }
 
     .button a {

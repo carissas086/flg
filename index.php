@@ -122,6 +122,13 @@
                                     <!-- =====================
 
                                         = video & audio support
+
+                                        
+    <video controls volume="">
+        <source src="../images/cs_bm-teaser.mp4" type="video/mp4">
+        Your browser does not support the video tag :(
+    </video>
+    
                                         = CSS hover gallery name/artist
                                         = isotope filters
                                         = 3D support?
