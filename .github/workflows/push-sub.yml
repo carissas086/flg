@@ -21,4 +21,4 @@ jobs:
             **/.git*
             **/.git*/**
             README.md
-            **/_hold/**
+            **/desk/**
