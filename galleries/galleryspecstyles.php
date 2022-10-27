@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="styles/gallery-styles/christmas22.css">

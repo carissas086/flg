@@ -1,9 +1,17 @@
-/* background-color: #182945;
-	background-color: #f4bf54; */
-
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+
+    transition: all .15s ease-in-out;
+}
+
+.is-flex {
+    display: flex;
+}
+
+.flex-centers {
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -28,8 +36,14 @@ a {
 }
 
 p {
+    font-size: .9rem;
     margin-bottom: 1.75rem;
 }
+    @media (min-width: 687px) {
+        p {
+            font-size: 1rem;
+        }
+    }
 
 .button {
     background-color: #fff;
@@ -40,22 +54,11 @@ p {
     max-width: 45vw;
     padding-top: .3rem;
 }
-    @media (min-width: 420px) {
-        .button {
-            padding-right: 2vw;
-            padding-left: 2vw;
-        }
-    }
-    @media (min-width: 687px) {
-        .button {
-            padding-right: 4vw;
-            padding-left: 4vw;
-        }
-    }
 
     .button p {
-        margin-bottom: 0;
+        margin: 0 2vw 0;
         text-align: center;
+        font-size: .9rem;
     }
 
     .button a {
@@ -105,6 +108,15 @@ p {
         font-weight: 700;
     }
 
+    .hyperlink {
+        color: #000;
+        font-weight: 700;
+    }
+
+    .hyperlink:hover {
+        font-style: italic;
+    }
+
 /* ==== HEADER & NAVIGATION ==== */
 
     header {
@@ -119,6 +131,8 @@ p {
         z-index: -5;
         width: 100vw;
         height: calc(25vh + 6vh + 1rem);
+
+        /* background-image: url(); */
         background-size: cover;
         background-position: center;
         filter: brightness(.42);
@@ -128,9 +142,6 @@ p {
         width: 100vw;
         height: 25vh;
         padding: 5vh auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     svg {
@@ -154,11 +165,29 @@ p {
             }
         }
 
+    #top-gn {
+        width: 100vw;
+    }
+
+    #flc-logo-box {
+        position: absolute;
+        left: 1.5vw;
+
+        width: 5vw;
+        max-width: 80px;
+    }
+        @media (min-width: 687px) {
+            #flc-logo-box {
+                width: 1.75vw;
+            }
+        }
+
     .gn {
-        display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: column;
-        padding: 3vh 28vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        width: 50vw;
 
         text-transform: uppercase;
         letter-spacing: 2.5px;
@@ -187,10 +216,7 @@ p {
 
         .intro {
             position: relative;
-            display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
             padding-top: 1vh;
             padding-bottom: 1vh;
             gap: 15vh;
@@ -211,20 +237,41 @@ p {
     /* ==== ABOUT ==== */
 
         #about {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row-reverse;
+            flex-direction: column-reverse;
             gap: 5vw;
             margin: 8vh auto;
         }
+            @media (min-width: 687px) {
+                #about {
+                    flex-direction: row-reverse;
+                }
+            }
 
         .about-img {
-            width: 25vw;
+            width: 85vw;
         }
+            @media (min-width: 420px) {
+                .about-img {
+                    width: 50vw;
+                }
+            }
+            @media (min-width: 687px) {
+                .about-img {
+                    width: 25vw;
+                }
+            }
 
         .about-text {
-            width: 50vw;
+            width: 85vw;
+        }
+            @media (min-width: 687px) {
+                .about-text {
+                    width: 50vw;
+                }
+            }
+
+        .about-text h2 {
+            text-align: left;
         }
 
 /* ==== FOOTER ==== */
@@ -232,15 +279,11 @@ p {
         .footer {
             height: 20vh;
             color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             flex-direction: column;
             font-size: .85rem;
         }
 
         .social {
-            display: flex;
             flex-direction: row;
             gap: 5vw;
             font-size: 1.5rem;
