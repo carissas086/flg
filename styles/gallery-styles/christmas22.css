@@ -3,84 +3,67 @@
 	background-color: #f4bf54;
 ==== */
 
-
-.gn {
-    background-color: #f4bf54;
-}
-
-    .gn a {
-        color: #182945;
+/* ==== LANDING BACKGROUND IMG ==== */
+    .christmas22-intro-img {
+        background-image: url(../../images/220919_riverworks-announcement_1140.png);
+        background-position: bottom left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
     }
 
-.christmas22-intro-img {
-    background-image: url(../../images/220919_riverworks-announcement_1140.png);
-    background-position: bottom left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
-    background-color: #182945;
-    color: #fff;
-}
+/* ==== TYPOGRAPHY ==== */
+    .christmas22-title {
+        font-family: nautica, sans-serif;
+        font-weight: 400;
+        font-size: 3.5rem;
 
-.christmas22-title {
-    font-family: nautica, sans-serif;
-    color: #f4bf54;
-    font-weight: 400;
-    font-size: 3.5rem;
+        line-height: 4rem;
+        padding: 0 2vw;
+    }
+        @media (min-width: 687px) {
+            .christmas22-title {
+                font-size: 5rem;
 
-    line-height: 4rem;
-    padding: 0 2vw;
-}
-    @media (min-width: 687px) {
-        .christmas22-title {
-            font-size: 5rem;
-
+            }
         }
+
+    .christmas22-header {
+        text-transform: uppercase;
+        text-align: center;
     }
 
-.button {
-    background-color: #f4bf54;
-    color: #182945;
-}
+    .christmas22-byline {
+        text-align: center;
+    }
 
-    .button a {
+/* ==== TEXT COLOURS ==== */
+    .christmas22-intro-img, .hyperlink, .gal-filter li:hover, .is-selected {
+        color: #ffff;
+    }
+        
+    .chrstmas22-title, .gal-filter, .gal-select, .christmas22-panel, #toplink, .hyperlink:hover, .button:hover p, .social a:hover {
+        color: #f4bf54;
+    }
+    
+    .gn a, .button, .button a {
         color: #182945;
     }
 
+/* ==== BACKGROUND COLOURS ==== */
+    #top-gn, .button {
+        background-color: #f4bf54;
+    }
+
+    .christmas22-intro-img, #galleryhd, .christmas22-panel, .footer {
+        background-color: #182945;
+    }
+
+/* ==== BORDER COLOURS ==== */
+    .mediums-list, .fil-medium {
+        border-color: #f4bf54;
+    }
+    
     .button:hover {
         border: #f4bf54 solid 4px;
     }
-
-    .button:hover p {
-        color: #f4bf54;
-    }
-
-#galleryhd {
-    background-color: #182945;
-}
-
-.christmas22-header {
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.christmas22-byline {
-    text-align: center;
-}
-
-.christmas22-panel {
-    background-color: #182945;
-    color: #f4bf54;
-}
-
-#toplink {
-    color: #f4bf54;
-}
-
-.footer {
-    background-color: #182945;
-}
-
-.social a:hover {
-    color: #f4bf54;
-}

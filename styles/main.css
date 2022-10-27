@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+
+    transition: all .15s ease-in-out;
 }
 
 .is-flex {
@@ -56,7 +58,7 @@ p {
     .button p {
         margin: 0 2vw 0;
         text-align: center;
-        font-size: .9rem
+        font-size: .9rem;
     }
 
     .button a {
@@ -106,6 +108,15 @@ p {
         font-weight: 700;
     }
 
+    .hyperlink {
+        color: #000;
+        font-weight: 700;
+    }
+
+    .hyperlink:hover {
+        font-style: italic;
+    }
+
 /* ==== HEADER & NAVIGATION ==== */
 
     header {
@@ -120,6 +131,8 @@ p {
         z-index: -5;
         width: 100vw;
         height: calc(25vh + 6vh + 1rem);
+
+        /* background-image: url(); */
         background-size: cover;
         background-position: center;
         filter: brightness(.42);
@@ -152,10 +165,29 @@ p {
             }
         }
 
+    #top-gn {
+        width: 100vw;
+    }
+
+    #flc-logo-box {
+        position: absolute;
+        left: 1.5vw;
+
+        width: 5vw;
+        max-width: 80px;
+    }
+        @media (min-width: 687px) {
+            #flc-logo-box {
+                width: 1.75vw;
+            }
+        }
+
     .gn {
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: column;
-        padding: 3vh 28vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        width: 50vw;
 
         text-transform: uppercase;
         letter-spacing: 2.5px;
@@ -205,17 +237,41 @@ p {
     /* ==== ABOUT ==== */
 
         #about {
-            flex-direction: row-reverse;
+            flex-direction: column-reverse;
             gap: 5vw;
             margin: 8vh auto;
         }
+            @media (min-width: 687px) {
+                #about {
+                    flex-direction: row-reverse;
+                }
+            }
 
         .about-img {
-            width: 25vw;
+            width: 85vw;
         }
+            @media (min-width: 420px) {
+                .about-img {
+                    width: 50vw;
+                }
+            }
+            @media (min-width: 687px) {
+                .about-img {
+                    width: 25vw;
+                }
+            }
 
         .about-text {
-            width: 50vw;
+            width: 85vw;
+        }
+            @media (min-width: 687px) {
+                .about-text {
+                    width: 50vw;
+                }
+            }
+
+        .about-text h2 {
+            text-align: left;
         }
 
 /* ==== FOOTER ==== */

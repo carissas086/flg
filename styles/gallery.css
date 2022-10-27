@@ -17,18 +17,23 @@
 		z-index: 17;
 		width: 100vw;
 		min-height: 100vh;
-		padding-top: 5vh;
 		padding-bottom: 5vh;
+		justify-content: flex-start;
+		align-content: center;
+		flex-direction: column;
 	}
 
 	.gallery-wrap {
 		position: relative;
 		z-index: 16;
 		width: 100%;
+		align-self: center;
+		margin-top: 0;
 	}
 		@media (min-width: 1080px) {
 			.gallery-wrap {
 				width: 90%;
+				margin-top: 2vh;
 			}
 		}
 
@@ -38,6 +43,114 @@
 		transition: all .5s ease-in-out;
 		opacity: 1;
 		margin: 0 auto;
+	}
+
+/* ==== GALLERY FILTERS ==== */
+
+	.gal-filter {
+		justify-content: space-evenly;
+		flex-direction: column;
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+
+		text-transform: uppercase;
+		letter-spacing: 2.5px;
+		text-align: center;
+		font-size: .85rem;
+		font-weight: 700;
+	}
+		@media (min-width: 687px) {
+			.gal-filter {
+				flex-direction: row;
+				font-size: 1rem;
+			}
+		}
+
+	.gal-filter li:hover {
+		font-style: italic;
+	}
+
+	.gal-choose {
+		padding-top: 4vh;
+		padding-bottom: 4vh;
+
+		width: 100%;
+		height: 50px;
+
+	}
+
+	.gal-choose p {
+		display: block;
+		position: absolute;
+		width: 100%;
+		margin-bottom: 0;
+	}
+		@media (min-width: 687px) {
+			.gal-choose:hover p {
+				color: transparent;
+			}
+
+			.gal-choose:hover .fil-gal {
+				display: flex;
+			}
+		}
+
+	.gal-select {
+		display: block;
+		text-transform: uppercase;
+		letter-spacing: 2.5px;
+		text-align: center;
+		font-size: 1rem;
+		font-weight: 700;
+	}
+		@media (min-width: 687px) {
+			.gal-select {
+				display: none;
+			}
+		}
+
+	.fil-gal {
+		display: none;
+		position: relative;
+		width: 65%;
+	}
+
+	.mediums-list {
+		border-top: solid 2px;
+		margin-bottom: 2vh;
+		padding-top: 2vh;
+	}
+
+	.fil-medium {
+		display: none;
+		width: 100%;
+		padding-top: 0;
+		margin-bottom: 3vh;
+		
+		border-bottom: solid 4px;
+	}
+		@media (min-width: 687px) {
+			.fil-medium {
+				display: flex;
+				margin-bottom: 0;
+			}
+		}
+
+	#med-select {
+		margin-bottom: 0;
+	}
+
+	.show-options {
+		display: flex;
+	}
+
+	.close-selector {
+		color: transparent !important;
+	}
+
+	.sel-selector {
+		font-style: italic;
+		opacity: .55;
 	}
 
 /* ==== MASONRY GRID ==== */
@@ -190,7 +303,6 @@
 				height: 61vh;
 				width: 45vw;
 				margin: 0;
-				font-size: 4rem;
 			}
 				@media (min-width: 687px) {
 					.gallery-control {
@@ -205,6 +317,7 @@
 
 			.gallery-control p {
 				display: none;
+				font-size: 4rem;
 			}
 				@media (min-width: 687px) {
 					.gallery-control p {
