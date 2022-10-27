@@ -1,4 +1,7 @@
 **CURRENT GALLERY TAG: christmas22**
+__1 page__
+__0 galleries__
+__0 artworks__
 
 # Fraser Lands Gallery, v1
 
@@ -46,28 +49,55 @@ Please look to the following for gallery specific adjustments:
 #### ADDING TO THE GRID
 - Duplicate the artwork partial template at '**/desk/tag##.php**' and move to the gallery's artwork folder
 - Rename: _TAG_##.php
-- Add tags on **line1**
+- Add tags on **line2**
   - g-_TAG_ (for the gallery filter)
   - m-_MEDIUM_ (for the artwork medium filter, see below for full list)
-- Advance the partial ID on **line5**
-  - please note that it is IMPERATIVE that the numbers DO NOT SKIP, and DO NOT RESET between galleries at present. Failure to do so will affect the gallery control functions. See the last id assignment on 'functions.js:5'
+- Add partial ID to comments on **lines 1 & 7**
+- Add partial ID on **line4**
 - Adjust the maximum grid size in '**functions.js:5**'
+- Add gallery classes as needed (common list below)
 - Edit content (see section below for more information)
+- Delete **unnecessary code pieces**
 - Go to '_TAG_ grid.php'
 - Add partial at the following directory: '**/_TAG_artwork/_TAG_##**'
+
+##### Note regarding Partial ID
+
+Please note that it is IMPERATIVE that the numbers **DO NOT SKIP**, and DO NOT RESET between galleries at present. Failure to do so will affect the gallery control functions. See the last id assignment on '**functions.js:5**'
 
 ##### Editing Gallery Partials
 
 The partial template is set up to be editable as such:
-- Thumbnail Image: line
+- Thumbnail Image (& alt tag) : **line 5**
+- Full Image (& alt tag) : **line 11**
+- Video : **line 13**
+- Title : **line20**
+- Artwork Author : **line21**
+- Artwork Medium : span on **line21**
+- Paragraph Blurbs : within empty p tag as on **line22**
+- Verse References
+  - within p tag as on **line 24**
+  - with verse number in the sup tag on **line 24**
+  - with the reference in a p tag as on **line 25**
+- Hyperlinks : within a span tag as demontrated on **line33**
 
+All text that **is not** in English, please tag using the appropriate language attribute. If within paragraph text, use span as on **line 34**. Shortlist of language codes are:
+- Catalan : ca
+- Chinese Simplified : zh-Hans
+- Chinese Traditional : zh-Hant
+- French : fr
+- Hebrew : he
+- Korean : ko
+- Latin : la
+- Malay : ms
+- Spanish : es
+- Tagalog : tl
 
+Gallery Classes of Note:
+- _TAG_ header (line 20)
+- _TAG_ byline (line 21)
 
-WE ARE EDITING THE TEMPLATE AND SETTING UP THE README
-
-
-
-After partial editing is complete, **delete unnecessary sections**.
+Reminder: after partial editing is complete, **delete unnecessary sections**.
 
 ---
 
