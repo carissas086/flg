@@ -121,6 +121,8 @@ The current artwork mediums filters are as follows:
 
 ##### Next to be implemented:
 
+- **URGENT** Video on mobile
+- **URGENT** Hosting on actual domain
 - Social Meta Tags
 - 3D artwork showcase capability (likely through Spline)
 - Gallery archive (to be possibly set out in global navigation)
