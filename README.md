@@ -3,7 +3,7 @@ __1 page__
 __0 galleries__
 __0 artworks__
 
-# Fraser Lands Gallery, v1
+# Fraser Lands Gallery, v0.9
 
 __Please note:__
 - Most adjustments should only need to be made in .php partials, and in functions.js. See below for more details
