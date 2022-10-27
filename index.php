@@ -149,7 +149,7 @@
                 <script src="scripts/functions.js"></script>
 
             <!-- == IMAGES LOADED == -->
-                <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
             <!-- == ISOTOPE == -->
                 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
