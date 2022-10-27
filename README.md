@@ -1,9 +1,7 @@
 **CURRENT GALLERY TAG: christmas22**
 
 __1 page__
-
 __0 galleries__
-
 __0 artworks__
 
 
