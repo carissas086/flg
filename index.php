@@ -26,6 +26,11 @@
     </head>
     <body>
         <header>
+            <div id="flc-logo-box">
+                <a href="https://fraserlands.ca/" target="_blank" alt="Visit Fraser Lands Church">
+                    <img src="" id="flclogo" alt="Fraser Lands Church Logo">
+                </a>
+            </div>
             
             <!-- ==== HEADER IMG  |  set in main.css ==== -->
                 <div class="header-image"></div>
@@ -60,17 +65,10 @@
             
             <!-- ==== GLOABL NAVIGATION ==== -->
                 <div class="is-flex flex-centers" id="top-gn">
-                    <div id="flc-logo-box">
-                        <a href="https://fraserlands.ca/" target="_blank" alt="See Latest Gallery">
-                            <img src="" id="flclogo">
-                        </a>
-                    </div>
-                    <div>
-                        <ul class="gn is-flex">
-                            <li><a href="#galleryhd" alt="See Latest Gallery">Gallery</a></li>
-                            <li><a href="#about" alt="About the Fraser Lands Gallery">About</a></li>
-                        </ul>
-                    </div>
+                    <ul class="gn is-flex">
+                        <li><a href="#galleryhd" alt="See Latest Gallery">Gallery</a></li>
+                        <li><a href="#about" alt="About the Fraser Lands Gallery">About</a></li>
+                    </ul>
                 </div>
         </header>
         <main>

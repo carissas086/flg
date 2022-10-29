@@ -172,6 +172,7 @@ p {
     #flc-logo-box {
         position: absolute;
         left: 1.5vw;
+        top: 1.5vw;
 
         width: 5vw;
         max-width: 80px;
@@ -185,9 +186,9 @@ p {
     .gn {
         justify-content: space-evenly;
         flex-direction: column;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
         width: 50vw;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
 
         text-transform: uppercase;
         letter-spacing: 2.5px;
@@ -197,6 +198,8 @@ p {
         @media (min-width: 687px) {
             .gn {
                 flex-direction: row;
+                padding-top: 3vh;
+                padding-bottom: 3vh;
                 font-size: 1rem;
             }
         }
@@ -217,20 +220,19 @@ p {
         .intro {
             position: relative;
             flex-direction: column;
-            padding-top: 1vh;
-            padding-bottom: 1vh;
-            gap: 15vh;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
         }
-            @media (min-width: 320px) {
+            @media (min-width: 687px) {
                 .intro {
-                    padding-top: 2vh;
-                    padding-bottom: 2vh;
+                    gap: 7vw;
                 }
             }
             @media (min-width: 1080px) {
                 .intro {
                     padding-top: 7vh;
                     padding-bottom: 7vh;
+                    gap: 12vh;
                 }
             }
 
