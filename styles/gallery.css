@@ -1,11 +1,17 @@
 /* ==== GALLERY HEAD ==== */
 
 	.gallery-header {
-		text-align: center;
-
 		flex-direction: column;
 		gap: 2vh;
+		width: 85vw;
+		text-align: center;
 	}
+		@media (min-width: 1080px) {
+			.gallery-header {
+				width: 50vw;
+			}
+		}
+
 
 	.gallery-header .head-font {
 		margin-bottom: 0;

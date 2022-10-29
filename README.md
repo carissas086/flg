@@ -37,16 +37,19 @@ Please look to the following for gallery specific adjustments:
 
 #### **To setup new gallery** ####
   
-- create the following in '/galleries':
+- Create the following in '/galleries':
   - _TAG_ (this houses all the files for that gallery EXCEPT the gallery stylesheet)
   - _TAG_ artwork (this houses all the artwork partials)
   - _TAG_ grid.php (this will call all the artwork partials)
   - _TAG_ head.php (this will replace the landing header)
-- set the following:
+- Set the following:
   - Landing section partial on '**index.php:78**'
   - New grid partial on '**index.php:89**'
-- add a new stylesheet for the gallery in '/styles/gallery-styles' with the name '**_TAG_.css**'
-  - add stylesheet in '/galleries/**galleryspecstyles.php**'
+- Add a new stylesheet for the gallery in '/styles/gallery-styles' with the name '**_TAG_.css**'
+  - Add stylesheet in '/galleries/**galleryspecstyles.php**'
+- Set new OG Metatags in '**metatags.php**'
+  - Change the description on **line 5**
+  - Change the image on **line 6** and it's dimensions on **lines 7 & 8**
 
 #### ADDING TO THE GRID
 - Duplicate the artwork partial template at '**/desk/tag##.php**' and move to the gallery's artwork folder
@@ -72,6 +75,7 @@ Please note that it is IMPERATIVE that the numbers **DO NOT SKIP**, and DO NOT R
 The partial template is set up to be editable as such:
 - Thumbnail Image (& alt tag) : **line 5**
 - Full Image (& alt tag) : **line 11**
+  - Remove class 'video' when video/audio element not used on **line 4**
 - Video : **line 13**
 - Title : **line20**
 - Artwork Author : **line21**

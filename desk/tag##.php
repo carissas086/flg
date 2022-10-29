@@ -1,7 +1,7 @@
 <!-- FLG -->
 <div class="grid-item ">
-    <a href="#" aria-controls="aside" aria-expanded="false" class="tile"
-        id="flg">
+    <a href="#" aria-controls="aside" aria-expanded="false"
+        class="tile video" id="flg">
         <img src="images/" alt="">
 
         <!-- ==== FLG ASIDE ==== -->
@@ -9,7 +9,7 @@
                 <div class="aside-img">
                     <div class="aside-top">
                         <img src="images/" alt="">
-                        <video controls onloadstart="this.volume=0.2;">
+                        <video controls playsinline onloadstart="this.volume=0.2;">
                             <source src="images/" type="video/mp4">
                             Your browser does not support the video tag :(
                         </video>
