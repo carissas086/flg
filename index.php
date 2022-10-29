@@ -102,7 +102,7 @@
                                                 <p>&gt;</p>
                                             </div>
                                         </div>
-                                        <div class="aside--image" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Read More"></div>
+                                        <div class="aside--image" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Artwork"></div>
                                     </div>
 
                                 <!-- ==== DESCRIPTION BOTTOM ==== -->
