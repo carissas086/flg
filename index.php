@@ -102,7 +102,7 @@
                                                 <p>&gt;</p>
                                             </div>
                                         </div>
-                                        <div class="aside--image" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Read More"></div>
+                                        <div class="aside--image" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Artwork"></div>
                                     </div>
 
                                 <!-- ==== DESCRIPTION BOTTOM ==== -->
@@ -139,7 +139,11 @@
         <!-- ==== SCRIPT CALLS ==== -->
             
             <!-- == JQUERY == -->
-                <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+                <script
+                    src="https://code.jquery.com/jquery-3.6.1.js"
+                    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+                    crossorigin="anonymous">
+                </script>
 
             <!-- ==
                 SLIDE GALLERY : https://codepen.io/joe-watkins/pen/RPZbrW/
@@ -149,7 +153,7 @@
                 <script src="scripts/functions.js"></script>
 
             <!-- == IMAGES LOADED == -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+                <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
             <!-- == ISOTOPE == -->
                 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>

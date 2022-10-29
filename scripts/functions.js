@@ -97,12 +97,19 @@ $(document).ready(function() {
 	// load data to aside
 
 		function loadTileData(target) {
-			var $this = $(target),
+			var $this = $(target);
 
 			itemHtml = $this.find(".aside-img").html();
 			$asideImgTarget.html(itemHtml);
 			itemHtml = $this.find(".details").html();
 			$asideTarget.html(itemHtml);
+
+			if ($this.hasClass("video")) {
+				$('.gallery-control-box').addClass("topper");
+			} else {
+				$('.gallery-control-box').removeClass("topper");
+				console.log('empty');
+			}
 
 			showAside();
 		}

@@ -301,7 +301,7 @@
 			.gallery-control {
 				cursor: pointer;
 				height: 61vh;
-				width: 45vw;
+				width: 30vw;
 				margin: 0;
 			}
 				@media (min-width: 687px) {
@@ -324,6 +324,10 @@
 						display: block;
 					}
 				}
+
+			.topper {
+				z-index: -10;
+			}
 		
 		.aside-top {
 			width: 86vw;

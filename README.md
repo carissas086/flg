@@ -1,7 +1,9 @@
 **CURRENT GALLERY TAG: christmas22**
+
 __1 page__
 __0 galleries__
 __0 artworks__
+
 
 # Fraser Lands Gallery, v0.9
 
@@ -121,6 +123,8 @@ The current artwork mediums filters are as follows:
 
 ##### Next to be implemented:
 
+- **URGENT** Video on mobile
+- **URGENT** Hosting on actual domain
 - Social Meta Tags
 - 3D artwork showcase capability (likely through Spline)
 - Gallery archive (to be possibly set out in global navigation)
