@@ -72,6 +72,7 @@ Please note that it is IMPERATIVE that the numbers **DO NOT SKIP**, and DO NOT R
 The partial template is set up to be editable as such:
 - Thumbnail Image (& alt tag) : **line 5**
 - Full Image (& alt tag) : **line 11**
+  - Remove class 'video' when video/audio element not used on **line 4**
 - Video : **line 13**
 - Title : **line20**
 - Artwork Author : **line21**
