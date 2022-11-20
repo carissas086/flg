@@ -26,7 +26,10 @@
                         <h3 class="head-font christmas22-header">Tester Image 2</h3>
 
                     <!-- ==== AUTHOR NAME  |  MEDIUM ==== -->
-                        <p class="byline christmas22-byline">by: Daniel Something  &verbar;  <span class="italics bold">Composite</span></p>
+                        <p class="byline christmas22-byline">by: 
+                            <span href="#" class="hyperlink" onclick="window.open('artists.php#XX').focus();">XX</span>  &verbar;  <span class="italics bold">XX</span>
+                        </p>
+                        <p>XX</p>
 
                     <!-- ==== BLURB ==== -->
                         <p>This is a tester paragraph. I will fill this with filler text for a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales augue ligula, at facilisis felis vestibulum sit amet. Nullam auctor magna ut turpis lacinia semper. Integer nec orci blandit, molestie arcu id, sagittis est.</p>

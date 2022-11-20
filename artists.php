@@ -36,7 +36,7 @@
                 </div>
             </section>
             <section>
-                
+                <!-- ==== EVERY ARTISTS NEEDS A UNIQUE ID ==== -->
             </section>
 
 

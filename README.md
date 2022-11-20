@@ -1,6 +1,6 @@
 **CURRENT GALLERY TAG: christmas22**
 
-__1 page__
+__2 pages__
 __0 galleries__
 __0 artworks__
 
@@ -79,15 +79,16 @@ The partial template is set up to be editable as such:
 - Video : **line 13**
 - Title : **line20**
 - Artwork Author : **line21**
-- Artwork Medium : span on **line21**
-- Paragraph Blurbs : within empty p tag as on **line22**
+- Artwork Author Bio : **line21**
+- Artwork Medium : span on **line22**
+- Paragraph Blurbs : within empty p tag as on **line24**
 - Verse References
-  - within p tag as on **line 24**
-  - with verse number in the sup tag on **line 24**
-  - with the reference in a p tag as on **line 25**
-- Hyperlinks : within a span tag as demontrated on **line33**
+  - within p tag as on **line 26**
+  - with verse number in the sup tag on **line 26**
+  - with the reference in a p tag as on **line 27**
+- Hyperlinks : within a span tag as demontrated on **line35**
 
-All text that **is not** in English, please tag using the appropriate language attribute. If within paragraph text, use span as on **line 34**. Shortlist of language codes are:
+All text that **is not** in English, please tag using the appropriate language attribute. If within paragraph text, use span as on **line 36**. Shortlist of language codes are:
 - Catalan : ca
 - Chinese Simplified : zh-Hans
 - Chinese Traditional : zh-Hant
