@@ -37,32 +37,27 @@
             </section>
             <section>
                 <!-- ==== EVERY ARTISTS NEEDS A UNIQUE ID ==== -->
+
+                <div class="is-flex" id="art01">
+                    <img src="images/aurie-image.jpg" style="width: 100px">
+                    <div>
+                        <h4>Name Surname</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis est vestibulum malesuada dapibus. Fusce imperdiet quam sed diam blandit, id varius libero luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas gravida urna nunc, ac molestie justo molestie id. Nunc feugiat pulvinar tortor, viverra placerat nisi gravida eget. Mauris massa arcu, convallis sollicitudin suscipit id, accumsan in nulla.</p>
+                    </div>
+                </div>
+
+
+
+
             </section>
 
 
 
             
-            <a href="index.php#galleryhd" class="button">
+            <!-- <a href="index.php#galleryhd" class="button">
                 <p>View Latest Gallery</p>
-            </a>
+            </a> -->
         </main>
-        <footer>
-            
-        </footer>
-
-        <!-- ==== SCRIPT CALLS ==== -->
-            
-            <script
-                src="https://code.jquery.com/jquery-3.6.1.js"
-                integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-                crossorigin="anonymous">
-            </script>
-
-        <!-- ==
-            SLIDE GALLERY : https://codepen.io/joe-watkins/pen/RPZbrW/
-            ISOTOPE FILTER
-            LOGO COLOUR FUNCTION
-        == -->
-            <script src="scripts/functions.js"></script>
+        <?php include __DIR__ . '/footer.php'; ?>
     </body>
 </html>

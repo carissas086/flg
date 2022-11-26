@@ -54,10 +54,10 @@
 /* ==== GALLERY FILTERS ==== */
 
 	.gal-filter {
+		flex-wrap: wrap;
 		justify-content: space-evenly;
 		flex-direction: column;
-		padding-top: 2vh;
-		padding-bottom: 2vh;
+		padding: 2vh 3vw;
 
 		text-transform: uppercase;
 		letter-spacing: 2.5px;
@@ -71,6 +71,10 @@
 				font-size: 1rem;
 			}
 		}
+
+	.gal-filter li {
+		margin: 0 2vw;
+	}
 
 	.gal-filter li:hover {
 		font-style: italic;
@@ -348,7 +352,7 @@
 		.aside-top img {
 
 			max-width: 100%;
-			max-height: 61vh;
+			max-height: 75vh;
 			height: auto;
 			width: auto;
 
@@ -376,13 +380,30 @@
 				}
 			}
 
-	/* ==== DESCRIPTION STYLING ==== */			
+	/* ==== DESCRIPTION STYLING ==== */
+
+		.medium {
+			text-align: center;
+			margin-top: -1.5rem;
+		}
+
+		.bio-box {
+			justify-content: flex-start;
+			align-items: center;
+			gap: 2vw;
+			height: 5vw;
+			overflow: hidden;
+		}
+
+		.bio-box img {
+			width: 5vw;
+		}
 
 		.byline {
 			font-size: .85rem;
 			font-style: italic;
-			margin-top: -1.5rem;
-			margin-bottom: 2rem;
+			/* margin-top: -1.5rem; */
+			margin-bottom: 0;
 		}
 			@media (min-width: 687px) {
 				.byline {

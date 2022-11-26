@@ -26,7 +26,7 @@
                         </div>
                         <div class="is-flex bio-box">
                             <img src="images/XX.jpg" alt="">
-                            <p class="byline christmas22-byline">by: Christine Hsin</p>
+                            <p class="byline christmas22-byline">by: Dominik Fung</p>
                         </div>
                     </div>
                 </div>

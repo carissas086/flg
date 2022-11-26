@@ -18,13 +18,15 @@
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
                         <h3 class="head-font christmas22-header">XX</h3>
-                        <p class="byline christmas22-byline">by: 
-                            <span href="#" class="hyperlink" onclick="window.open('XX', '_blank').focus();">XX</span>  &verbar;  <span class="italics bold">XX</span>
-                        </p>
+                        <p class="medium italics bold">XX</p>
                         <p>XX</p>
                         <div class="verse-box">
                             <p class="verse"><sup>## </sup>XX</p>
                             <p class="ref">XX ##:## [XXV]</p>
+                        </div>
+                        <div class="is-flex bio-box">
+                            <img src="images/XX.jpg" alt="">
+                            <p class="byline christmas22-byline">by: XX</p>
                         </div>
                     </div>
                 </div>

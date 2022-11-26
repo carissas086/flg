@@ -39,6 +39,6 @@
         <ul class="gn is-flex">
             <li><a href="index.php#galleryhd" alt="See Latest Gallery">Gallery</a></li>
             <li><a href="index.php#ack" alt="About the Fraser Lands Gallery">About</a></li>
-            <li><a href="artists.php" alt="Meet the artists!">Artists</a></li>
+            <!-- <li><a href="artists.php" alt="Meet the artists!">Artists</a></li> -->
         </ul>
     </div>

@@ -236,6 +236,12 @@ p {
                 }
             }
 
+    .insta-call {
+        color: #fff;
+        text-align: center;
+        margin: 4vh auto;
+    }
+
     /* ==== ABOUT ==== */
 
         #ack {
