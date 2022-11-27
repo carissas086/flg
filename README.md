@@ -131,6 +131,7 @@ The current artwork mediums filters are as follows:
 - m-quilt
 - m-shadowbox
 - m-watercolour
+- m-3d (not connected in filters)
 
 ---
 

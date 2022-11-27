@@ -8,7 +8,6 @@
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg2-1.jpg" alt="Arcrylic painting on canvas">
                         <img src="images/flg2-2.jpg" alt="Arcrylic painting on canvas">
                     </div>
                 </div>
