@@ -1,6 +1,6 @@
 **CURRENT GALLERY TAG: christmas22**
 
-__1 page__
+__2 pages__
 __0 galleries__
 __0 artworks__
 
@@ -57,6 +57,7 @@ Please look to the following for gallery specific adjustments:
 - Add tags on **line2**
   - g-_TAG_ (for the gallery filter)
   - m-_MEDIUM_ (for the artwork medium filter, see below for full list)
+  - a-_ARTIST TAG #_ (for artist's filter)
 - Add partial ID to comments on **lines 1 & 7**
 - Add partial ID on **line4**
 - Adjust the maximum grid size in '**functions.js:5**'
@@ -78,16 +79,18 @@ The partial template is set up to be editable as such:
   - Remove class 'video' when video/audio element not used on **line 4**
 - Video : **line 13**
 - Title : **line20**
-- Artwork Author : **line21**
-- Artwork Medium : span on **line21**
+- Artwork Author Photo: **line 28**
+- Artwork Author : **line29**
+<!-- - Artwork Author Bio : **line22** TAKEN OUT FOR NOW-->
+- Artwork Medium : **line21**
 - Paragraph Blurbs : within empty p tag as on **line22**
 - Verse References
   - within p tag as on **line 24**
   - with verse number in the sup tag on **line 24**
   - with the reference in a p tag as on **line 25**
-- Hyperlinks : within a span tag as demontrated on **line33**
+- Hyperlinks : within a span tag as demontrated on **line37**
 
-All text that **is not** in English, please tag using the appropriate language attribute. If within paragraph text, use span as on **line 34**. Shortlist of language codes are:
+All text that **is not** in English, please tag using the appropriate language attribute. If within paragraph text, use span as on **line 38**. Shortlist of language codes are:
 - Catalan : ca
 - Chinese Simplified : zh-Hans
 - Chinese Traditional : zh-Hant
@@ -119,9 +122,15 @@ Gallery tag filters are generated as such: **g-_TAG_**
 ##### Artwork Mediums FIlter List
 
 The current artwork mediums filters are as follows:
-- m-art
-- m-photography
-- m-music
+- m-arcrylic
+- m-comic
+- m-composite (not connected in filters)
+- m-digitalart
+- m-mixedmedia
+- m-photograph
+- m-quilt
+- m-shadowbox
+- m-watercolour
 
 ---
 

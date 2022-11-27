@@ -1,45 +1,29 @@
-<div class="grid-item g-christmas22 m-photograph">
-
-<!-- ==== UNIQUE ID CALL  |  flg# ==== -->
+<!-- FLG2 -->
+<div class="grid-item g-christmas22 m-arcrylic a-002">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile" id="flg2"
-    >
-        <!-- ==== GALLERY IMAGE THUMBNAIL ==== -->
-            <img src="images/cs_portrait-banner.jpg">
+        class="tile" id="flg2">
+        <img src="images/flg2-1_thumb.jpg" alt="Arcrylic painting on canvas">
 
-        <!-- ==== ASIDE INFORMATION ==== -->
+        <!-- ==== FLG2 ASIDE ==== -->
             <div class="visually-hidden">
-
-            <!-- ==== FULL RESOLUTION IMAGE/CONTENT ==== -->
-                <!-- styled in aside -->
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/cs_portrait-banner.jpg">
+                        <img src="images/flg2-1.jpg" alt="Arcrylic painting on canvas">
+                        <img src="images/flg2-2.jpg" alt="Arcrylic painting on canvas">
                     </div>
                 </div>
-
-            <!-- ==== WRITTEN DESCRIPTION ==== -->
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-
-                    <!-- ==== PIECE NAME ==== -->
-                        <h3 class="head-font christmas22-header">Tester Image 2</h3>
-
-                    <!-- ==== AUTHOR NAME  |  MEDIUM ==== -->
-                        <p class="byline christmas22-byline">by: Daniel Something  &verbar;  <span class="italics bold">Composite</span></p>
-
-                    <!-- ==== BLURB ==== -->
-                        <p>This is a tester paragraph. I will fill this with filler text for a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales augue ligula, at facilisis felis vestibulum sit amet. Nullam auctor magna ut turpis lacinia semper. Integer nec orci blandit, molestie arcu id, sagittis est.</p>
-                        <p>This is a second tester paragraph. I will fill this with more filler text for a second paragraph. Sed finibus porta vulputate. Integer vulputate, nibh vitae consequat fringilla, elit mauris malesuada odio, a dapibus est neque in enim. Integer pulvinar ex condimentum condimentum feugiat. Nunc efficitur dolor tristique, pretium augue nec, efficitur dui. Praesent tristique dapibus eros, ac molestie quam. Praesent hendrerit consectetur sapien, quis varius elit volutpat sed.</p>
-                        <div class="verse-box">
-                            <p class="verse"><sup>12 </sup>This is a tester verse paragraph, because I imagine this will happen.</p>
-                            <p class="verse"><sup>13 </sup>Greator love has no one than this: to lay down one's life for one's friends.</p>
-                            <p class="ref">John 15:13 [NIV]</p>
+                        <!-- <h3 class="head-font christmas22-header">XX</h3> -->
+                        <p class="medium italics bold">Arcrylic</p>
+                        <p>The pieces answer the question of the song, &ldquo;What Child is This?&rdquo; The first verse introduces Jesus as a baby worthy of adoration. He was born to bring light to a dark world. The second verse focuses on Jesus as a king deserving of the best offerings. Yet Jesus offered himself as a sacrifice for us. He was a gift to the world that was cradled in a wooden manger as a baby, and later nailed to a wooden cross as our saviour. He gave His life for us and it was the greatest gift of love.</p>
+                        <div class="is-flex bio-box">
+                            <img src="images/Angela-Torres_2211.jpg" alt="Photo of Angela Torres">
+                            <p class="byline christmas22-byline">by: Angela Torres</p>
                         </div>
-                        
-<!-- ==== FIN ==== -->
                     </div>
                 </div>
             </div>
+        <!-- ==== FIN ==== -->
     </a>
 </div>

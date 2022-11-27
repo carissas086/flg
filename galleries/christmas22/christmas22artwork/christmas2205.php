@@ -1,42 +1,33 @@
-<div class="grid-item g-christmas22 m-music">
-
-<!-- ==== UNIQUE ID CALL  |  flg# ==== -->
+<!-- FLG5 -->
+<div class="grid-item g-christmas22 m-digitalart a-3">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg5"
-    >
-        <!-- ==== GALLERY IMAGE THUMBNAIL ==== -->
-            <img src="images/cs_bm-teaser-ss.jpg">
+        class="tile" id="flg5">
+        <img src="images/flg5_thumb.jpg" alt="Digital painting of an angel showing the nativity">
 
-        <!-- ==== ASIDE INFORMATION ==== -->
+        <!-- ==== FLG5 ASIDE ==== -->
             <div class="visually-hidden">
-
-            <!-- ==== FULL RESOLUTION IMAGE/CONTENT ==== -->
                 <div class="aside-img">
                     <div class="aside-top">
-                        <video controls playsinline onloadstart="this.volume=0.2;">
-                            <source src="images/cs_bm-teaser.mp4" type="video/mp4">
-                            Your browser does not support the video tag :(
-                        </video>
+                        <img src="images/flg5.jpg" alt="Digital painting of an angel showing the nativity">
                     </div>
                 </div>
-
-            <!-- ==== WRITTEN DESCRIPTION ==== -->
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <!-- <p><span onclick="player('flg5vid');">PLAY VIDEO</span></p> -->
-
-                    <!-- ==== PIECE NAME ==== -->
-                        <h3 class="head-font christmas22-header">Tester Video</h3>
-
-                    <!-- ==== AUTHOR NAME  |  MEDIUM ==== -->
-                        <p class="byline christmas22-byline">by: A Spaceman  &verbar;  <span class="italics bold"> Music</span></p>
-
-                    <!-- ==== BLURB ==== -->
-                        <p>This is a tester paragraph with a <span href="#" class="hyperlink" onclick="window.open('https://fraserlands.ca/', '_blank').focus();">tester link</span> in case people want to link to their own stuff for whatever reason... idk instagram and social media is weird.</p>
-                        
-<!-- ==== FIN ==== -->
+                        <!-- <h3 class="head-font christmas22-header">XX</h3> -->
+                        <p class="medium italics bold">Digital Painting</p>
+                        <p>I was inspired by Luke 2:11,</p>
+                        <div class="verse-box">
+                            <p class="verse"><sup>11 </sup>Today in the town of David a Savior has been born to you; he is the Messiah, the Lord.</p>
+                            <p class="ref">Luke 2:11 [NIV]</p>
+                        </div>
+                        <p>and wanted to depict an angel presenting this visually. I imagined the angel presenting the miracle to someone who's feeling lost or hurt, telling them the light at the end of the tunnel, their hope, is here.</p>
+                        <div class="is-flex bio-box">
+                            <img src="images/Ashley-Cheung_2211.jpg" alt="Photo of Ashley Cheung">
+                            <p class="byline christmas22-byline">by: Ashley Cheung</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        <!-- ==== FIN ==== -->
     </a>
 </div>

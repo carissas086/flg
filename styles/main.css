@@ -236,7 +236,25 @@ p {
                 }
             }
 
+    .insta-call {
+        color: #fff;
+        text-align: center;
+        margin: 4vh auto;
+    }
+
     /* ==== ABOUT ==== */
+
+        #ack {
+            flex-direction: column;
+            padding-top: 4rem;
+            gap: 2rem;
+        }
+
+        .land-ack p {
+            font-size: .85rem;
+            margin-bottom: .1rem;
+            text-align: center;
+        }
 
         #about {
             flex-direction: column-reverse;
@@ -290,3 +308,9 @@ p {
             gap: 5vw;
             font-size: 1.5rem;
         }
+
+/* ==== OVERWRITES ==== */
+
+    .force-dark {
+        color:#000 !important;
+    }
