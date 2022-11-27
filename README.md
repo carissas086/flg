@@ -124,8 +124,9 @@ Gallery tag filters are generated as such: **g-_TAG_**
 The current artwork mediums filters are as follows:
 - m-arcrylic
 - m-comic
-- m-composite
+- m-composite (not connected in filters)
 - m-digitalart
+- m-mixedmedia
 - m-photography
 - m-quilt
 - m-shadowbox

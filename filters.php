@@ -17,8 +17,9 @@
                 <li class="is-selected" data-filter="*">All</li>
                 <li data-filter=".m-arcrylic">Arcrylic</li>
                 <li data-filter=".m-comic">Comic Illustration</li>
-                <li data-filter=".m-composite">Composite Photograph</li>
+                <!-- <li data-filter=".m-composite">Composite Photograph</li> -->
                 <li data-filter=".m-digitalart">Digital Art</li>
+                <li data-filter=".m-mixedmedia">Mixed Media</li>
                 <li data-filter=".m-photograph">Photograph</li>
                 <li data-filter=".m-quilt">Quilt</li>
                 <li data-filter=".m-shadowbox">Shadow Box</li>
