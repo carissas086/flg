@@ -1,41 +1,33 @@
-<!-- FLG# -->
-<div class="grid-item g-christmas22 m- a-">
+<!-- FLG18 -->
+<div class="grid-item g-christmas22 m-arcrylic a-018">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg#">
-        <img src="images/" alt="">
+        class="tile" id="flg18">
+        <img src="images/flg18_thumb.jpg" alt="Arcrylic painting of a stork and a baby stork on canvas">
 
-        <!-- ==== FLG# ASIDE ==== -->
+        <!-- ==== FLG18 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/" alt="">
-                        <video controls playsinline onloadstart="this.volume=0.2;">
-                            <source src="images/" type="video/mp4">
-                            Your browser does not support the video tag :(
-                        </video>
+                        <img src="images/flg18.jpg" alt="Arcrylic painting of a stork and a baby stork on canvas">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <h3 class="head-font christmas22-header">XX</h3>
-                        <p class="medium italics bold">XX</p>
-                        <p>XX</p>
+                        <h3 class="head-font christmas22-header">Grace</h3>
+                        <p class="medium italics bold">Arcrylic Painting</p>
+                        <p>This painting is a symbol of kindness and caring, of the newborn that brought us eternal life, and of the Lord's grace for us all. In Jeremiah 8:7 (NIV) it says,</p>
                         <div class="verse-box">
-                            <p class="verse"><sup>## </sup>XX</p>
-                            <p class="ref">XX ##:## [XXV]</p>
+                            <p class="verse"><sup>7 </sup>Even the stork in the sky knows her appointed seasons, &lsqb;&hellip;&rsqb;. But my people do not know the requirements of the Lord.</p>
+                            <p class="ref">Jeremiah 8:7 [NIV]</p>
                         </div>
+                        <p>We are reminded how we often wander away from our Lord but just as the stork knows to always return to the same nest every migratory season, so our Lord brought us His Son, to show us the way to Him.</p>
                         <div class="is-flex bio-box">
-                            <img src="images/XX.jpg" alt="">
-                            <p class="byline christmas22-byline">by: Ying Chiu Chan</p>
+                            <img src="images/Verik-Li_2211.jpg" alt="Photo of Verik Li">
+                            <p class="byline christmas22-byline">by: Verik Li</p>
                         </div>
                     </div>
                 </div>
             </div>
         <!-- ==== FIN ==== -->
-
-        <!-- ==== SPANS ==== -->
-            <span href="#" class="hyperlink" onclick="window.open('XX', '_blank').focus();">XX</span>
-            <span html lang="XX"></span>
-
     </a>
 </div>

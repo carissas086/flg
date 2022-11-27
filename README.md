@@ -127,7 +127,7 @@ The current artwork mediums filters are as follows:
 - m-composite (not connected in filters)
 - m-digitalart
 - m-mixedmedia
-- m-photography
+- m-photograph
 - m-quilt
 - m-shadowbox
 - m-watercolour

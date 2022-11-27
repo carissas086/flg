@@ -1,41 +1,29 @@
-<!-- FLG# -->
-<div class="grid-item g-christmas22 m- a-">
+<!-- FLG2 -->
+<div class="grid-item g-christmas22 m-arcrylic a-002">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg#">
-        <img src="images/" alt="">
+        class="tile" id="flg2">
+        <img src="images/flg2-1_thumb.jpg" alt="Arcrylic painting on canvas">
 
-        <!-- ==== FLG# ASIDE ==== -->
+        <!-- ==== FLG2 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/" alt="">
-                        <video controls playsinline onloadstart="this.volume=0.2;">
-                            <source src="images/" type="video/mp4">
-                            Your browser does not support the video tag :(
-                        </video>
+                        <img src="images/flg2-1.jpg" alt="Arcrylic painting on canvas">
+                        <img src="images/flg2-2.jpg" alt="Arcrylic painting on canvas">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <h3 class="head-font christmas22-header">XX</h3>
-                        <p class="medium italics bold">XX</p>
-                        <p>XX</p>
-                        <div class="verse-box">
-                            <p class="verse"><sup>## </sup>XX</p>
-                            <p class="ref">XX ##:## [XXV]</p>
-                        </div>
+                        <!-- <h3 class="head-font christmas22-header">XX</h3> -->
+                        <p class="medium italics bold">Arcrylic</p>
+                        <p>The pieces answer the question of the song, &ldquo;What Child is This?&rdquo; The first verse introduces Jesus as a baby worthy of adoration. He was born to bring light to a dark world. The second verse focuses on Jesus as a king deserving of the best offerings. Yet Jesus offered himself as a sacrifice for us. He was a gift to the world that was cradled in a wooden manger as a baby, and later nailed to a wooden cross as our saviour. He gave His life for us and it was the greatest gift of love.</p>
                         <div class="is-flex bio-box">
-                            <img src="images/XX.jpg" alt="">
+                            <img src="images/Angela-Torres_2211.jpg" alt="Photo of Angela Torres">
                             <p class="byline christmas22-byline">by: Angela Torres</p>
                         </div>
                     </div>
                 </div>
             </div>
         <!-- ==== FIN ==== -->
-
-        <!-- ==== SPANS ==== -->
-            <span href="#" class="hyperlink" onclick="window.open('XX', '_blank').focus();">XX</span>
-            <span html lang="XX"></span>
-
     </a>
 </div>

@@ -2,13 +2,13 @@
 <div class="grid-item g-christmas22 m- a-">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile video" id="flg#">
-        <img src="images/" alt="">
+        <img src="images/_thumb.jpg" alt="Mediumish desc">
 
         <!-- ==== FLG# ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/" alt="">
+                        <img src="images/.jpg" alt="Mediumish desc">
                         <video controls playsinline onloadstart="this.volume=0.2;">
                             <source src="images/" type="video/mp4">
                             Your browser does not support the video tag :(
@@ -25,7 +25,7 @@
                             <p class="ref">XX ##:## [XXV]</p>
                         </div>
                         <div class="is-flex bio-box">
-                            <img src="images/XX.jpg" alt="">
+                            <img src="images/_2211.jpg" alt="Photo of XX">
                             <p class="byline christmas22-byline">by: XX</p>
                         </div>
                     </div>

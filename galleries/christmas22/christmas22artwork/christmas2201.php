@@ -15,7 +15,7 @@
                     <div class="aside-text">
                         <h3 class="head-font christmas22-header">Light</h3>
                         <p class="medium italics bold">Arcrylic Painting</p>
-                        <p>I wanted to capture my relationship with Jesus over my life so far and how the story of his birth draws me in. The dark clouds embody the difficulties I faced in the earlier years of my life. The pink clouds are dots of His outpouring of love towards me and the bright white moon - the only element with dimension - is symbolic of his pure goodness and love and how it is the center of my life. My journey continues forward towards the light and freedom.</p>
+                        <p>I wanted to capture my relationship with Jesus over my life so far and how the story of his birth draws me in. The dark clouds embody the difficulties I faced in the earlier years of my life. The pink clouds are dots of His outpouring of love towards me and the bright white moon &mdash; the only element with dimension &mdash; is symbolic of his pure goodness and love and how it is the center of my life. My journey continues forward towards the light and freedom.</p>
                         <div class="is-flex bio-box">
                             <img src="images/Allison-Chen_2211.jpg" alt="Photo of Allison Chen">
                             <p class="byline christmas22-byline">by: Allison  Chen</p>

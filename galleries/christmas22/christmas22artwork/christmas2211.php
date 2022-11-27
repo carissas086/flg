@@ -1,41 +1,28 @@
-<!-- FLG# -->
-<div class="grid-item g-christmas22 m- a-">
+<!-- FLG11 -->
+<div class="grid-item g-christmas22 m-digitalart a-011">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg#">
-        <img src="images/" alt="">
+        class="tile" id="flg11">
+        <img src="images/flg11.jpg" alt="Digital painting of the 3 kings travelling to Bethlehem">
 
-        <!-- ==== FLG# ASIDE ==== -->
+        <!-- ==== FLG11 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/" alt="">
-                        <video controls playsinline onloadstart="this.volume=0.2;">
-                            <source src="images/" type="video/mp4">
-                            Your browser does not support the video tag :(
-                        </video>
+                        <img src="images/flg11.jpg" alt="Digital painting of the 3 kings travelling to Bethlehem">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <h3 class="head-font christmas22-header">XX</h3>
-                        <p class="medium italics bold">XX</p>
-                        <p>XX</p>
-                        <div class="verse-box">
-                            <p class="verse"><sup>## </sup>XX</p>
-                            <p class="ref">XX ##:## [XXV]</p>
-                        </div>
+                        <!-- <h3 class="head-font christmas22-header">XX</h3> -->
+                        <p class="medium italics bold">Digital Painting</p>
+                        <p>Inspired by the song &ldquo;O Holy Night,&rdquo; this piece reflects the feeling of awe and wonder experienced on the night Jesus was humbly brought into the world. As I was listening to the lyrics, I felt compelled to capture the sense of hope and reverence surrounding the birth of Jesus under the brightly shining stars and singing angels on that beautiful, holy night.</p>
                         <div class="is-flex bio-box">
-                            <img src="images/XX.jpg" alt="">
-                            <p class="byline christmas22-byline">by: Michele Kuo</p>
+                            <img src="images/Maraya-So_2211.jpg" alt="Photo of Maraya So">
+                            <p class="byline christmas22-byline">by: Maraya So</p>
                         </div>
                     </div>
                 </div>
             </div>
         <!-- ==== FIN ==== -->
-
-        <!-- ==== SPANS ==== -->
-            <span href="#" class="hyperlink" onclick="window.open('XX', '_blank').focus();">XX</span>
-            <span html lang="XX"></span>
-
     </a>
 </div>

@@ -2,7 +2,7 @@
 
 	var logoFile = "FLC-logo-cut",
 		logocolour = "#182945",
-		galleryMax = "20";
+		galleryMax = "22";
 
 // ==== FIN ====
 
@@ -108,7 +108,6 @@ $(document).ready(function() {
 				$('.gallery-control-box').addClass("topper");
 			} else {
 				$('.gallery-control-box').removeClass("topper");
-				console.log('empty');
 			}
 
 			showAside();
