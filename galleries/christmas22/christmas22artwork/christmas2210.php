@@ -1,5 +1,5 @@
 <!-- FLG10 -->
-<div class="grid-item g-christmas22 m-arcrylic a-010">
+<div class="grid-item g-christmas22 m-arcrylic m-painting a-010">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg10">
         <img src="images/flg10_thumb.jpg" alt="Arcrylic painting on canvas of Bethelem">

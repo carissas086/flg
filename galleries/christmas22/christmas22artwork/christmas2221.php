@@ -1,5 +1,5 @@
 <!-- FLG21 -->
-<div class="grid-item g-christmas22 m-shadowbox a-019">
+<div class="grid-item g-christmas22 m-shadowbox m-mixedmedia a-019">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg21">
         <img src="images/flg21_thumb.jpg" alt="Shadow box of the nativity">

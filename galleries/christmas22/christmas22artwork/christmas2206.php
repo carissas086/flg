@@ -1,5 +1,5 @@
 <!-- FLG6 -->
-<div class="grid-item g-christmas22 m-arcrylic a-005">
+<div class="grid-item g-christmas22 m-arcrylic m-painting a-005">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg6">
         <img src="images/flg6_thumb.jpg" alt="Arcrylic painting of the nativity">

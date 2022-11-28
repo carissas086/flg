@@ -1,5 +1,5 @@
 <!-- FLG18 -->
-<div class="grid-item g-christmas22 m-arcrylic a-018">
+<div class="grid-item g-christmas22 m-arcrylic m-painting a-018">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg18">
         <img src="images/flg18_thumb.jpg" alt="Arcrylic painting of a stork and a baby stork on canvas">

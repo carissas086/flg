@@ -2,7 +2,7 @@
 <div class="grid-item g-christmas22 m-digitalart a-011">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg11">
-        <img src="images/flg11.jpg" alt="Digital painting of the 3 kings travelling to Bethlehem">
+        <img src="images/flg11_thumb.jpg" alt="Digital painting of the 3 kings travelling to Bethlehem">
 
         <!-- ==== FLG11 ASIDE ==== -->
             <div class="visually-hidden">
