@@ -1,5 +1,5 @@
 <!-- FLG22 -->
-<div class="grid-item g-christmas22 m-mixedmedia a-020">
+<div class="grid-item g-christmas22 m-digitalart a-020">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg22">
         <img src="images/flg22_thumb.jpg" alt="Mixed media image of a star">
@@ -14,7 +14,7 @@
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
                         <!-- <h3 class="head-font christmas22-header">XX</h3> -->
-                        <p class="medium italics bold">Mixed Media</p>
+                        <p class="medium italics bold">Digital Art</p>
                         <p>This digital image is a combination of two photos taken from Lights of Hope display at downtown's St. Paul's Hospital. The stars, the lights and the word hope attracted me. The star reminded me of Jesus' birth. He is the Light of the world and our hope. It is quite difficult to understand why the one true God had chosen to come to earth even though He knew the suffering He would endure, yet that fact is important to all of life.</p>
                         <div class="verse-box">
                             <p class="verse"><sup>1 </sup>I will give thanks to you, LORD, with all my heart; I will tell of all your wonderful deeds.</p>

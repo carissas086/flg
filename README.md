@@ -119,7 +119,7 @@ The current lists of gallery tags are as follows:
 
 Gallery tag filters are generated as such: **g-_TAG_**
 
-##### Artwork Mediums FIlter List
+##### Artwork Mediums Filter List
 
 The current artwork mediums filters are as follows:
 - m-arcrylic
@@ -127,6 +127,7 @@ The current artwork mediums filters are as follows:
 - m-composite (not connected in filters)
 - m-digitalart
 - m-mixedmedia
+- m-painting
 - m-photograph
 - m-quilt
 - m-shadowbox

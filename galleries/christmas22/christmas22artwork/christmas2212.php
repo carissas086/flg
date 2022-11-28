@@ -1,5 +1,5 @@
 <!-- FLG12 -->
-<div class="grid-item g-christmas22 m-quilt a-012">
+<div class="grid-item g-christmas22 m-quilt m-mixedmeida a-012">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg12">
         <img src="images/flg12_thumb.jpg" alt="Photo of a decorative quilt depicting the nativity">

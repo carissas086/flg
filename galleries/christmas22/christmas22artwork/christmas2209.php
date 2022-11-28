@@ -1,5 +1,5 @@
 <!-- FLG9 -->
-<div class="grid-item g-christmas22 m-watercolour a-008">
+<div class="grid-item g-christmas22 m-watercolour m-painting a-008">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg9">
         <img src="images/flg9_thumb.jpg" alt="Watercolour painting on paper">

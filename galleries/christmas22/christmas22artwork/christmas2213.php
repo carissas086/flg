@@ -1,14 +1,14 @@
 <!-- FLG13 -->
-<div class="grid-item g-christmas22 m-arcrylic a-013">
+<div class="grid-item g-christmas22 m-arcrylic m-painting a-013">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg13">
-        <img src="images/flg13_thumb.jpg" alt="Arcrylic painting of the nativity on canvas">
+        <img src="images/flg13_thumb.jpg" alt="Arcrylic painting of the nativity">
 
         <!-- ==== FLG13 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg13.jpg" alt="Arcrylic painting of the nativity on canvas">
+                        <img src="images/flg13.jpg" alt="Arcrylic painting of the nativity">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">

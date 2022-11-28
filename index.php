@@ -79,11 +79,11 @@
 
         <!-- ==== ABOUT ==== -->
             <section id="ack" class="is-flex flex-centers">
-                <h3>Land Acknowledgement</h3>
+                <!-- <h3>Land Acknowledgement</h3> -->
                     <div class="italics land-ack">
                         <p>Fraser Lands Gallery would like to acknowledge that we are seated on the unceded traditional territories of the Musqueam, Squamish and Tsleil-Waututh Nations and their People.</p>
                         <p>The term unceded means that the land we reside on was never legally given up by its original inhabitants, the First Nations peoples, through treaty or other agreement.</p>
-                        <p>We, Fraser Lands Gallery, recognize this fact (truth) alongside the Indigenous peoples who have occupied and stewarded this land since time immemorial.</p>
+                        <p>We, Fraser Lands Gallery, recognize this truth alongside the Indigenous peoples who have occupied and stewarded this land since time immemorial.</p>
                     </div>
             </section>
             <section id="about" class="is-flex flex-centers">
