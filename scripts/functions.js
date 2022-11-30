@@ -2,7 +2,7 @@
 
 	var logoFile = "FLC-logo-cut",
 		logocolour = "#182945",
-		galleryMax = "22";
+		galleryMax = "23";
 
 // ==== FIN ====
 
