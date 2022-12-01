@@ -4,7 +4,9 @@
 		logocolour = "#182945",
 		galleryMax = "23";
 
-// ==== FIN ====
+// =====================
+// ======== FIN ========
+// =====================
 
 $(document).ready(function() {
 
@@ -87,7 +89,7 @@ $(document).ready(function() {
 
 				if(setId == galleryMax) {
 					cntlPrev.setAttribute('data-id','flg' + setPrev.toString());
-					cntlNext.setAttribute('data-id',thisId);
+					cntlNext.setAttribute('data-id','flg' + galleryMax);
 					return;
 				} else {
 					cntlNext.setAttribute('data-id','flg' + setNext.toString());

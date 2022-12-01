@@ -23,7 +23,7 @@
         <?php include __DIR__ . '/christmas22artwork/christmas2219.php'; ?>
         <?php include __DIR__ . '/christmas22artwork/christmas2207.php'; ?>
         <?php include __DIR__ . '/christmas22artwork/christmas2222.php'; ?>
-        <?php // include __DIR__ . '/christmas22artwork/christmas2215.php'; ?>
+        <?php include __DIR__ . '/christmas22artwork/christmas2215.php'; ?>
 
         <!-- MISSING
             - image for about section

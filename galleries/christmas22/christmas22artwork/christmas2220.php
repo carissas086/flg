@@ -1,10 +1,10 @@
-<!-- FLG20 -->
+<!-- FLG21 -->
 <div class="grid-item g-christmas22 m-comic a-019">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile" id="flg20">
+        class="tile" id="flg21">
         <img src="images/flg20_thumb.jpg" alt="Buddysaurus comic illsutration">
 
-        <!-- ==== FLG20 ASIDE ==== -->
+        <!-- ==== FLG21 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">

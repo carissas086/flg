@@ -14,6 +14,10 @@
     align-items: center;
 }
 
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
 body {
     margin: 0;
     font-family: poppins, sans-serif;
@@ -267,7 +271,7 @@ p {
         }
             @media (min-width: 687px) {
                 #about {
-                    flex-direction: row-reverse;
+                    flex-direction: row;
                 }
             }
 
@@ -294,8 +298,10 @@ p {
                 }
             }
 
-        .about-text h2 {
+        .about-text h3 {
             text-align: left;
+            font-size: 2.5rem;
+            padding-bottom: 1rem;
         }
 
 /* ==== FOOTER ==== */

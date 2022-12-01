@@ -1,8 +1,8 @@
 **CURRENT GALLERY TAG: christmas22**
 
-__2 pages__
-__0 galleries__
-__0 artworks__
+__1 pages__
+__1 galleries__
+__23 artworks__
 
 
 # Fraser Lands Gallery, v0.9
@@ -122,25 +122,27 @@ Gallery tag filters are generated as such: **g-_TAG_**
 ##### Artwork Mediums Filter List
 
 The current artwork mediums filters are as follows:
-- m-arcrylic
 - m-comic
-- m-composite (not connected in filters)
 - m-digitalart
 - m-mixedmedia
 - m-painting
 - m-photograph
+
+These artwork medium filters are set up but not connected:
+- m-arcrylic
+- m-composite
 - m-quilt
 - m-shadowbox
 - m-watercolour
-- m-3d (not connected in filters)
+- m-3d
 
 ---
 
 ##### Next to be implemented:
 
-- **URGENT** Video on mobile
+<!-- - **URGENT** Video on mobile -->
 - **URGENT** Hosting on actual domain
-- Social Meta Tags
+<!-- - Social Meta Tags -->
 - 3D artwork showcase capability (likely through Spline)
 - Gallery archive (to be possibly set out in global navigation)
 

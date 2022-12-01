@@ -1,10 +1,10 @@
-<!-- FLG21 -->
+<!-- FLG19 -->
 <div class="grid-item g-christmas22 m-shadowbox m-mixedmedia a-019">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile" id="flg21">
+        class="tile" id="flg19">
         <img src="images/flg21_thumb.jpg" alt="Shadow box of the nativity">
 
-        <!-- ==== FLG21 ASIDE ==== -->
+        <!-- ==== FLG19 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
