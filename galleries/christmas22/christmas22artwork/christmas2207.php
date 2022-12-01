@@ -2,13 +2,13 @@
 <div class="grid-item g-christmas22 m-photograph a-006">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg7">
-        <!-- <img src="images/flg7_thumb.jpg" alt="Mediumish desc"> -->
+        <img src="images/flg7_thumb.jpg" alt="Mixed media painting over photograph">
 
         <!-- ==== FLG7 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <!-- <img src="images/flg7.jpg" alt="Mediumish desc"> -->
+                        <img src="images/flg7.jpg" alt="Mixed media painting over photograph">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">

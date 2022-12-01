@@ -88,7 +88,7 @@
             </section>
             <section id="about" class="is-flex flex-centers">
                 <div class="about-img">
-                    <img src="images/aurie-image.jpg" alt="">
+                    <img src="images/christmas22-theme-banner.jpg" alt="">
                 </div>
                 <div class="about-text">
                     <h3 class="head-font">About Us</h3>
