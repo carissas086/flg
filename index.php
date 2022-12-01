@@ -92,7 +92,7 @@
                 </div>
                 <div class="about-text">
                     <h3 class="head-font">About Us</h3>
-                    <p>Fraser Lands Gallery is an arts ministry which creates opportunities for our church community to interact with and explore God through art, and provides another means of outreach to our neighbours. The Gallery is always looking for artists to join their team and create artworks for exhibitions and art shows within the Church space, if you are interested, please email <a href="mailto:gallery@fraserlands.ca" class="hyperlink force-dark" target="_blank">us</a> for more details.</p>
+                    <p>Fraser Lands Gallery is an arts ministry which creates opportunities for our church community to interact with and explore God through art, and provides another means of outreach to our neighbours. The Gallery is always looking for artists to join their team and create artworks for exhibitions and art shows within the Church space, if you are interested, please <a href="mailto:gallery@fraserlands.ca" class="hyperlink force-dark" target="_blank">email us</a> for more details.</p>
                 </div>
             </section>
         </main>
