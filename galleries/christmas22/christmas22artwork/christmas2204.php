@@ -1,19 +1,18 @@
 <!-- FLG4 -->
 <div class="grid-item g-christmas22 m-digitalart m-3d a-004 a-009">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile " id="flg4">
-        <!-- video -->
+        class="tile video" id="flg4">
         <img src="images/flg4_thumb.jpg" alt="3D Illustration of the nativity">
 
         <!-- ==== FLG4 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg4.jpg" alt="3D Illustration of the nativity">
-                        <!-- <video controls playsinline onloadstart="this.volume=0.2;">
-                            <source src="images/" type="video/mp4">
-                            Your browser does not support the video tag :(
-                        </video> -->
+                        <!-- <img src="images/flg4.jpg" alt="3D Illustration of the nativity"> -->
+                        <video playsinline autoplay loop onloadstart="this.volume=0.2;" poster="images/flg4.jpg">
+                            <source src="images/flg4-turn.mp4" type="video/mp4">
+                            <img src="images/flg4.jpg" title="Your browser does not support the video tag :(">
+                        </video>
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
