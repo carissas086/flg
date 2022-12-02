@@ -5,7 +5,7 @@ __1 galleries__
 __23 artworks__
 
 
-# Fraser Lands Gallery, v0.9
+# Fraser Lands Gallery, v1
 
 __Please note:__
 - Most adjustments should only need to be made in .php partials, and in functions.js. See below for more details
@@ -140,9 +140,6 @@ These artwork medium filters are set up but not connected:
 
 ##### Next to be implemented:
 
-<!-- - **URGENT** Video on mobile -->
-- **URGENT** Hosting on actual domain
-<!-- - Social Meta Tags -->
 - 3D artwork showcase capability (likely through Spline)
 - Gallery archive (to be possibly set out in global navigation)
 
