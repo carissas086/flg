@@ -14,8 +14,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.carissaso.ca
-        username: flglive@fraserlandsgallery.com
+        server: ${{ secrets.ftp_server }}
+        username: ${{ secrets.ftp_liveuser }}
         password: ${{ secrets.FTP_LIVEPASS }}
         exclude: |
             **/.git*
