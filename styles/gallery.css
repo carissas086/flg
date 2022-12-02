@@ -291,11 +291,6 @@
 		#panel-top {
 			margin: 5vh 2vw;
 		}
-			@media (min-width: 1080px) {
-				#panel-top {
-					margin: 5vh 2.5vw;
-				}
-			}
 
 		/* ==== VIDEO/AUDIO STYLING ==== */
 
@@ -343,6 +338,11 @@
 			.topper {
 				z-index: -10;
 			}
+				@media (min-width: 1080px) {
+					.topper {
+						z-index: inherit;
+					}
+				}
 		
 		.aside-top {
 			width: 86vw;
