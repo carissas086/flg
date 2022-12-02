@@ -1,7 +1,3 @@
-<!--    19 pieces 
-        ADD ARTIST BIOS PAGE (18)
-        [for YC Chan, in 2, comics + nativity] -->
-
 <!DOCTYPE html>
 <html lang="en-CA">
     <head>
@@ -33,46 +29,47 @@
             <?php include __DIR__ . '/header.php'; ?>
         </header>
         <main>
-            <!-- ==== LANDING SECTION  |  /galleries/TAGhead.php==== -->
+            <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
                 <?php include __DIR__ . '/galleries/christmas22/christmas22head.php'; ?>
 
-            <!-- ==== CURRENT GALLERY ==== -->
-                    
                 <section id="galleryhd" class="is-flex">
+
                     <!-- ==== FILTERS ==== -->
                         <?php include __DIR__ . '/filters.php'; ?>
-                    <div class="gallery-wrap">
-                        <div role="main" id="gallery">
 
-                        <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
-                            <?php include __DIR__ . '/galleries/christmas22/christmas22grid.php'; ?>
+                    <!-- ==== CURRENT GALLERY ==== -->
+                        <div class="gallery-wrap">
+                            <div role="main" id="gallery">
+
+                            <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
+                                <?php include __DIR__ . '/galleries/christmas22/christmas22grid.php'; ?>
+                            </div>
+
+                            <!-- ==== ASIDE PANEL ==== -->
+                                <aside role="complementary" id="panel" class="christmas22-panel" aria-hidden="true" aria-expanded="false">
+
+                                    <!-- ==== IMAGE TOP ==== -->
+                                        <div id="panel-top" class="is-flex flex-centers">
+                                            <div class="gallery-control-box is-flex">
+                                                <div class="cntl-prev gallery-control is-flex flex-centers">
+                                                    <p>&lt;</p>
+                                                </div>
+                                                <div class="cntl-next gallery-control is-flex flex-centers">
+                                                    <p>&gt;</p>
+                                                </div>
+                                            </div>
+                                            <div class="aside--image" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Artwork"></div>
+                                        </div>
+
+                                    <!-- ==== DESCRIPTION BOTTOM ==== -->
+                                        <div class="aside--details" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Read More"></div>
+
+                                    <!-- ==== CLOSE & TOP FUNCTION BUTTONS ==== -->
+                                        <p class="close"><span>&#10540;</span></p>
+                                        <a href="#" id="toplink" class="is-flex">back to top</a>
+                                </aside>
                         </div>
 
-                        <!-- ==== ASIDE PANEL ==== -->
-                            <aside role="complementary" id="panel" class="christmas22-panel" aria-hidden="true" aria-expanded="false">
-
-                                <!-- ==== IMAGE TOP ==== -->
-                                    <div id="panel-top" class="is-flex flex-centers">
-                                        <div class="gallery-control-box is-flex">
-                                            <div class="cntl-prev gallery-control is-flex flex-centers">
-                                                <p>&lt;</p>
-                                            </div>
-                                            <div class="cntl-next gallery-control is-flex flex-centers">
-                                                <p>&gt;</p>
-                                            </div>
-                                        </div>
-                                        <div class="aside--image" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Artwork"></div>
-                                    </div>
-
-                                <!-- ==== DESCRIPTION BOTTOM ==== -->
-                                    <div class="aside--details" tabindex="0" aria-live="polite" aria-atomic="true" aria-label="Read More"></div>
-
-                                <!-- ==== CLOSE & TOP FUNCTION BUTTONS ==== -->
-                                    <p class="close"><span>&#10540;</span></p>
-                                    <a href="#" id="toplink" class="is-flex">back to top</a>
-                            </aside>
-                    </div>
-                    
                     <p class="insta-call">Share your thoughts on your favourite artworks with us! Use the hashtag <a class="hyperlink" href="https://www.instagram.com/explore/tags/fraserlandsgallery/" target="_blank">#FraserLandsGallery</a> on Instagram.</p>
                     
                 </section>
