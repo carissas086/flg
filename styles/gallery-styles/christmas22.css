@@ -5,8 +5,8 @@
 
 /* ==== LANDING BACKGROUND IMG ==== */
     .christmas22-intro-img {
-        background-image: url(../../images/220919_riverworks-announcement_1140.png);
-        background-position: bottom left;
+        background-image: url(../../images/christmas22_intro-banner.jpg);
+        background-position: top left;
         background-size: cover;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
