@@ -2,8 +2,9 @@
     <p>&copy; 2022 Fraser Lands Gallery</p>
         <div>
             <ul class="social is-flex">
-                <li><a href="" class="fa fa-facebook" target="_blank"></a></li>
-                <li><a href="" class="fa fa-instagram" target="_blank"></a></li>
+                <li><a href="mailto:gallery@fraserlands.ca" class="fa fa-at" target="_blank"></a></li>
+                <li><a href="https://www.instagram.com/explore/tags/fraserlandsgallery/" class="fa fa-instagram" target="_blank"></a></li>
+                <!-- <li><a href="" class="fa fa-facebook" target="_blank"></a></li> -->
             </ul>
         </div>
 </footer>
