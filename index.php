@@ -42,7 +42,10 @@
                             <div role="main" id="gallery">
 
                             <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
-                                <?php include __DIR__ . '/galleries/christmas22/christmas22grid.php'; ?>
+                                <section class="grid">
+                                    <?php include __DIR__ . '/galleries/easter23/easter23grid.php'; ?>
+                                    <?php include __DIR__ . '/galleries/christmas22/christmas22grid.php'; ?>
+                                </section>
                             </div>
 
                             <!-- ==== ASIDE PANEL ==== -->

@@ -1,8 +1,8 @@
-**CURRENT GALLERY TAG: christmas22**
+**CURRENT GALLERY TAG: easter23**
 
-__1 pages__
-__1 galleries__
-__23 artworks__
+__1 + 1 pages__
+__1 + 1 galleries__
+__23 + 1 artworks__
 
 
 # Fraser Lands Gallery, v1
@@ -48,8 +48,8 @@ Please look to the following for gallery specific adjustments:
 - Add a new stylesheet for the gallery in '/styles/gallery-styles' with the name '**_TAG_.css**'
   - Add stylesheet in '/galleries/**galleryspecstyles.php**'
 - Set new OG Metatags in '**metatags.php**'
-  - Change the description on **line 5**
-  - Change the image on **line 6** and it's dimensions on **lines 7 & 8**
+  - Change the description on **metatags.php:5**
+  - Change the image on **line 6** and it's dimensions on **metatags.php:7-8**
 
 #### ADDING TO THE GRID
 - Duplicate the artwork partial template at '**/desk/tag##.php**' and move to the gallery's artwork folder
@@ -104,7 +104,7 @@ All text that **is not** in English, please tag using the appropriate language a
 
 Gallery Classes of Note:
 - _TAG_ header (line 20)
-- _TAG_ byline (line 21)
+- _TAG_ byline (line 29)
 
 Reminder: after partial editing is complete, **delete unnecessary sections**.
 
@@ -135,13 +135,6 @@ These artwork medium filters are set up but not connected:
 - m-shadowbox
 - m-watercolour
 - m-3d
-
----
-
-##### Next to be implemented:
-
-- 3D artwork showcase capability (likely through Spline)
-- Gallery archive (to be possibly set out in global navigation)
 
 ---
 Problems/questions/comments: reach out to carissaso@gmail.com.
