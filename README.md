@@ -5,7 +5,7 @@ __1 + 1 galleries__
 __23 + 1 artworks__
 
 
-# Fraser Lands Gallery, v1
+# Fraser Lands Gallery, v1.1 
 
 __Please note:__
 - Most adjustments should only need to be made in .php partials, and in functions.js. See below for more details
@@ -32,6 +32,14 @@ Please look to the following for gallery specific adjustments:
     - edit on 'functions.js:4'
   - To change the header image:
     - set .header-image url in 'main.css:135'
+
+#### IMAGE SIZES
+
+Process imagery, as much as possible, to the following:
+
+  - Artist Bio: 250x250px (>10kb)
+  - Artwork Thumbnail: 540px wide (30-50kb)
+  - Artwork: 1650px wide (~450kb)
 
 ### GALLERY EDITS
 
