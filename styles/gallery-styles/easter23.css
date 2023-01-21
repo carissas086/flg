@@ -10,3 +10,83 @@ Entry Styles
 .easter23-byline > sets biobox name
 
 */
+
+
+
+
+
+
+/* ==== AN EASTER ART EXHIBIT
+    dark-colour/purple:     #5c3e56;
+	light-colour/orange:    #ffa94d
+        (originally #fc972b, brightened for contrast)
+    accent-colour/pink:     #f56983;
+
+    font:                   poppins, sans-serif;
+==== */
+
+/* ==== LANDING BACKGROUND IMG ==== */
+.easter23-intro-img {
+    background-image: url(../../images/easter23_intro-banner.jpg);
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-color: #5c3e56;
+}
+
+/* ==== TYPOGRAPHY ==== */
+/* .easter23-title {
+    font-family: nautica, sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+
+    line-height: 4rem;
+    padding: 0 2vw;
+}
+    @media (min-width: 687px) {
+        .christmas22-title {
+            font-size: 5rem;
+
+        }
+    } */
+
+/* .christmas22-header {
+    text-transform: uppercase;
+    text-align: center;
+} */
+
+/* .christmas22-byline {
+    text-align: center;
+} */
+
+/* ==== TEXT COLOURS ==== */
+.hyperlink, .gal-filter li:hover, .is-selected {
+    color: #f56983;
+}
+    
+.gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call {
+    color: #ffa94d;
+}
+
+p, .gn a, .button, .button a, .button:hover p, .easter23-title {
+    color: #5c3e56;
+}
+
+/* ==== BACKGROUND COLOURS ==== */
+#top-gn, .button {
+    background-color: #ffa94d;
+}
+
+#galleryhd, .footer {
+    background-color: #5c3e56;
+}
+
+/* ==== BORDER COLOURS ==== */
+.mediums-list, .fil-medium {
+    border-color: #ffa94d;
+}
+
+.button:hover {
+    border: #5c3e56 solid 4px;
+}

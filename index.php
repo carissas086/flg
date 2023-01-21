@@ -23,6 +23,10 @@
 
         <!-- ==== FAVICON LINKS ==== -->
             <?php include __DIR__ . '/favicons.php'; ?>
+
+        <!-- ==== SCRIPTS FOR CALLS ==== -->
+            <script type="text/javascript" src="scripts/openscripts.js"></script>
+            
     </head>
     <body>
         <header>
@@ -30,7 +34,7 @@
         </header>
         <main>
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
-                <?php include __DIR__ . '/galleries/christmas22/christmas22head.php'; ?>
+                <?php include __DIR__ . '/galleries/easter23/easter23head.php'; ?>
 
                 <section id="galleryhd" class="is-flex">
 
@@ -127,39 +131,6 @@
                             layoutMode: 'masonry',
                         });
                     });
-
-                
-                    // ==== FILTER DROPDOWNS
-                        function galDrop() {
-                            document.getElementById("gal-list").classList.toggle("show-options");
-                            document.getElementById("gal-select").classList.toggle("close-selector");
-                        }
-
-                        function medDrop() {
-                            document.getElementById("med-list").classList.toggle("show-options");
-                            document.getElementById("med-select").classList.toggle("sel-selector");
-                        }
-
-                        // Close the dropdown menu if the user clicks outside of it
-                            window.onclick = function(event) {
-                                if (!event.target.matches('.gal-select')) {
-                                    var dropdowns = document.getElementsByClassName("fil-gal");
-                                    var selector = document.getElementsByClassName("gal-select");
-                                    var i;
-                                    for (i = 0; i < dropdowns.length; i++) {
-                                    var openDropdown = dropdowns[i];
-                                    if (openDropdown.classList.contains('show-options')) {
-                                        openDropdown.classList.remove('show-options');
-                                    }
-                                    }
-                                    for (i = 0; i < selector.length; i++) {
-                                    var closeSelector = selector[i];
-                                    if (closeSelector.classList.contains('close-selector')) {
-                                        closeSelector.classList.remove('close-selector');
-                                    }
-                                    }
-                                }
-                            }
                 </script>
     </body>
 </html>

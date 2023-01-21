@@ -1,8 +1,8 @@
 // ==== THINGS TO EDIT ====
 
 	var logoFile = "FLC-logo-cut",
-		logocolour = "#182945",
-		galleryMax = "23";
+		logocolour = "#5c3e56",
+		galleryMax = "24";
 
 // =====================
 // ======== FIN ========
