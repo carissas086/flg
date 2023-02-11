@@ -6,7 +6,16 @@
     function setCSS(tag) {
         var galStyle        = document.querySelector("#gal-css"),
             pathfinder      = document.querySelectorAll("path"),
-            setlogo         = eval('logo' + tag);
+            setlogo         = eval('logo' + tag),
+            
+            landing         = document.getElementById("landing"),
+            chosenGal        = document.getElementById(tag);
+
+        // hides all other landings, and sets chosen one
+            for (const child of landing.children) {
+                child.classList.add("visually-hidden");
+            };
+            chosenGal.classList.remove("visually-hidden");
 
         // set master gal css
             galStyle.setAttribute('href','styles/gallery-styles/' + tag + '.css');
@@ -15,8 +24,6 @@
             for (var i=0; i < pathfinder.length; i++) {
             pathfinder[i].setAttribute('fill',setlogo);
         };
-        
-        console.log('settest ' + tag);
     }
 
 // ==== FILTER DROPDOWNS

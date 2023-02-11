@@ -33,8 +33,14 @@
             <?php include __DIR__ . '/header.php'; ?>
         </header>
         <main>
+
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
+            <section id="landing">
                 <?php include __DIR__ . '/galleries/easter23/easter23head.php'; ?>
+                <?php include __DIR__ . '/galleries/christmas22/christmas22head.php'; ?>
+
+            </section>
+                
 
                 <section id="galleryhd" class="is-flex">
 
@@ -131,6 +137,7 @@
                             layoutMode: 'masonry',
                         });
                     });
+
                 </script>
     </body>
 </html>

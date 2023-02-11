@@ -1,8 +1,9 @@
 // ==== THINGS TO EDIT ====
 
-	var logoFile = "FLC-logo-cut",
-		logocolour = "#5c3e56",
-		galleryMax = "24";
+	var logoFile	= "FLC-logo-cut",
+		logocolour	= "#5c3e56",
+		galleryMax	= "24",
+		currGal		= "easter23";
 
 // =====================
 // ======== FIN ========
@@ -241,4 +242,26 @@ $(document).ready(function() {
 			const logoFull = 'images/' + logoFile + '.png';
 			$("#flclogo").attr('src', logoFull);
 
+		// set landing & gallery select
+			document.querySelector("#" + currGal).classList.remove("visually-hidden");
+			$(".latest").attr('onclick',"setCSS('" + currGal + "');");
+
+			$('.latest').on('click', 'p', function() {
+				var resetOn		= "filter-" + currGal;
+
+				$tilesParent.isotope({
+					filter: '.g-' + currGal,
+				});
+
+				// gallery selected indicator
+					$("#gal-list").find('.is-selected').removeClass('is-selected');
+					$("#gal-list").find('#' + resetOn).addClass('is-selected');
+			});
+			
+		// auto select current gallery
+			window.addEventListener("load", () => {
+				$tilesParent.isotope({
+					filter: '.g-' + currGal,
+				});
+			});
 });

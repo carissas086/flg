@@ -4,8 +4,18 @@
         <ul class="is-flex gal-filter fil-gal" id="gal-list" data-filter-group="gallery">
 
         <!-- ==== ADD NEW GALLERIES ==== -->
-            <li data-filter=".g-christmas22" onclick="setCSS('christmas22');">Christmas 2022</li>
-            <li data-filter=".g-easter23" onclick="setCSS('easter23');">Easter 2023</li>
+            <li
+                data-filter=".g-christmas22"
+                onclick="setCSS('christmas22');"
+                id="filter-christmas22">
+                Christmas 2022
+            </li>
+            <li
+                data-filter=".g-easter23"
+                onclick="setCSS('easter23');"
+                id="filter-easter23">
+                Easter 2023
+            </li>
 
         </ul>
     </div>
