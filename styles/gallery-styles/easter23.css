@@ -36,8 +36,8 @@ Entry Styles
 }
 
 /* ==== TYPOGRAPHY ==== */
-/* .easter23-title {
-    font-family: nautica, sans-serif;
+.easter23-title {
+    font-family: poppins, sans-serif;
     font-weight: 400;
     font-size: 3.5rem;
 
@@ -45,31 +45,31 @@ Entry Styles
     padding: 0 2vw;
 }
     @media (min-width: 687px) {
-        .christmas22-title {
+        .easter23-title {
             font-size: 5rem;
 
         }
-    } */
+    }
 
-/* .christmas22-header {
+    .easter23-header {
     text-transform: uppercase;
     text-align: center;
-} */
+}
 
-/* .christmas22-byline {
+.easter23-byline {
     text-align: center;
-} */
+}
 
 /* ==== TEXT COLOURS ==== */
-.hyperlink, .gal-filter li:hover, .is-selected {
+.hyperlink, .gal-filter li:hover, .is-selected, .byline, .medium {
     color: #f56983;
 }
     
-.gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call {
+p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call, .aside-header {
     color: #ffa94d;
 }
 
-p, .gn a, .button, .button a, .button:hover p, .easter23-title {
+.gn a, .button p, .button a, .button:hover p, .easter23-title, .easter23-header, .easter23-header p, .easter23-verse-box p {
     color: #5c3e56;
 }
 
@@ -78,7 +78,7 @@ p, .gn a, .button, .button a, .button:hover p, .easter23-title {
     background-color: #ffa94d;
 }
 
-#galleryhd, .footer {
+#galleryhd, .footer, .pullout-panel {
     background-color: #5c3e56;
 }
 

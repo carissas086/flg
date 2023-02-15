@@ -42,7 +42,7 @@
         color: #ffff;
     }
         
-    .chrstmas22-title, .gal-filter, .gal-select, .christmas22-panel, #toplink, .hyperlink:hover, .button:hover p, .social a:hover, .insta-call {
+    .chrstmas22-title, .gal-filter, .gal-select, .pullout-panel, #toplink, .hyperlink:hover, .button:hover p, .social a:hover, .insta-call {
         color: #f4bf54;
     }
     
@@ -55,7 +55,7 @@
         background-color: #f4bf54;
     }
 
-    .christmas22-intro-img, #galleryhd, .christmas22-panel, .footer {
+    .christmas22-intro-img, #galleryhd, .pullout-panel, .footer {
         background-color: #182945;
     }
 

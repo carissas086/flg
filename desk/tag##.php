@@ -17,7 +17,7 @@
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <h3 class="head-font TAG-header">XX</h3>
+                        <h3 class="head-font aside-header">XX</h3>
                         <p class="medium italics bold">XX</p>
                         <p>XX</p>
                         <div class="verse-box">
@@ -26,7 +26,7 @@
                         </div>
                         <div class="is-flex bio-box">
                             <img src="images/XX.jpg" alt="">
-                            <p class="byline TAG-byline">by: XX</p>
+                            <p class="byline">by: XX</p>
                         </div>
                     </div>
                 </div>

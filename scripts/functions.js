@@ -2,7 +2,7 @@
 
 	var logoFile	= "FLC-logo-cut",
 		logocolour	= "#5c3e56",
-		galleryMax	= "24",
+		galleryMax	= "27",
 		currGal		= "easter23";
 
 // =====================
@@ -95,6 +95,29 @@ $(document).ready(function() {
 				} else {
 					cntlNext.setAttribute('data-id','flg' + setNext.toString());
 				};
+
+			// PIGGYBACK for setting CSS
+
+				var trackId = Number(setId);
+
+				if (trackId >= 1 && trackId <= 23) {
+					setCSS("christmas22");
+					$tilesParent.isotope({
+						filter: '.g-christmas22',
+					});
+					$("#gal-list").find('.is-selected').removeClass('is-selected');
+					$("#gal-list").find('#filter-christmas22').addClass('is-selected');
+				} else if (trackId >= 24 && trackId <= 35) {
+					setCSS("easter23");
+					$tilesParent.isotope({
+						filter: '.g-easter22',
+					});
+					$("#gal-list").find('.is-selected').removeClass('is-selected');
+					$("#gal-list").find('#filter-easter23').addClass('is-selected');
+				} else {
+					console.log('end');
+				}
+
 		};
 
 	// load data to aside

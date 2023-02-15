@@ -59,7 +59,7 @@
                             </div>
 
                             <!-- ==== ASIDE PANEL ==== -->
-                                <aside role="complementary" id="panel" class="christmas22-panel" aria-hidden="true" aria-expanded="false">
+                                <aside role="complementary" id="panel" class="pullout-panel" aria-hidden="true" aria-expanded="false">
 
                                     <!-- ==== IMAGE TOP ==== -->
                                         <div id="panel-top" class="is-flex flex-centers">

@@ -5,7 +5,7 @@
         <h1 class="easter23-title">An Easter Art Gallery</h1>
         <h3>Theme?</h3>
         <p>Blurb here</p>
-        <div class="verse-box">
+        <div class="verse-box easter23-verse-box">
             <p class="verse"><sup>12 </sup>This is a tester verse paragraph, because I imagine this will happen.</p>
             <p class="verse"><sup>13 </sup>Greator love has no one than this: to lay down one's life for one's friends.</p>
             <p class="ref">John 15:13 [NIV]</p>
