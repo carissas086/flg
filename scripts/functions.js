@@ -2,7 +2,7 @@
 
 	var logoFile	= "FLC-logo-cut",
 		logocolour	= "#5c3e56",
-		galleryMax	= "27",
+		galleryMax	= "23",
 		currGal		= "easter23",
 		latestGal	= "christmas22";
 
