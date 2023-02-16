@@ -1,10 +1,10 @@
-<!-- FLG27 -->
+<!-- FLG34 -->
 <div class="grid-item g-easter23 m-arcrylic m-painting a-013">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg27">
+        class="tile video" id="flg34">
         <img src="images/flg26_thumb.jpg" alt="Acrylic painting of a cross with Jesus in the middle">
 
-        <!-- ==== FLG27 ASIDE ==== -->
+        <!-- ==== FLG34 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">

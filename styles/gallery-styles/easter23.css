@@ -28,7 +28,7 @@ Entry Styles
 /* ==== LANDING BACKGROUND IMG ==== */
 .easter23-intro-img {
     background-image: url(../../images/easter23_banner-wh.jpg);
-    background-position: top left;
+    background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: screen;
@@ -39,7 +39,7 @@ Entry Styles
 .easter23-title {
     font-family: poppins, sans-serif;
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 3.25rem;
 
     line-height: 4rem;
     padding: 0 2vw;
@@ -51,17 +51,22 @@ Entry Styles
         }
     }
 
-    .easter23-header {
+.easter23-header {
     text-transform: uppercase;
     text-align: center;
 }
 
-.easter23-byline {
-    text-align: center;
+.easter23-header h3 {
+    text-transform: none;
+}
+
+.easter23-header p {
+    text-transform: none;
+    font-weight: 500;
 }
 
 /* ==== TEXT COLOURS ==== */
-.hyperlink, .gal-filter li:hover, .is-selected, .byline, .medium {
+.hyperlink, .gal-filter li:hover, .is-selected, .byline, .medium, .about-text h3 {
     color: #f56983;
 }
     
@@ -69,7 +74,7 @@ p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta
     color: #ffa94d;
 }
 
-.gn a, .button p, .button a, .button:hover p, .easter23-title, .easter23-header, .easter23-header p, .easter23-verse-box p {
+.gn a, .button p, .button a, .button:hover p, .easter23-title, .easter23-header, .easter23-header p, .easter23-verse-box p, .land-ack p, .about-text p {
     color: #5c3e56;
 }
 

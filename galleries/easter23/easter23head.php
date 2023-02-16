@@ -2,20 +2,17 @@
 <section class="intro is-flex flex-centers easter23-intro-img visually-hidden" id="easter23">
     <div class="gallery-header is-flex flex-centers easter23-header">
         <h4 class="head-font">Fraser Lands Gallery Presents:</h4>
-        <h1 class="easter23-title">An Easter Art Gallery</h1>
-        <h3>Theme?</h3>
-        <p>Blurb here</p>
-        <div class="verse-box easter23-verse-box">
-            <p class="verse"><sup>12 </sup>This is a tester verse paragraph, because I imagine this will happen.</p>
-            <p class="verse"><sup>13 </sup>Greator love has no one than this: to lay down one's life for one's friends.</p>
-            <p class="ref">John 15:13 [NIV]</p>
-        </div>
+        <h1 class="easter23-title">An <span class="bold">Easter</span> Art Gallery</h1>
+        <!-- <h3>Reflecting on the Season of Lent</h3> -->
+        <p>Coming February 22, 2023</p>
     </div>
+    <!-- <div class="gallery-header is-flex flex-centers easter23-header">
+        <h4 class="head-font">Fraser Lands Gallery Presents:</h4>
+        <h1 class="easter23-title">An <span class="bold">Easter</span> Art Gallery</h1>
+        <h3>Reflecting on the Season of Lent</h3>
+        <p>The season of lent marks a time of preparation for Easter weekend. It echoes the Lord's time in the wilderness, and is a time for penitence, fasting, and prayer in preparation for the great feast of the resurrection. This exhibit serves as a companion to our journey through these 40 days. The hope is that by hearing and answering our Saviour's call to repent, we may enter fully into the Easter celebration.</p>
+    </div> -->
     <a class="button latest" data-filter-group="reset">
-        <p data-filter=".g-easter23" >Latest Gallery</p>
+        <p>Latest Gallery</p>
     </a>
-</ul>
-
-
-
 </section>

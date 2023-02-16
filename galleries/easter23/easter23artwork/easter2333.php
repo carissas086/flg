@@ -1,10 +1,10 @@
-<!-- FLG24 -->
+<!-- FLG33 -->
 <div class="grid-item g-easter23 m-watercolour m-painting a-006">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile" id="flg24">
+        class="tile" id="flg33">
         <img src="images/flg23_thumb.jpg" alt="Watercolour painting of the torn temple curtains">
 
-        <!-- ==== FLG24 ASIDE ==== -->
+        <!-- ==== FLG33 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
