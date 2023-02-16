@@ -22,7 +22,7 @@
 	#galleryhd {
 		z-index: 17;
 		width: 100vw;
-		min-height: 100vh;
+		/* min-height: 100vh; */
 		padding-bottom: 5vh;
 		justify-content: flex-start;
 		align-content: center;

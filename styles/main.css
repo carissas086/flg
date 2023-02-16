@@ -267,6 +267,7 @@ p {
             font-size: .85rem;
             margin-bottom: .1rem;
             text-align: center;
+            padding: 0 2.25rem;
         }
 
         #about {
@@ -322,6 +323,11 @@ p {
             flex-direction: row;
             gap: 5vw;
             font-size: 1.5rem;
+        }
+        
+        .ft-flc {
+            height: 1.45rem;
+            width: auto;
         }
 
         .ft-flc {

@@ -1,10 +1,10 @@
-<!-- FLG -->
-<div class="grid-item ">
+<!-- FLG# -->
+<div class="grid-item g- m- a-">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg">
+        class="tile video" id="flg#">
         <img src="images/" alt="">
 
-        <!-- ==== FLG ASIDE ==== -->
+        <!-- ==== FLG# ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <h3 class="head-font christmas22-header">XX</h3>
+                        <h3 class="head-font aside-header">XX</h3>
                         <p class="medium italics bold">XX</p>
                         <p>XX</p>
                         <div class="verse-box">
@@ -26,7 +26,7 @@
                         </div>
                         <div class="is-flex bio-box">
                             <img src="images/XX.jpg" alt="">
-                            <p class="byline christmas22-byline">by: XX</p>
+                            <p class="byline">by: XX</p>
                         </div>
                     </div>
                 </div>

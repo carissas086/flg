@@ -1,0 +1,97 @@
+/* 
+
+Gallery Head Styles
+.easter23-intro-img > sets background image through background-image: url(../../images/.jpg);
+.easter23-header > general header font
+.easter23-title > title font
+
+Entry Styles
+.easter23-header > sets title h3
+.easter23-byline > sets biobox name
+
+*/
+
+
+
+
+
+
+/* ==== AN EASTER ART EXHIBIT
+    dark-colour/purple:     #5c3e56;
+	light-colour/orange:    #ffa94d
+        (originally #fc972b, brightened for contrast)
+    accent-colour/pink:     #f56983;
+
+    font:                   poppins, sans-serif;
+==== */
+
+/* ==== LANDING BACKGROUND IMG ==== */
+.easter23-intro-img {
+    background-image: url(../../images/easter23_banner-wh.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-color: #5c3e56;
+}
+
+/* ==== TYPOGRAPHY ==== */
+.easter23-title {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-size: 3.25rem;
+
+    line-height: 4rem;
+    padding: 0 2vw;
+}
+    @media (min-width: 687px) {
+        .easter23-title {
+            font-size: 5rem;
+
+        }
+    }
+
+.easter23-header {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.easter23-header h3 {
+    text-transform: none;
+}
+
+.easter23-header p {
+    text-transform: none;
+    font-weight: 500;
+}
+
+/* ==== TEXT COLOURS ==== */
+.hyperlink, .gal-filter li:hover, .is-selected, .byline, .medium, .about-text h3 {
+    color: #f56983;
+}
+    
+p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call, .aside-header {
+    color: #ffa94d;
+}
+
+.gn a, .button p, .button a, .button:hover p, .easter23-title, .easter23-header, .easter23-header p, .easter23-verse-box p, .land-ack p, .about-text p {
+    color: #5c3e56;
+}
+
+/* ==== BACKGROUND COLOURS ==== */
+#top-gn, .button {
+    background-color: #ffa94d;
+}
+
+#galleryhd, .footer, .pullout-panel {
+    background-color: #5c3e56;
+}
+
+/* ==== BORDER COLOURS ==== */
+.mediums-list, .fil-medium {
+    border-color: #ffa94d;
+}
+
+.button:hover {
+    border: #5c3e56 solid 4px;
+}

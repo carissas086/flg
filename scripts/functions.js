@@ -1,8 +1,10 @@
 // ==== THINGS TO EDIT ====
 
-	var logoFile = "FLC-logo-cut",
-		logocolour = "#182945",
-		galleryMax = "23";
+	var logoFile	= "FLC-logo-cut",
+		logocolour	= "#5c3e56",
+		galleryMax	= "27",
+		currGal		= "easter23",
+		latestGal	= "christmas22";
 
 // =====================
 // ======== FIN ========
@@ -10,16 +12,17 @@
 
 $(document).ready(function() {
 
-	var $parent = $('#gallery'),
-	$aside = $("#panel"),
-	$asideTarget = $aside.find(".aside--details"),
-	$asideImgTarget = $aside.find(".aside--image"),
-	$asideClose = $aside.find(".close"),
-	$tilesParent = $(".grid"),
-	$tiles = $tilesParent.find(".tile"),
-	cntlNext = document.querySelector(".cntl-next"),
-	cntlPrev = document.querySelector(".cntl-prev"),
-	slideClass = "show-detail";
+	var $parent		= $('#gallery'),
+	$aside			= $("#panel"),
+	$asideTarget	= $aside.find(".aside--details"),
+	$asideImgTarget	= $aside.find(".aside--image"),
+	$asideClose		= $aside.find(".close"),
+	$tilesParent	= $(".grid"),
+	$tiles			= $tilesParent.find(".tile"),
+	cntlNext		= document.querySelector(".cntl-next"),
+	cntlPrev		= document.querySelector(".cntl-prev"),
+	slideClass		= "show-detail",
+	galList			= $('#gal-list').attr('data-filter-group');
 
 	// ==== GALLERY FUNCTIONS
 	// tile click
@@ -94,6 +97,30 @@ $(document).ready(function() {
 				} else {
 					cntlNext.setAttribute('data-id','flg' + setNext.toString());
 				};
+
+			// PIGGYBACK for setting CSS
+
+				var trackId = Number(setId);
+
+				if (trackId >= 1 && trackId <= 23) {
+					exSetGal('christmas22');
+				} else if (trackId >= 24 && trackId <= 34) {
+					exSetGal('easter23');
+				} else {
+					console.log('end');
+				}
+
+				function exSetGal(galTag) {
+					setCSS(galTag);
+					filters[galList] = '.g-' + galTag;
+					var filterValue = concatValues(filters);
+					$tilesParent.isotope({
+						filter: filterValue,
+					});
+					$("#gal-list").find('.is-selected').removeClass('is-selected');
+					$("#gal-list").find('#filter-christmas22').addClass('is-selected');
+				}
+
 		};
 
 	// load data to aside
@@ -241,4 +268,30 @@ $(document).ready(function() {
 			const logoFull = 'images/' + logoFile + '.png';
 			$("#flclogo").attr('src', logoFull);
 
+		// set landing & gallery select
+			document.querySelector("#" + currGal).classList.remove("visually-hidden");
+			$(".latest").attr('onclick',"setCSS('" + latestGal + "');");
+
+			$('.latest').on('click', 'p', function() {
+				var resetOn		= "filter-" + latestGal;
+
+				$tilesParent.isotope({
+					filter: '.g-' + latestGal,
+				});
+
+				// gallery selected indicator
+					$("#gal-list").find('.is-selected').removeClass('is-selected');
+					$("#gal-list").find('#' + resetOn).addClass('is-selected');
+			});
+			
+		// auto select current gallery
+			window.addEventListener("load", () => {
+
+				filters[galList] = '.g-' + currGal;
+				var filterValue = concatValues(filters);
+				$tilesParent.isotope({
+					filter: filterValue,
+				});
+
+			});
 });
