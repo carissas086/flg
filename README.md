@@ -54,15 +54,17 @@ Process imagery, as much as possible, to the following:
   - Landing section partial at '**index.php:37**'
   - New grid partial on '**index.php:53**'
 - Set stylesheet for new gallery in '/galleries/**galleryspecstyles.php:1**'
-- Set new OG Metatags in '**metatags.php**'
-  - Change the description on **metatags.php:5**
-  - Change the image on **line 6** and it's dimensions on **metatags.php:7-8**
+- Set the primary colour for logos on **functions.js:4**
+  - Add the same primary colour in a new variable called _logoTAG_ at **openscripts.js:3**
 - Set _TAG_ as the current gallery and latest gallery on **functions.js:6–7**
   - In the case that the new gallery is not yet live (but the old one is being archived out), set ONLY the current gallery to the new gallery tag, and only update the latest gallery tag when the gallery goes live
 - Set gallery styling rules on **functions.js:101**
   - create a new _else if_
   - adjusting for the next set of artwork tag numbers in the conditional
   - pass the _TAG_ through _exSetGal_ function
+- Set new OG Metatags in '**metatags.php**'
+  - Change the description on **metatags.php:5**
+  - Change the image on **line 6** and it's dimensions on **metatags.php:7-8**
 
 #### ADDING ITEM TO THE GRID
 - Duplicate the artwork partial template at '**/desk/tag##.php**' and move to the gallery's artwork folder

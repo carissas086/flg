@@ -105,38 +105,9 @@
                 </div>
             </section>
         </main>
+
+        <!-- ==== FOOTER & Scripts ==== -->
         <?php include __DIR__ . '/footer.php'; ?>
 
-        <!-- ==== ADDITIONAL SCRIPTS ==== -->
-
-            <!-- == IMAGES LOADED == -->
-                <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-
-            <!-- == ISOTOPE == -->
-                <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-                <script>
-                    var grid = document.querySelector('.grid');
-                    var iso;
-
-                    // flatten object by concatting values
-                    function concatValues( obj ) {
-                        var value = '';
-                        for ( var prop in obj ) {
-                            value += obj[ prop ];
-                        }
-                        return value;
-                    }
-                
-                    imagesLoaded( grid, function() {
-                    // init Isotope after all images have loaded
-                        iso = new Isotope( grid, {
-                            itemSelector: '.grid-item',
-                            filter: '*',
-                            percentPosition: true,
-                            layoutMode: 'masonry',
-                        });
-                    });
-
-                </script>
     </body>
 </html>
