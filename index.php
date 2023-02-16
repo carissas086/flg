@@ -23,14 +23,24 @@
 
         <!-- ==== FAVICON LINKS ==== -->
             <?php include __DIR__ . '/favicons.php'; ?>
+
+        <!-- ==== SCRIPTS FOR CALLS ==== -->
+            <script type="text/javascript" src="scripts/openscripts.js"></script>
+            
     </head>
     <body>
         <header>
             <?php include __DIR__ . '/header.php'; ?>
         </header>
         <main>
+
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
+            <section id="landing">
+                <?php include __DIR__ . '/galleries/easter23/easter23head.php'; ?>
                 <?php include __DIR__ . '/galleries/christmas22/christmas22head.php'; ?>
+
+            </section>
+                
 
                 <section id="galleryhd" class="is-flex">
 
@@ -42,11 +52,14 @@
                             <div role="main" id="gallery">
 
                             <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
-                                <?php include __DIR__ . '/galleries/christmas22/christmas22grid.php'; ?>
+                                <section class="grid">
+                                    <?php include __DIR__ . '/galleries/easter23/easter23grid.php'; ?>
+                                    <?php include __DIR__ . '/galleries/christmas22/christmas22grid.php'; ?>
+                                </section>
                             </div>
 
                             <!-- ==== ASIDE PANEL ==== -->
-                                <aside role="complementary" id="panel" class="christmas22-panel" aria-hidden="true" aria-expanded="false">
+                                <aside role="complementary" id="panel" class="pullout-panel" aria-hidden="true" aria-expanded="false">
 
                                     <!-- ==== IMAGE TOP ==== -->
                                         <div id="panel-top" class="is-flex flex-centers">
@@ -125,38 +138,6 @@
                         });
                     });
 
-                
-                    // ==== FILTER DROPDOWNS
-                        function galDrop() {
-                            document.getElementById("gal-list").classList.toggle("show-options");
-                            document.getElementById("gal-select").classList.toggle("close-selector");
-                        }
-
-                        function medDrop() {
-                            document.getElementById("med-list").classList.toggle("show-options");
-                            document.getElementById("med-select").classList.toggle("sel-selector");
-                        }
-
-                        // Close the dropdown menu if the user clicks outside of it
-                            window.onclick = function(event) {
-                                if (!event.target.matches('.gal-select')) {
-                                    var dropdowns = document.getElementsByClassName("fil-gal");
-                                    var selector = document.getElementsByClassName("gal-select");
-                                    var i;
-                                    for (i = 0; i < dropdowns.length; i++) {
-                                    var openDropdown = dropdowns[i];
-                                    if (openDropdown.classList.contains('show-options')) {
-                                        openDropdown.classList.remove('show-options');
-                                    }
-                                    }
-                                    for (i = 0; i < selector.length; i++) {
-                                    var closeSelector = selector[i];
-                                    if (closeSelector.classList.contains('close-selector')) {
-                                        closeSelector.classList.remove('close-selector');
-                                    }
-                                    }
-                                }
-                            }
                 </script>
     </body>
 </html>

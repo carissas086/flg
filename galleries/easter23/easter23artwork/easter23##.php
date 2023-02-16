@@ -1,14 +1,14 @@
 <!-- FLG# -->
-<div class="grid-item g-christmas22 m- a-">
+<div class="grid-item g-easter23 m- a-">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile video" id="flg#">
-        <img src="images/_thumb.jpg" alt="Mediumish desc">
+        <img src="images/" alt="">
 
         <!-- ==== FLG# ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/.jpg" alt="Mediumish desc">
+                        <img src="images/" alt="">
                         <video controls playsinline onloadstart="this.volume=0.2;">
                             <source src="images/" type="video/mp4">
                             Your browser does not support the video tag :(
@@ -17,7 +17,7 @@
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <h3 class="head-font christmas22-header">XX</h3>
+                        <h3 class="head-font aside-header">XX</h3>
                         <p class="medium italics bold">XX</p>
                         <p>XX</p>
                         <div class="verse-box">
@@ -25,8 +25,8 @@
                             <p class="ref">XX ##:## [XXV]</p>
                         </div>
                         <div class="is-flex bio-box">
-                            <img src="images/_2211.jpg" alt="Photo of XX">
-                            <p class="byline christmas22-byline">by: XX</p>
+                            <img src="images/XX.jpg" alt="">
+                            <p class="byline">by: XX</p>
                         </div>
                     </div>
                 </div>
