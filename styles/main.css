@@ -330,6 +330,11 @@ p {
             width: auto;
         }
 
+        .ft-flc {
+            height: 1.45rem;
+            width: auto;
+        }
+
 /* ==== OVERWRITES ==== */
 
     .force-dark {
