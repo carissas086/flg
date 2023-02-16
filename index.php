@@ -38,7 +38,6 @@
             <section id="landing">
                 <?php include __DIR__ . '/galleries/easter23/easter23head.php'; ?>
                 <?php include __DIR__ . '/galleries/christmas22/christmas22head.php'; ?>
-
             </section>
                 
 

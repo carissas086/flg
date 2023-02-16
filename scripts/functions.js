@@ -3,7 +3,8 @@
 	var logoFile	= "FLC-logo-cut",
 		logocolour	= "#5c3e56",
 		galleryMax	= "27",
-		currGal		= "easter23";
+		currGal		= "easter23",
+		latestGal	= "christmas22";
 
 // =====================
 // ======== FIN ========
@@ -11,16 +12,17 @@
 
 $(document).ready(function() {
 
-	var $parent = $('#gallery'),
-	$aside = $("#panel"),
-	$asideTarget = $aside.find(".aside--details"),
-	$asideImgTarget = $aside.find(".aside--image"),
-	$asideClose = $aside.find(".close"),
-	$tilesParent = $(".grid"),
-	$tiles = $tilesParent.find(".tile"),
-	cntlNext = document.querySelector(".cntl-next"),
-	cntlPrev = document.querySelector(".cntl-prev"),
-	slideClass = "show-detail";
+	var $parent		= $('#gallery'),
+	$aside			= $("#panel"),
+	$asideTarget	= $aside.find(".aside--details"),
+	$asideImgTarget	= $aside.find(".aside--image"),
+	$asideClose		= $aside.find(".close"),
+	$tilesParent	= $(".grid"),
+	$tiles			= $tilesParent.find(".tile"),
+	cntlNext		= document.querySelector(".cntl-next"),
+	cntlPrev		= document.querySelector(".cntl-prev"),
+	slideClass		= "show-detail",
+	galList			= $('#gal-list').attr('data-filter-group');
 
 	// ==== GALLERY FUNCTIONS
 	// tile click
@@ -101,21 +103,22 @@ $(document).ready(function() {
 				var trackId = Number(setId);
 
 				if (trackId >= 1 && trackId <= 23) {
-					setCSS("christmas22");
+					exSetGal('christmas22');
+				} else if (trackId >= 24 && trackId <= 34) {
+					exSetGal('easter23');
+				} else {
+					console.log('end');
+				}
+
+				function exSetGal(galTag) {
+					setCSS(galTag);
+					filters[galList] = '.g-' + galTag;
+					var filterValue = concatValues(filters);
 					$tilesParent.isotope({
-						filter: '.g-christmas22',
+						filter: filterValue,
 					});
 					$("#gal-list").find('.is-selected').removeClass('is-selected');
 					$("#gal-list").find('#filter-christmas22').addClass('is-selected');
-				} else if (trackId >= 24 && trackId <= 35) {
-					setCSS("easter23");
-					$tilesParent.isotope({
-						filter: '.g-easter22',
-					});
-					$("#gal-list").find('.is-selected').removeClass('is-selected');
-					$("#gal-list").find('#filter-easter23').addClass('is-selected');
-				} else {
-					console.log('end');
 				}
 
 		};
@@ -267,13 +270,13 @@ $(document).ready(function() {
 
 		// set landing & gallery select
 			document.querySelector("#" + currGal).classList.remove("visually-hidden");
-			$(".latest").attr('onclick',"setCSS('" + currGal + "');");
+			$(".latest").attr('onclick',"setCSS('" + latestGal + "');");
 
 			$('.latest').on('click', 'p', function() {
-				var resetOn		= "filter-" + currGal;
+				var resetOn		= "filter-" + latestGal;
 
 				$tilesParent.isotope({
-					filter: '.g-' + currGal,
+					filter: '.g-' + latestGal,
 				});
 
 				// gallery selected indicator
@@ -283,8 +286,12 @@ $(document).ready(function() {
 			
 		// auto select current gallery
 			window.addEventListener("load", () => {
+
+				filters[galList] = '.g-' + currGal;
+				var filterValue = concatValues(filters);
 				$tilesParent.isotope({
-					filter: '.g-' + currGal,
+					filter: filterValue,
 				});
+
 			});
 });
