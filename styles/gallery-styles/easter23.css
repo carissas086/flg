@@ -65,6 +65,29 @@ Entry Styles
     font-weight: 500;
 }
 
+.flg29-ref {
+    font-size: .85rem;
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.flg29-bold {
+    font-weight: 500;
+}
+
+.flg29-ref .superref {
+    font-size: .55rem;
+}
+
+.flg29-indent {
+    margin-left: .59rem;
+}
+
+.flg29-indent-dub {
+    margin-left: .69rem;
+}
+
 /* ==== TEXT COLOURS ==== */
 .hyperlink, .gal-filter li:hover, .is-selected, .byline, .medium, .about-text h3 {
     color: #f56983;
@@ -97,5 +120,9 @@ p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta
 }
 
 hr {
+    border: #f56983 solid .25px;
+}
+
+#flg29-end {
     border: #ffa94d solid .25px;
 }
