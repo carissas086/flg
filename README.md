@@ -93,6 +93,8 @@ The partial template is set up to be editable as such:
 - Full Image (& alt tag) : **line 11**
   - Remove class 'video' when video/audio element not used on **line 4**
 - Video : **line 13**
+  - for looping, non-audio specific videos, use the following opening tag attributes: _playsinline autoplay loop_
+  - DO NOT REMOVE _onloadstart_
 - Title : **line20**
 - Artwork Author Photo: **line 28**
 - Artwork Author : **line29**

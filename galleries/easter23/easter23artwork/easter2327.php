@@ -8,9 +8,9 @@
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg27_thumb.jpg" alt="PLACEHOLDER">
-                        <video controls playsinline onloadstart="this.volume=0.2;">
-                            <source src="images/" type="video/mp4">
+                        <!-- <img src="images/flg27_thumb.jpg" alt="PLACEHOLDER"> -->
+                        <video playsinline autoplay loop onloadstart="this.volume=0.2;">
+                            <source src="images/flg27.mp4" type="video/mp4">
                             Your browser does not support the video tag :(
                         </video>
                     </div>
