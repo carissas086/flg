@@ -110,6 +110,7 @@ All text that **is not** in English, please tag using the appropriate language a
 - Chinese Simplified : zh-Hans
 - Chinese Traditional : zh-Hant
 - French : fr
+- Greek : el
 - Hebrew : he
 - Korean : ko
 - Latin : la
@@ -143,6 +144,7 @@ The current artwork mediums filters are as follows:
 - m-mixedmedia
 - m-painting
 - m-photograph
+- m-poetry
 
 These artwork medium filters are set up but not connected:
 - m-arcrylic
@@ -150,6 +152,7 @@ These artwork medium filters are set up but not connected:
 - m-quilt
 - m-shadowbox
 - m-watercolour
+- m-writing
 - m-3d
 
 ---

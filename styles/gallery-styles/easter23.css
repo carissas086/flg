@@ -95,3 +95,7 @@ p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta
 .button:hover {
     border: #5c3e56 solid 4px;
 }
+
+hr {
+    border: #ffa94d solid .25px;
+}
