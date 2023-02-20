@@ -17,8 +17,13 @@
                         In such<span class="superref"> 18</span> found one;<span class="superref"> 19</span></br>
                         Your love endures forever<span class="superref"> 20</span> &mdash;</br>
                         Lord, how majestic is your name in all the earth!<span class="superref"> 21</span></p>
-                        <hr>
+                    </div>
+                </div>
+                <div class="details panel-box is-flex">
+                    <div class="aside-text flg29-foot">
+                        <!-- <h3 class="head-font aside-header">XX</h3> -->
                         <!-- footnote-esque references -->
+                        <hr>
                         <p class="flg29-ref"><span class="superref">1</span> Ps. 31:5</p>
                         <p class="flg29-ref"><span class="superref">2</span> <span class="flg29-bold">Gen. 1:1</span>, 2:15&ndash;17, 9:8&ndash;17, <span class="flg29-bold">15:1&ndash;21, 17:1&ndash;27; Ex. 19&ndash;24; Deut 6:4; 2 Sam. 7:8&ndash;16; Jer. 31:31&ndash;34;</span> Isa. 53; <span class="flg29-bold">John 1:1&ndash;18,</span> 14:9&ndash;12; <span class="flg29-bold">Mark:15; Matt. 28:5&ndash;9,</span> 19&ndash;20; <span class="flg29-bold">Luke 24:13&ndash;53; Acts 2; Rev. 21:1&ndash;22:5</span></p>
                         <p class="flg29-ref"><span class="superref">3</span> <span class="flg29-bold">Ps. 8:1</span></p>
@@ -68,12 +73,7 @@
                         <p class="flg29-ref"><span class="superref">20</span> <span class="flg29-bold">Ps. 118:29</span></p>
                         <p class="flg29-ref"><span class="superref">21</span> <span class="flg29-bold">Ps. 8:9</span></p>
                         <hr id="flg29-end">
-                    </div>
-                </div>
-                <div class="details panel-box is-flex">
-                    <div class="aside-text">
-                        <!-- <h3 class="head-font aside-header">XX</h3> -->
-                        <p class="medium italics bold">Poetry</p>
+                        <p class="medium italics bold flg29-med">Poetry</p>
                         <p>I&apos;ve been thinking about the vastness of the crucifixion account; the stirring picture of complete victory over death, and the fullest picture of worship and communion.</p>
                         <p>Jesus cries out in startling contrast: &ldquo;why have you abandoned me?&rdquo; Yet also: &ldquo;into your hands I entrust my spirit&rdquo; &mdash; <span html lang="el">&pi;&alpha;&rho;&alpha;&tau;&#943;&theta;&eta;&mu;&iota;</span> (entrust), that is: to set before, as a meal at the table.</p>
                         <p>That is the temple; the great answer to our groanings: &ldquo;how long, Lord&rdquo; &mdash; the answer who somehow, and in some way redeems everything from the garden to consummation.</p>

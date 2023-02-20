@@ -17,9 +17,7 @@
                         <p class="medium italics bold">Oil on Plastic Pane</p>
                         <div class="verse-box">
                             <p class="verse"><sup>46 </sup>Be still and know I am God.</p>
-                            <p class="ref">Psalm 46:10 [ESV]</p>
-                        </div>
-                        <div class="verse-box">
+                            <p class="ref flg24-verse">Psalm 46:10 [ESV]</p>
                             <p class="verse"><sup>23 </sup>He restores my soul.</p>
                             <p class="ref">Psalm 23:3 [ESV]</p>
                         </div>

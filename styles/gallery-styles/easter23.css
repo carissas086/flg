@@ -72,6 +72,10 @@ Entry Styles
     font-weight: 100;
 }
 
+.flg29-foot {
+    padding-top: 0;
+}
+
 .flg29-bold {
     font-weight: 500;
 }
@@ -86,6 +90,14 @@ Entry Styles
 
 .flg29-indent-dub {
     margin-left: .69rem;
+}
+
+.flg29-med {
+    margin-top: 4vh;
+}
+
+.flg24-verse {
+    margin-bottom: .75rem;
 }
 
 /* ==== TEXT COLOURS ==== */
