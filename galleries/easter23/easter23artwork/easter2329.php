@@ -2,7 +2,7 @@
 <div class="grid-item g-easter23 m-poetry m-writing a-022">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg29">
-        <img src="images/" alt="">
+        <img src="images/flg29_thumb.jpg" alt="3D mockup of a sheet of paper on a concrete wall">
 
         <!-- ==== FLG29 ASIDE ==== -->
             <div class="visually-hidden">

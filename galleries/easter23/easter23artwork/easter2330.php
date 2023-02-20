@@ -2,13 +2,13 @@
 <div class="grid-item g-easter23 m-arcrylic m-painting a-001">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg30">
-        <img src="images/" alt="">
+        <img src="images/flg28_thumb.jpg" alt="Arcrylic painting of the tide coming in on a beach">
 
         <!-- ==== FLG30 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/" alt="">
+                        <img src="images/flg28.jpg" alt="Arcrylic painting of the tide coming in on a beach">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">

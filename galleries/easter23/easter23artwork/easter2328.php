@@ -2,13 +2,13 @@
 <div class="grid-item g-easter23 m-arcrylic m-painting a-017">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg28">
-        <img src="images/" alt="">
+        <img src="images/flg31_thumb.jpg" alt="Arcrylic painting of half a loaf of bread and a glass of wine">
 
         <!-- ==== FLG28 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/" alt="">
+                        <img src="images/flg31.jpg" alt="Arcrylic painting of half a loaf of bread and a glass of wine">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">

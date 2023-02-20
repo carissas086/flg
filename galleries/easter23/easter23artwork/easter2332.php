@@ -2,13 +2,13 @@
 <div class="grid-item g-easter23 m-photograph a-020">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg32">
-        <img src="images/" alt="">
+        <img src="images/flg30_thumb.jpg" alt="Composite photograph of a cross with a crown of thorns standing on a heart">
 
         <!-- ==== FLG32 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/" alt="">
+                        <img src="images/flg30.jpg" alt="Composite photograph of a cross with a crown of thorns standing on a heart">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
