@@ -50,7 +50,7 @@
                         <p class="flg29-ref"><span class="superref">13</span> a. <span class="flg29-bold">Rom. 8:16&ndash;2</span></br>
                         <span class="flg29-indent-dub">b. <span class="flg29-bold">2 Cor. 4:7&ndash;18</span></span></br>
                         <span class="flg29-indent-dub">c. <span class="flg29-bold">Ps. 13, 77</span></span></br>
-                        <span class="flg29-indent-dub">e. To <span class="flg29-bold">hold securely</span> to one&apos;s <span class="flg29-bold">chest</span> and <span class="flg29-bold">speak intimately</span> with.</span></p>
+                        <span class="flg29-indent-dub">d. To <span class="flg29-bold">hold securely</span> to one&apos;s <span class="flg29-bold">chest</span> and <span class="flg29-bold">speak intimately</span> with.</span></p>
                         <p class="flg29-ref"><span class="superref">14</span> a. <span class="flg29-bold">Luke 8:43&ndash;48</span></br>
                         <span class="flg29-indent-dub">b. <span class="flg29-bold">Ps. 139:5&ndash;6</span></span></br>
                         <span class="flg29-indent-dub">c. The folded and sewn edge of fabric.</span></p>
