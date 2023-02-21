@@ -44,6 +44,11 @@ Process imagery, as much as possible, to the following:
 ### GALLERY EDITS
 
 #### **To setup new gallery** ####
+
+- The following banner images are required:
+  - _TAG_ _intro-banner.jpg (this goes in the header for the gallery)
+  - _TAG_ _meta-banner.jpg (this is social meta data)
+  - *_TAG_ _about-banner.jpg (this is optional, depending on what is wanted for that gallery)
   
 - Create the following in '/galleries':
   - _TAG_ (this houses all the files for that gallery EXCEPT the gallery stylesheet)
