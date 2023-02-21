@@ -65,6 +65,7 @@ Process imagery, as much as possible, to the following:
 - Set new OG Metatags in '**metatags.php**'
   - Change the description on **metatags.php:5**
   - Change the image on **line 6** and it's dimensions on **metatags.php:7-8**
+- If requested, a new gallery about banner may be set at **index.php:100** (thereabouts)
 
 #### ADDING ITEM TO THE GRID
 - Duplicate the artwork partial template at '**/desk/tag##.php**' and move to the gallery's artwork folder
@@ -141,7 +142,6 @@ Gallery tag filters are generated as such: **g-_TAG_**
 ##### Artwork Mediums Filter List
 
 The current artwork mediums filters are as follows:
-- m-comic
 - m-digitalart
 - m-mixedmedia
 - m-painting
@@ -150,6 +150,7 @@ The current artwork mediums filters are as follows:
 
 These artwork medium filters are set up but not connected:
 - m-arcrylic
+- m-comic
 - m-composite
 - m-quilt
 - m-shadowbox
