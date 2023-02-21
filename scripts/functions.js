@@ -4,7 +4,7 @@
 		logocolour	= "#5c3e56",
 		galleryMax	= "34",				// set for easter23
 		currGal		= "easter23",
-		latestGal	= "christmas22";
+		latestGal	= "easter23";
 
 // =====================
 // ======== FIN ========
