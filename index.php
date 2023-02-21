@@ -97,7 +97,7 @@
             </section>
             <section id="about" class="is-flex flex-centers">
                 <div class="about-img">
-                    <img src="images/easter23-about-banner.jpg" alt="">
+                    <img src="images/easter23-about-banner.jpg" alt="3D illustration of an empty tomb on easter morning">
                 </div>
                 <div class="about-text">
                     <h3 class="head-font">About Us</h3>
