@@ -125,6 +125,17 @@ p {
         font-style: italic;
     }
 
+    .superref {
+        vertical-align: super;
+        font-size: .75rem;
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    hr {
+        border: .25px solid #000;
+    }
+
 /* ==== HEADER & NAVIGATION ==== */
 
     header {

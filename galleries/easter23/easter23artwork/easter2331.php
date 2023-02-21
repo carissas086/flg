@@ -1,7 +1,7 @@
 <!-- FLG31 -->
 <div class="grid-item g-easter23 m-arcrylic m-painting a-016">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg31">
+        class="tile" id="flg31">
         <img src="images/flg24_thumb.jpg" alt="Acrylic painting of Jesus wearing a crown of thorns">
 
         <!-- ==== FLG31 ASIDE ==== -->

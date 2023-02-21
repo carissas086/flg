@@ -24,3 +24,9 @@
         LOGO COLOUR FUNCTION
     == -->
         <script src="scripts/functions.js"></script>
+        
+    <!-- == IMAGES LOADED == -->
+        <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
+    <!-- == ISOTOPE == -->
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>

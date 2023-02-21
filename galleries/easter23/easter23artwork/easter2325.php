@@ -1,7 +1,7 @@
 <!-- FLG25 -->
 <div class="grid-item g-easter23 m-arcrylic m-painting a-016">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg25">
+        class="tile" id="flg25">
         <img src="images/flg25_thumb.jpg" alt="Acrylic painting of rain in the dark">
 
         <!-- ==== FLG25 ASIDE ==== -->

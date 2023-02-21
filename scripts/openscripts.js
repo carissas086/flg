@@ -59,3 +59,27 @@
             }
         }
     }
+
+    // Images Loaded
+
+        var grid = document.querySelector('.grid');
+        var iso;
+
+        // flatten object by concatting values
+        function concatValues( obj ) {
+            var value = '';
+            for ( var prop in obj ) {
+                value += obj[ prop ];
+            }
+            return value;
+        }
+
+        imagesLoaded( grid, function() {
+        // init Isotope after all images have loaded
+            iso = new Isotope( grid, {
+                itemSelector: '.grid-item',
+                filter: '*',
+                percentPosition: true,
+                layoutMode: 'masonry',
+            });
+        });
