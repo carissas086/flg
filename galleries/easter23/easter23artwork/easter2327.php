@@ -9,7 +9,7 @@
                 <div class="aside-img">
                     <div class="aside-top">
                         <!-- <img src="images/flg27_thumb.jpg" alt="PLACEHOLDER"> -->
-                        <video playsinline autoplay loop onloadstart="this.volume=0.2;">
+                        <video playsinline autoplay loop onloadstart="this.volume=0.2;" poster="images/flg27.jpg">
                             <source src="images/flg27.mp4" type="video/mp4">
                             Your browser does not support the video tag :(
                         </video>
