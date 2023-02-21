@@ -2,13 +2,13 @@
 <div class="grid-item g-easter23 m-oil m-mixedmedia a-023">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg24">
-        <img src="images/flg31_thumb.jpg" alt="placeholder">
+        <img src="images/flg33_thumb.jpg" alt="Oil on plastic pane illustration inspired by the Legend of the Sand Dollar">
 
         <!-- ==== FLG24 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg31.jpg" alt="placeholder">
+                        <img src="images/flg33.png" alt="Oil on plastic pane illustration inspired by the Legend of the Sand Dollar">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">

@@ -2,13 +2,13 @@
 <div class="grid-item g-easter23 m-mixedmedia a-021">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg26">
-        <img src="images/flg31_thumb.jpg" alt="placeholder">
+        <img src="images/flg32_thumb.jpg" alt="Mixed media painting of coloured circles on a black background">
 
         <!-- ==== FLG26 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg31.jpg" alt="placeholder">
+                        <img src="images/flg32.jpg" alt="Mixed media painting of coloured circles on a black background">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
