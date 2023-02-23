@@ -31,6 +31,7 @@
                 <li data-filter=".m-digitalart">Digital Art</li>
                 <li data-filter=".m-mixedmedia">Mixed Media</li>
                 <li data-filter=".m-painting">Painting</li>
+                <!-- <li data-filter=".m-pastel">Pastel</li> -->
                 <li data-filter=".m-photograph">Photograph</li>
                 <li data-filter=".m-poetry">Poetry</li>
                 <!-- <li data-filter=".m-quilt">Quilt</li>

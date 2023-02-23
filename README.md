@@ -157,6 +157,7 @@ These artwork medium filters are set up but not connected:
 - m-arcrylic
 - m-comic
 - m-composite
+- m-pastel
 - m-quilt
 - m-shadowbox
 - m-watercolour
