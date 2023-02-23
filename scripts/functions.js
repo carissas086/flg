@@ -2,9 +2,9 @@
 
 	var logoFile	= "FLC-logo-cut",
 		logocolour	= "#5c3e56",
-		galleryMax	= "23",
+		galleryMax	= "34",				// set for easter23
 		currGal		= "easter23",
-		latestGal	= "christmas22";
+		latestGal	= "easter23";
 
 // =====================
 // ======== FIN ========
@@ -107,7 +107,7 @@ $(document).ready(function() {
 				} else if (trackId >= 24 && trackId <= 34) {
 					exSetGal('easter23');
 				} else {
-					console.log('end');
+					return;
 				}
 
 				function exSetGal(galTag) {

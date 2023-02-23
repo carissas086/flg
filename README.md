@@ -1,11 +1,11 @@
 **CURRENT GALLERY TAG: easter23**
 
-__1 + 1 pages__
-__1 + 1 galleries__
-__23 + 1 artworks__
+__1 pages__
+__2 galleries__
+__34 artworks__
 
 
-# Fraser Lands Gallery, v1.1 
+# Fraser Lands Gallery, v1.2
 
 __Please note:__
 - Most adjustments should only need to be made in .php partials, and in functions.js. See below for more details
@@ -31,7 +31,7 @@ Please look to the following for gallery specific adjustments:
   - To change the colour of the gallery logo:
     - edit on 'functions.js:4'
   - To change the header image:
-    - set .header-image url in 'main.css:135'
+    - set .header-image url in 'main.css:143'
 
 #### IMAGE SIZES
 
@@ -44,22 +44,35 @@ Process imagery, as much as possible, to the following:
 ### GALLERY EDITS
 
 #### **To setup new gallery** ####
+
+- The following banner images are required:
+  - _TAG_ _intro-banner.jpg (this goes in the header for the gallery)
+  - _TAG_ _meta-banner.jpg (this is social meta data)
+  - *_TAG_ _about-banner.jpg (this is optional, depending on what is wanted for that gallery)
   
 - Create the following in '/galleries':
   - _TAG_ (this houses all the files for that gallery EXCEPT the gallery stylesheet)
   - _TAG_ artwork (this houses all the artwork partials)
   - _TAG_ grid.php (this will call all the artwork partials)
   - _TAG_ head.php (this will replace the landing header)
-- Set the following:
-  - Landing section partial on '**index.php:78**'
-  - New grid partial on '**index.php:89**'
-- Add a new stylesheet for the gallery in '/styles/gallery-styles' with the name '**_TAG_.css**'
-  - Add stylesheet in '/galleries/**galleryspecstyles.php**'
+- Add the following:
+  - Landing section partial at '**index.php:37**'
+  - New grid partial on '**index.php:53**'
+- Set stylesheet for new gallery in '/galleries/**galleryspecstyles.php:1**'
+- Set the primary colour for logos on **functions.js:4**
+  - Add the same primary colour in a new variable called _logoTAG_ at **openscripts.js:3**
+- Set _TAG_ as the current gallery and latest gallery on **functions.js:6–7**
+  - In the case that the new gallery is not yet live (but the old one is being archived out), set ONLY the current gallery to the new gallery tag, and only update the latest gallery tag when the gallery goes live
+- Set gallery styling rules on **functions.js:101**
+  - create a new _else if_
+  - adjusting for the next set of artwork tag numbers in the conditional
+  - pass the _TAG_ through _exSetGal_ function
 - Set new OG Metatags in '**metatags.php**'
   - Change the description on **metatags.php:5**
   - Change the image on **line 6** and it's dimensions on **metatags.php:7-8**
+- If requested, a new gallery about banner may be set at **index.php:100** (thereabouts)
 
-#### ADDING TO THE GRID
+#### ADDING ITEM TO THE GRID
 - Duplicate the artwork partial template at '**/desk/tag##.php**' and move to the gallery's artwork folder
 - Rename: _TAG_##.php
 - Add tags on **line2**
@@ -86,6 +99,8 @@ The partial template is set up to be editable as such:
 - Full Image (& alt tag) : **line 11**
   - Remove class 'video' when video/audio element not used on **line 4**
 - Video : **line 13**
+  - for looping, non-audio specific videos, use the following opening tag attributes: _playsinline autoplay loop_
+  - DO NOT REMOVE _onloadstart_
 - Title : **line20**
 - Artwork Author Photo: **line 28**
 - Artwork Author : **line29**
@@ -96,13 +111,14 @@ The partial template is set up to be editable as such:
   - within p tag as on **line 24**
   - with verse number in the sup tag on **line 24**
   - with the reference in a p tag as on **line 25**
-- Hyperlinks : within a span tag as demontrated on **line37**
+- Hyperlinks : within a span tag as demonstrated on **line37**
 
 All text that **is not** in English, please tag using the appropriate language attribute. If within paragraph text, use span as on **line 38**. Shortlist of language codes are:
 - Catalan : ca
 - Chinese Simplified : zh-Hans
 - Chinese Traditional : zh-Hant
 - French : fr
+- Greek : el
 - Hebrew : he
 - Korean : ko
 - Latin : la
@@ -124,24 +140,28 @@ Reminder: after partial editing is complete, **delete unnecessary sections**.
 
 The current lists of gallery tags are as follows:
 - **christmas22** (A Christmas Art Exhibit, Christmas 2022)
+- **easter23** (An Easter Art Exhibit, Easter 2023)
 
 Gallery tag filters are generated as such: **g-_TAG_**
 
 ##### Artwork Mediums Filter List
 
 The current artwork mediums filters are as follows:
-- m-comic
 - m-digitalart
 - m-mixedmedia
 - m-painting
 - m-photograph
+- m-poetry
 
 These artwork medium filters are set up but not connected:
 - m-arcrylic
+- m-comic
 - m-composite
+- m-pastel
 - m-quilt
 - m-shadowbox
 - m-watercolour
+- m-writing
 - m-3d
 
 ---

@@ -9,7 +9,7 @@
                 <div class="aside-img">
                     <div class="aside-top">
                         <img src="images/" alt="">
-                        <video controls playsinline onloadstart="this.volume=0.2;">
+                        <video controls playsinline onloadstart="this.volume=0.2;" poster="images/">
                             <source src="images/" type="video/mp4">
                             Your browser does not support the video tag :(
                         </video>

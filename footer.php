@@ -1,5 +1,5 @@
 <footer class="footer is-flex flex-centers">
-    <p>&copy; 2022 Fraser Lands Gallery</p>
+    <p>&copy; 2023 Fraser Lands Gallery</p>
         <div>
             <ul class="social is-flex">
                 <li><a href="https://fraserlands.ca/" title="Visit Fraser Lands Church" target="_blank"><img src="images/FLC-logo-cutW.png" alt="Fraser Lands Church Logo" class="ft-flc"></a></li>
@@ -24,3 +24,9 @@
         LOGO COLOUR FUNCTION
     == -->
         <script src="scripts/functions.js"></script>
+        
+    <!-- == IMAGES LOADED == -->
+        <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
+    <!-- == ISOTOPE == -->
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
