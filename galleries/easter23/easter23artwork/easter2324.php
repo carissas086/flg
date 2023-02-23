@@ -8,7 +8,7 @@
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg33.png" alt="Oil on plastic pane illustration inspired by the Legend of the Sand Dollar">
+                        <img src="images/flg33.jpg" alt="Oil on plastic pane illustration inspired by the Legend of the Sand Dollar">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
