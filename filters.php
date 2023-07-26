@@ -16,6 +16,12 @@
                 id="filter-easter23">
                 Easter 2023
             </li>
+            <li
+                data-filter=".g-aug23"
+                onclick="setCSS('aug23');"
+                id="filter-aug23">
+                August 2023
+            </li>
 
         </ul>
     </div>

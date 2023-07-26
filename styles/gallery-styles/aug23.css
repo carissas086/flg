@@ -1,0 +1,142 @@
+/* 
+
+COPIED OVER, NOT CLEANED UP
+
+Gallery Head Styles
+.aug23-intro-img > sets background image through background-image: url(../../images/.jpg);
+.aug23-header > general header font
+.aug23-title > title font
+
+Entry Styles
+.aug23-header > sets title h3
+.aug23-byline > sets biobox name
+
+*/
+
+
+
+
+
+
+/* ==== God's Covenant Love EXHIBIT
+    orange:             #f39437;
+    pink:               #db94c0;
+        dark purple:    #5c3e56;
+    white:              #ffffff;
+
+    font:       poppins, sans-serif;
+==== */
+
+/* ==== LANDING BACKGROUND IMG ==== */
+.aug23-intro-img {
+    /* background-image: url(../../images/easter23_banner-wh.jpg); */
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-color: #db94c0;
+}
+
+/* ==== TYPOGRAPHY ==== */
+.aug23-title {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-size: 3.25rem;
+
+    line-height: 4.5rem;
+    padding: 0 2vw;
+}
+    @media (min-width: 687px) {
+        .aug23-title {
+            font-size: 5rem;
+
+        }
+    }
+
+.aug23-header {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aug23-header h3 {
+    text-transform: none;
+}
+
+.aug23-header p {
+    text-transform: none;
+    font-weight: 500;
+}
+
+.flg29-ref {
+    font-size: .85rem;
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.flg29-foot {
+    padding-top: 0;
+}
+
+.flg29-bold {
+    font-weight: 500;
+}
+
+.flg29-ref .superref {
+    font-size: .55rem;
+}
+
+.flg29-indent {
+    margin-left: .59rem;
+}
+
+.flg29-indent-dub {
+    margin-left: .69rem;
+}
+
+.flg29-med {
+    margin-top: 4vh;
+}
+
+.flg24-verse {
+    margin-bottom: .75rem;
+}
+
+/* ==== TEXT COLOURS ==== */
+.hyperlink, .bold, .gal-filter li:hover, .is-selected, .byline, .medium, .about-text h3 {
+    color: #ffffff;
+}
+    
+p, .button p, .button a, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call, .aside-header {
+    color: #ffffff;
+}
+
+.gn a, .aug23-title, .aug23-header, .aug23-header p, .button:hover p, .aug23-verse-box p, .land-ack p, .about-text p {
+    color: #5c3e56;
+}
+
+/* ==== BACKGROUND COLOURS ==== */
+#top-gn, .button {
+    background-color: #f39437;
+}
+
+#galleryhd, .footer, .pullout-panel {
+    background-color: #5c3e56;
+}
+
+/* ==== BORDER COLOURS ==== */
+.mediums-list, .fil-medium {
+    border-color: #f39437;
+}
+
+.button:hover {
+    border: #5c3e56 solid 4px;
+}
+
+hr {
+    border: #f39437 solid .25px;
+}
+
+#flg29-end {
+    border: #f39437 solid .25px;
+}
