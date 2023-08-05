@@ -36,6 +36,7 @@
 
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
             <section id="landing">
+                <?php include __DIR__ . '/galleries/aug23/aug23head.php'; ?>
                 <?php include __DIR__ . '/galleries/easter23/easter23head.php'; ?>
                 <?php include __DIR__ . '/galleries/christmas22/christmas22head.php'; ?>
             </section>
@@ -52,6 +53,7 @@
 
                             <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
                                 <section class="grid">
+                                    <?php  include __DIR__ . '/galleries/aug23/aug23grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/easter23/easter23grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/christmas22/christmas22grid.php'; ?>
                                 </section>
@@ -97,7 +99,7 @@
             </section>
             <section id="about" class="is-flex flex-centers">
                 <div class="about-img">
-                    <img src="images/easter23-about-banner.jpg" alt="3D illustration of an empty tomb on easter morning">
+                    <img src="images/aug23-about-banner.jpg" alt="Glowing cross on a bed of hearts in 2 red hearts">
                 </div>
                 <div class="about-text">
                     <h3 class="head-font">About Us</h3>
