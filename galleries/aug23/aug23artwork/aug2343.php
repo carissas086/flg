@@ -1,5 +1,5 @@
 <!-- FLG43 -->
-<div class="grid-item g-aug23 m-comic a-019">
+<div class="grid-item g-aug23 m-arcrylic m-painting a-006">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile video" id="flg43">
         <img src="images/flg43_thumb.jpg" alt="">
@@ -13,16 +13,12 @@
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <!-- <h3 class="head-font aside-header"></h3> -->
-                        <p class="medium italics bold">Comic Illustration</p>
-                        <p>&ldquo;Where you go I will go, and where you stay I will stay&hellip;&rdquo; (Ruth 1:16)</p>
-                        <p>There are tough times in our life journey&hellip;</br>Did someone walk you through those days?</br>Or, you&apos;re the one who walked with someone?</p>
-                        <p>In any case, we can learn something from Ruth and Naomi about being a supportive Buddy.</p>
-                        <p>Their story also showed us how God led His loved ones through &ldquo;things&rdquo;&hellip;</p>
-                        <p>Sometimes there could be a long wait, but God does promise us: the tough days will be over, eventually!</p>
+                        <h3 class="head-font aside-header">Embraced by God&apos;s Love</h3>
+                        <p class="medium italics bold">Acrylic Painting</p>
+                        <p>Only Jesus is the absolute practitioner of God&apos;s covenant love.</br>Under His grace and mercy, we bring our brokenness to Him for cleansing and healing.</br>We begin learning to live out His love by following and walking towards Him with the people around us while</br>surrounded by His covenant love.</p>
                         <div class="is-flex bio-box">
-                            <img src="images/YC-Chan_2211.jpg" alt="Photo of YC Chiu">
-                            <p class="byline">by: YC (Chiu)</p>
+                            <img src="images/Clara-Yeung_2211.jpg" alt="Photo of Clara Yeung">
+                            <p class="byline">by: Clara Yeung-Leong</p>
                         </div>
                     </div>
                 </div>
