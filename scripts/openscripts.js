@@ -2,7 +2,7 @@
 
     var logochristmas22 = "#182945",
         logoeaster23    = "#5c3e56";
-        logoaug23    = "#f39437";
+        logoaug23       = "#971214";
 
     function setCSS(tag) {
         var galStyle        = document.querySelector("#gal-css"),

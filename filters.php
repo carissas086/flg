@@ -20,7 +20,7 @@
                 data-filter=".g-aug23"
                 onclick="setCSS('aug23');"
                 id="filter-aug23">
-                August 2023
+                God's Covenant Love 2023
             </li>
 
         </ul>
