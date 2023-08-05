@@ -1,5 +1,5 @@
 <!-- FLG41 -->
-<div class="grid-item g-aug23 m-arcrylic m-painting a-017">
+<div class="grid-item g-aug23 m-digitalart a-003">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile video" id="flg41">
         <img src="images/flg41_thumb.jpg" alt="">
@@ -14,16 +14,11 @@
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
                         <!-- <h3 class="head-font aside-header"></h3> -->
-                        <p class="medium italics bold">Acrylic Painting</p>
-                        <p>When I first thought of the characteristics of Ruth, I thought of &ldquo;loyal&rdquo;. So why a dog? A dog is the most loyal animal, so I decided to draw a dog. In this painting the dog symbolizes how loyal Ruth was to Naomi. In Proverbs 3:3 it says:</p>
-                        <div class="verse-box">
-                            <p class="verse"><sup>3 </sup>Let love and faithfulness never leave you; bind them around your neck, write them on the tablet of your heart.</p>
-                            <p class="ref">Pro 3:3 [NIV]</p>
-                        </div>
-                        <p>We should be loyal to God and devote ourselves to him daily.</p>
+                        <p class="medium italics bold">Digital Painting</p>
+                        <p>When I read about the theme of God&apos;s covenant love, I envisioned how we sometimes wander away from God, but He is always there trying to pull us back in. I imagined God&apos;s &ldquo;pinky promise&rdquo; to us being tied by an invisible, unbreakable string, tugging at us to return when we&apos;ve strayed too far. We can be enveloped in his love and light if we just turn to His arms that are reaching out for us. In a world where love is uncertain, I found peace knowing that God made me to love Him, and He made me to be loved by Him.</p>
                         <div class="is-flex bio-box">
-                            <img src="images/Tiffany-Ng_2211.jpg" alt="Photo of Tiffany Ng">
-                            <p class="byline">by: Tiffany Ng</p>
+                            <img src="images/Ashley-Cheung_2211.jpg" alt="Photo of Ashley Cheung">
+                            <p class="byline">by: Ashley Cheung</p>
                         </div>
                     </div>
                 </div>
