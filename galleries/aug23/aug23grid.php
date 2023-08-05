@@ -7,7 +7,7 @@
         <?php include __DIR__ . '/aug23artwork/aug2339.php'; ?>
         <?php include __DIR__ . '/aug23artwork/aug2340.php'; ?>
         <?php include __DIR__ . '/aug23artwork/aug2341.php'; ?>
-        <?php // include __DIR__ . '/aug23artwork/aug2342.php'; ?>
+        <?php include __DIR__ . '/aug23artwork/aug2342.php'; ?>
         <?php // include __DIR__ . '/aug23artwork/aug2343.php'; ?>
         <?php // include __DIR__ . '/aug23artwork/aug2344.php'; ?>
         <?php // include __DIR__ . '/aug23artwork/aug2345.php'; ?>
