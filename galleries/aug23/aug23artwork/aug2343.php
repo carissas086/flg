@@ -1,5 +1,5 @@
 <!-- FLG43 -->
-<div class="grid-item g-aug23 m-arcrylic m-painting a-006">
+<div class="grid-item g-aug23 m-photograph a-020">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile video" id="flg43">
         <img src="images/flg43_thumb.jpg" alt="">
@@ -13,12 +13,18 @@
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <h3 class="head-font aside-header">Embraced by God&apos;s Love</h3>
-                        <p class="medium italics bold">Acrylic Painting</p>
-                        <p>Only Jesus is the absolute practitioner of God&apos;s covenant love.</br>Under His grace and mercy, we bring our brokenness to Him for cleansing and healing.</br>We begin learning to live out His love by following and walking towards Him with the people around us while</br>surrounded by His covenant love.</p>
+                        <h3 class="head-font aside-header"></h3>
+                        <p class="medium italics bold">Photograph</p>
+                        <div class="verse-box">
+                            <p class="verse"><sup>16 </sup>But Ruth replied, &ldquo;Don&apos;t urge me to leave you or to turn back from you. Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.</p>
+                            <p class="verse"><sup>17 </sup>Where you die I will die, and there I will be buried. May the Lord deal with me, be it ever so severely, if even death separates you and me.&rdquo;</p>
+                            <p class="ref">Ruth 1:16&ndash;17 [NIV]</p>
+                        </div>
+                        <p>Ruth&apos;s steadfast mind and love was reflected in the way she was holding Naomi&apos;s hands. It also reminds me Our Heavenly Father never gives up on us in the same way.</p>
+                        <p>Thank you Ling Po, Lemon and 007 for your help with that photo project.</p>
                         <div class="is-flex bio-box">
-                            <img src="images/Clara-Yeung_2211.jpg" alt="Photo of Clara Yeung">
-                            <p class="byline">by: Clara Yeung-Leong</p>
+                            <img src="images/Pearl-Chan_2211.jpg" alt="Photo of Pearl Chan">
+                            <p class="byline">by: Pearl Chan</p>
                         </div>
                     </div>
                 </div>
