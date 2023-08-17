@@ -1,5 +1,5 @@
 <!-- FLG46 -->
-<div class="grid-item g-aug23 m- a-025">
+<div class="grid-item g-aug23 m-sculpture a-025">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile video" id="flg46">
         <img src="images/flg46_thumb.jpg" alt="">
@@ -8,13 +8,16 @@
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg46.jpg" alt="">
+                        <video playsinline autoplay loop onloadstart="this.volume=0.2;" poster="images/flg46_thumb.jpg">
+                            <source src="images/flg46.mp4" type="video/mp4">
+                            <img src="images/flg46_thumb.jpg" title="Your browser does not support the video tag :(">
+                        </video>
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
                         <h3 class="head-font aside-header">Surrounding</h3>
-                        <p class="medium italics bold"></p>
+                        <p class="medium italics bold">Sculpture</p>
                         <p>God loves us. He loves everyone in the world. His love is great, rich & measureless.</p>
                         <p>The love of God is always surrounding us.</p>
                         <p>As you stand under this sculpture, reflect on God's love for you.</p>
