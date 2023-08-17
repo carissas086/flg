@@ -9,7 +9,7 @@
         <?php include __DIR__ . '/aug23artwork/aug2341.php'; ?>
         <?php include __DIR__ . '/aug23artwork/aug2342.php'; ?>
         <?php include __DIR__ . '/aug23artwork/aug2343.php'; ?>
-        <?php // include __DIR__ . '/aug23artwork/aug2344.php'; ?>
-        <?php // include __DIR__ . '/aug23artwork/aug2345.php'; ?>
-        <?php // include __DIR__ . '/aug23artwork/aug2346.php'; ?>
-        <?php // include __DIR__ . '/aug23artwork/aug2347.php'; ?>
+        <?php include __DIR__ . '/aug23artwork/aug2344.php'; ?>
+        <?php include __DIR__ . '/aug23artwork/aug2345.php'; ?>
+        <?php include __DIR__ . '/aug23artwork/aug2346.php'; ?>
+        <?php include __DIR__ . '/aug23artwork/aug2347.php'; ?>
