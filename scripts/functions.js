@@ -2,7 +2,7 @@
 
 	var logoFile	= "FLC-logo-cut",
 		logocolour	= "#971214",
-		galleryMax	= "43",				// some set for aug23
+		galleryMax	= "47",				// some set for aug23
 		currGal		= "aug23",
 		latestGal	= "aug23";
 
@@ -106,7 +106,7 @@ $(document).ready(function() {
 					exSetGal('christmas22');
 				} else if (trackId >= 24 && trackId <= 34) {
 					exSetGal('easter23');
-				} else if (trackId >= 35 && trackId <= 43) {
+				} else if (trackId >= 35 && trackId <= 47) {
 					exSetGal('aug23');
 				} else {
 					return;

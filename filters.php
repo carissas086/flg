@@ -40,8 +40,9 @@
                 <!-- <li data-filter=".m-pastel">Pastel</li> -->
                 <li data-filter=".m-photograph">Photograph</li>
                 <!-- <li data-filter=".m-poetry">Poetry</li> -->
-                <!-- <li data-filter=".m-quilt">Quilt</li>
-                <li data-filter=".m-shadowbox">Shadow Box</li> -->
+                <!-- <li data-filter=".m-quilt">Quilt</li> -->
+                <li data-filter=".m-sculpture">Sculpture</li>
+                <!-- <li data-filter=".m-shadowbox">Shadow Box</li> -->
                 <!-- <li data-filter=".m-watercolour">Watercolour</li> -->
                 <!-- <li data-filter=".m-writing">Writing</li> -->
                 <!-- <li data-filter=".m-3d">3D Illustration</li> -->
