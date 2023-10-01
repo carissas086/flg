@@ -11,6 +11,7 @@
 
         <!-- ==== STYLESHEETS ==== -->
             <link rel="stylesheet" href="https://use.typekit.net/kqc7bpl.css">
+            <link rel="stylesheet" href="https://use.typekit.net/aqc7yqk.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
             <!-- ==== General Styles ==== -->
@@ -36,6 +37,7 @@
 
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
             <section id="landing">
+                <?php include __DIR__ . '/galleries/fall23/fall23head.php'; ?>
                 <?php include __DIR__ . '/galleries/aug23/aug23head.php'; ?>
                 <?php include __DIR__ . '/galleries/easter23/easter23head.php'; ?>
                 <?php include __DIR__ . '/galleries/christmas22/christmas22head.php'; ?>
@@ -53,6 +55,7 @@
 
                             <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
                                 <section class="grid">
+                                    <?php  include __DIR__ . '/galleries/fall23/fall23grid.php'; ?>
                                     <?php  include __DIR__ . '/galleries/aug23/aug23grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/easter23/easter23grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/christmas22/christmas22grid.php'; ?>
@@ -99,7 +102,7 @@
             </section>
             <section id="about" class="is-flex flex-centers">
                 <div class="about-img">
-                    <img src="images/aug23-about-banner.jpg" alt="Glowing cross on a bed of hearts in 2 red hearts">
+                    <img src="images/fall23-about-banner.jpg" alt="Silhouette of a man standing in a field staring at a setting sun">
                 </div>
                 <div class="about-text">
                     <h3 class="head-font">About Us</h3>
