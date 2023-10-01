@@ -1,0 +1,93 @@
+:root {
+    --fall23-font-fam: kudryashev-d-contrast, sans-serif;
+    --fall23-col-pri: #603B40;
+    --fall23-col-sec: #CDB984;
+    --fall23-col-acc: #ffffff;
+}
+
+/* ==== LANDING BACKGROUND IMG ==== */
+.fall23-intro-img:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    z-index: -10;
+    
+    background-image: url(../../images/fall23_intro-banner.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+
+/* ==== TYPOGRAPHY ==== */
+.fall23-title {
+    font-family: var(--fall23-font-fam);
+    font-weight: 400;
+    font-size: 3.25rem;
+    color: var(--fall23-col-pri);
+
+    line-height: 4.5rem;
+    padding: 0 2vw;
+}
+    @media (min-width: 687px) {
+        .fall23-title {
+            font-size: 5rem;
+
+        }
+    }
+
+.fall23-header {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fall23-header h3 {
+    text-transform: none;
+}
+
+.fall23-header p {
+    text-transform: none;
+    font-weight: 500;
+}
+
+/* ==== TEXT COLOURS ==== */
+.hyperlink, .bold, .about-text h3, .head-font, .button:hover p, .about-text p, .force-dark:hover {
+    color: var(--fall23-col-pri);
+}
+    
+.gn a, p, .button p, .gal-filter li:hover, .button a, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .insta-call, .insta-call a, .aside-header  {
+    color: var(--fall23-col-acc);
+}
+
+.is-selected, .fall23-header, .fall23-header p, .fall23-verse-box p, .land-ack p, .medium, .byline, .social a:hover {
+    color: var(--fall23-col-sec);
+}
+
+/* ==== BACKGROUND COLOURS ==== */
+#top-gn, .button {
+    background-color: var(--fall23-col-pri);
+}
+
+#galleryhd, .footer, .pullout-panel {
+    background-color: var(--fall23-col-pri);
+}
+
+/* ==== BORDER COLOURS ==== */
+.mediums-list, .fil-medium {
+    border-color: var(--fall23-col-acc);
+}
+
+.button:hover {
+    border: var(--fall23-col-pri) solid 4px;
+}
+
+hr {
+    border: var(--fall23-col-acc) solid .25px;
+}
+
+#flg29-end {
+    border: var(--fall23-col-pri) solid .25px;
+}
