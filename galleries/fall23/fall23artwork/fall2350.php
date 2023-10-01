@@ -2,13 +2,13 @@
 <div class="grid-item g-fall23 m-arcrylic m-painting a-013">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile video" id="flg50">
-        <img src="images/flg50_thumb.jpg" alt="">
+        <img src="images/flg50_thumb.jpg" alt="Acrylic painting of an angel defending a man from a lion">
 
         <!-- ==== FLG50 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg50.jpg" alt="">
+                        <img src="images/flg50.jpg" alt="Acrylic painting of an angel defending a man from a lion">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">

@@ -2,13 +2,13 @@
 <div class="grid-item g-fall23 m-arcrylic m-painting a-006">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile video" id="flg49">
-        <img src="images/flg49_thumb.jpg" alt="">
+        <img src="images/flg49_thumb.jpg" alt="Acrylic painting about being a Christian in today's world">
 
         <!-- ==== FLG49 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg49.jpg" alt="">
+                        <img src="images/flg49.jpg" alt="Acrylic painting about being a Christian in today's world">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">

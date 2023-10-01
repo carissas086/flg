@@ -2,13 +2,13 @@
 <div class="grid-item g-fall23 m-photograph a-007">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile video" id="flg48">
-        <img src="images/flg48_thumb.jpg" alt="">
+        <img src="images/flg48_thumb.jpg" alt="Photo of an open flame in an oven being stoked">
 
         <!-- ==== FLG48 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg48.jpg" alt="">
+                        <img src="images/flg48.jpg" alt="Photo of an open flame in an oven being stoked">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
