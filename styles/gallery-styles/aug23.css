@@ -141,7 +141,7 @@ Entry Styles
 
 /* ==== BORDER COLOURS ==== */
 .mediums-list, .fil-medium {
-    border-color: #971214;
+    border-color: #fff;
 }
 
 .button:hover {
@@ -149,7 +149,7 @@ Entry Styles
 }
 
 hr {
-    border: #971214 solid .25px;
+    border: #fff solid .25px;
 }
 
 #flg29-end {

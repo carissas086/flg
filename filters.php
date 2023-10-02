@@ -22,6 +22,12 @@
                 id="filter-aug23">
                 God's Covenant Love 2023
             </li>
+            <li
+                data-filter=".g-fall23"
+                onclick="setCSS('fall23');"
+                id="filter-fall23">
+                Fall 2023
+            </li>
 
         </ul>
     </div>
@@ -34,14 +40,14 @@
                 <!-- <li data-filter=".m-arcrylic">Arcrylic</li> -->
                 <li data-filter=".m-comic">Comic Illustration</li>
                 <!-- <li data-filter=".m-composite">Composite Photograph</li> -->
-                <li data-filter=".m-digitalart">Digital Art</li>
+                <!-- <li data-filter=".m-digitalart">Digital Art</li> -->
                 <!-- <li data-filter=".m-mixedmedia">Mixed Media</li> -->
                 <li data-filter=".m-painting">Painting</li>
                 <!-- <li data-filter=".m-pastel">Pastel</li> -->
                 <li data-filter=".m-photograph">Photograph</li>
                 <!-- <li data-filter=".m-poetry">Poetry</li> -->
                 <!-- <li data-filter=".m-quilt">Quilt</li> -->
-                <li data-filter=".m-sculpture">Sculpture</li>
+                <!-- <li data-filter=".m-sculpture">Sculpture</li> -->
                 <!-- <li data-filter=".m-shadowbox">Shadow Box</li> -->
                 <!-- <li data-filter=".m-watercolour">Watercolour</li> -->
                 <!-- <li data-filter=".m-writing">Writing</li> -->
