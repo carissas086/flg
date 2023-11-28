@@ -73,6 +73,8 @@ p {
         border: #fff solid 4px;
         background-color: transparent;
         color: #fff;
+
+        cursor: pointer;
     }
 
     .button:hover a {
