@@ -1,0 +1,96 @@
+:root {
+    --christmas23-font-fam: kudryashev-d-contrast, sans-serif;
+    --christmas23-col-acc: #d1a791;
+    --christmas23-col-sec: #8f471f;
+    --christmas23-col-pri: #f3ebe1;
+}
+
+
+
+
+/* ==== LANDING BACKGROUND IMG ==== */
+.christmas23-intro-img:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    z-index: -10;
+    
+    background-image: url(../../images/christmas23_intro-banner.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+
+/* ==== TYPOGRAPHY ==== */
+.christmas23-title {
+    font-family: var(--christmas23-font-fam);
+    font-weight: 400;
+    font-size: 3.25rem;
+    color: var(--christmas23-col-pri);
+
+    line-height: 4.5rem;
+    padding: 0 2vw;
+}
+    @media (min-width: 687px) {
+        .christmas23-title {
+            font-size: 5rem;
+
+        }
+    }
+
+.christmas23-header {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.christmas23-header h3 {
+    text-transform: none;
+}
+
+.christmas23-header p {
+    text-transform: none;
+    font-weight: 500;
+}
+
+/* ==== TEXT COLOURS ==== */
+.hyperlink, .bold {
+    color: var(--christmas23-col-pri);
+}
+    
+.button a, #toplink, .medium, .aside-header, .gal-filter li:hover, .head-font, .christmas23-header, .christmas23-header p, .about-text h3 {
+    color: var(--christmas23-col-acc);
+}
+
+.gn a, p, .is-selected, .force-dark:hover, .christmas23-title, .about-text p, .button p, .button:hover p, .christmas23-verse-box p, .land-ack p, .aside-header, .byline, .insta-call, .insta-call a, .social a:hover, .hyperlink:hover, .gal-filter, .gal-select {
+    color: var(--christmas23-col-sec);
+}
+
+/* ==== BACKGROUND COLOURS ==== */
+#top-gn, .button, .footer {
+    background-color: var(--christmas23-col-acc);
+}
+
+#galleryhd, .pullout-panel {
+    background-color: var(--christmas23-col-pri);
+}
+
+/* ==== BORDER COLOURS ==== */
+.mediums-list, .fil-medium {
+    border-color: var(--christmas23-col-acc);
+}
+
+.button:hover {
+    border: var(--christmas23-col-acc) solid 4px;
+}
+
+hr {
+    border: var(--christmas23-col-acc) solid .25px;
+}
+
+#flg29-end {
+    border: var(--christmas23-col-pri) solid .25px;
+}

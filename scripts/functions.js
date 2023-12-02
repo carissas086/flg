@@ -1,10 +1,10 @@
 // ==== THINGS TO EDIT ====
 
 	var logoFile	= "FLC-logo-cut",
-		logocolour	= "#603B40",
-		galleryMax	= "50",				// slow set for fall23
-		currGal		= "fall23",
-		latestGal	= "fall23";
+		logocolour	= "#8f471f",
+		galleryMax	= "57",				// uploading for christmas 23
+		currGal		= "christmas23",
+		latestGal	= "christmas23";
 
 // =====================
 // ======== FIN ========
@@ -107,8 +107,10 @@ $(document).ready(function() {
 					exSetGal('easter23');
 				} else if (trackId >= 35 && trackId <= 47) {
 					exSetGal('aug23');
-				} else if (trackId >= 48 && trackId <= 50) {
+				} else if (trackId >= 48 && trackId <= 51) {
 					exSetGal('fall23');
+				} else if (trackId >= 52 && trackId <= 57) {
+					exSetGal('christmas23');
 				} else {
 					return;
 				}

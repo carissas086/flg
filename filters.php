@@ -28,6 +28,12 @@
                 id="filter-fall23">
                 Fall 2023
             </li>
+            <li
+                data-filter=".g-christmas23"
+                onclick="setCSS('christmas23');"
+                id="filter-christmas23">
+                Magnificat 2023
+            </li>
 
         </ul>
     </div>
