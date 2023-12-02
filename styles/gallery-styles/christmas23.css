@@ -1,8 +1,8 @@
 :root {
-    /* --christmas23-font-fam: kudryashev-d-contrast, sans-serif; */
-    --christmas23-col-pri: #8f471f;
-    --christmas23-col-sec: #d1a791;
-    --christmas23-col-acc: #f0d0a1;
+    --christmas23-font-fam: kudryashev-d-contrast, sans-serif;
+    --christmas23-col-acc: #d1a791;
+    --christmas23-col-sec: #8f471f;
+    --christmas23-col-pri: #f3ebe1;
 }
 
 
@@ -57,24 +57,24 @@
 }
 
 /* ==== TEXT COLOURS ==== */
-.hyperlink, .bold, .about-text h3, .head-font, .button:hover p, .about-text p, .force-dark:hover {
+.hyperlink, .bold {
     color: var(--christmas23-col-pri);
 }
     
-.gn a, p, .button p, .gal-filter li:hover, .button a, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .insta-call, .insta-call a, .aside-header  {
+.button a, #toplink, .medium, .aside-header, .gal-filter li:hover, .head-font, .christmas23-header, .christmas23-header p, .about-text h3 {
     color: var(--christmas23-col-acc);
 }
 
-.is-selected, .christmas23-header, .christmas23-header p, .christmas23-verse-box p, .land-ack p, .medium, .byline, .social a:hover {
+.gn a, p, .is-selected, .force-dark:hover, .christmas23-title, .about-text p, .button p, .button:hover p, .christmas23-verse-box p, .land-ack p, .aside-header, .byline, .insta-call, .insta-call a, .social a:hover, .hyperlink:hover, .gal-filter, .gal-select {
     color: var(--christmas23-col-sec);
 }
 
 /* ==== BACKGROUND COLOURS ==== */
-#top-gn, .button {
-    background-color: var(--christmas23-col-pri);
+#top-gn, .button, .footer {
+    background-color: var(--christmas23-col-acc);
 }
 
-#galleryhd, .footer, .pullout-panel {
+#galleryhd, .pullout-panel {
     background-color: var(--christmas23-col-pri);
 }
 
@@ -84,7 +84,7 @@
 }
 
 .button:hover {
-    border: var(--christmas23-col-pri) solid 4px;
+    border: var(--christmas23-col-acc) solid 4px;
 }
 
 hr {
