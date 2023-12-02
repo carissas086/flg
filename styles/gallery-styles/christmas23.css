@@ -1,5 +1,6 @@
 :root {
-    --christmas23-font-fam: kudryashev-d-contrast, sans-serif;
+    --christmas23-font-fam: dolce, sans-serif;
+    --christmas23-font-fam-sec: proxima-nova, sans-serif;
     --christmas23-col-acc: #d1a791;
     --christmas23-col-sec: #8f471f;
     --christmas23-col-pri: #f3ebe1;
@@ -19,7 +20,7 @@
     z-index: -10;
     
     background-image: url(../../images/christmas23_intro-banner.jpg);
-    background-position: center top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: screen;
@@ -29,7 +30,7 @@
 .christmas23-title {
     font-family: var(--christmas23-font-fam);
     font-weight: 400;
-    font-size: 3.25rem;
+    font-size: 10rem;
     color: var(--christmas23-col-pri);
 
     line-height: 4.5rem;
@@ -41,6 +42,15 @@
 
         }
     }
+
+p {
+    font-family: var(--christmas23-font-fam-sec);
+    font-size: 1.05rem;
+}
+
+.bold {
+    font-weight: 800;
+}
 
 .christmas23-header {
     text-transform: uppercase;
