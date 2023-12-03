@@ -1,10 +1,10 @@
 // ==== THINGS TO EDIT ====
 
 	var logoFile	= "FLC-logo-cut",
-		logocolour	= "#603B40",
-		galleryMax	= "50",				// slow set for fall23
-		currGal		= "fall23",
-		latestGal	= "fall23";
+		logocolour	= "#8f471f",
+		galleryMax	= "65",				// incl christmas 23 (before Kalena Gunn)
+		currGal		= "christmas23",
+		latestGal	= "christmas23";
 
 // =====================
 // ======== FIN ========
@@ -107,11 +107,14 @@ $(document).ready(function() {
 					exSetGal('easter23');
 				} else if (trackId >= 35 && trackId <= 47) {
 					exSetGal('aug23');
-				} else if (trackId >= 48 && trackId <= 50) {
+				} else if (trackId >= 48 && trackId <= 51) {
 					exSetGal('fall23');
+				} else if (trackId >= 52 && trackId <= 65) {
+					exSetGal('christmas23');
 				} else {
 					return;
 				}
+					// BOOKMARK: current function
 
 				function exSetGal(galTag) {
 					setCSS(galTag);

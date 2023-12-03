@@ -8,7 +8,7 @@
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg51.jpg" alt="Comic illustration of 3 dinosaurs being same from evil">
+                        <img src="images/flg51.jpg" alt="Comic illustration of 3 dinosaurs being saved from evil">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">

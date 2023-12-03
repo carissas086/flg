@@ -1,8 +1,8 @@
 **CURRENT GALLERY TAG: easter23**
 
 __1 pages__
-__4 galleries__
-__51 artworks__
+__5 galleries__
+__67 artworks__
 
 
 # Fraser Lands Gallery, v1.2
@@ -143,25 +143,29 @@ The current lists of gallery tags are as follows:
 - **easter23** (An Easter Art Exhibit, Easter 2023)
 - **aug23** (God's Covenant Love, Aug 2023)
 - **fall23** (Thriving in Exile, Fall 2023)
+- **christmas23** (Magnificat, Christmas 2023)
 
 Gallery tag filters are generated as such: **g-_TAG_**
 
 ##### Artwork Mediums Filter List
 
 The current artwork mediums filters are as follows:
-- m-comic
-- m-painting
+- m-arcrylic
+- m-drawing
 - m-photograph
+- m-poetry
+- m-sculpture
 
 These artwork medium filters are set up but not connected:
-- m-arcrylic
+- m-comic
 - m-composite
 - m-digitalart
+- m-marker
 - m-mixedmedia
+- m-painting
 - m-pastel
-- m-poetry
+- m-pen
 - m-quilt
-- m-sculpture
 - m-shadowbox
 - m-watercolour
 - m-writing
