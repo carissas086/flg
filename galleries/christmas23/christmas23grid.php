@@ -14,5 +14,5 @@
         <?php include __DIR__ . '/christmas23artwork/christmas2363.php'; ?>
         <?php include __DIR__ . '/christmas23artwork/christmas2364.php'; ?>
         <?php include __DIR__ . '/christmas23artwork/christmas2365.php'; ?>
-        <?php // include __DIR__ . '/christmas23artwork/christmas2366.php'; ?>
-        <?php // include __DIR__ . '/christmas23artwork/christmas2367.php'; ?>
+        <?php include __DIR__ . '/christmas23artwork/christmas2366.php'; ?>
+        <?php include __DIR__ . '/christmas23artwork/christmas2367.php'; ?>

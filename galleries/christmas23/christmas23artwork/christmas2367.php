@@ -8,7 +8,11 @@
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg67.jpg" alt="Drawing of light shining down on a field of flowers">
+                        <!-- <img src="images/flg67.jpg" alt="Drawing of light shining down on a field of flowers"> -->
+                        <video controls playsinline onloadstart="this.volume=0.2;" poster="images/">
+                            <source src="images/" type="video/mp4">
+                            Your browser does not support the video tag :(
+                        </video>
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
