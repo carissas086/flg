@@ -71,11 +71,11 @@ p {
     color: var(--christmas23-col-pri);
 }
     
-.button a, #toplink, .medium, .aside-header, .gal-filter li:hover, .head-font, .christmas23-header, .christmas23-header p, .about-text h3 {
+.button a, #toplink, .medium, .aside-header, .gal-filter li:hover, .head-font, .christmas23-header, .about-text h3 {
     color: var(--christmas23-col-acc);
 }
 
-.gn a, p, .is-selected, .force-dark:hover, .christmas23-title, .about-text p, .button p, .button:hover p, .christmas23-verse-box p, .land-ack p, .aside-header, .byline, .insta-call, .insta-call a, .social a:hover, .hyperlink:hover, .gal-filter, .gal-select {
+.gn a, p, .is-selected, .force-dark:hover, .christmas23-title, .about-text p, .button p, .button:hover p, .christmas23-header p, .christmas23-verse-box p, .land-ack p, .aside-header, .byline, .insta-call, .insta-call a, .social a:hover, .hyperlink:hover, .gal-filter, .gal-select {
     color: var(--christmas23-col-sec);
 }
 
@@ -101,6 +101,68 @@ hr {
     border: var(--christmas23-col-acc) solid .25px;
 }
 
-#flg29-end {
-    border: var(--christmas23-col-pri) solid .25px;
+/* ==== FLG65 ==== */
+
+.flg65-aside {
+    padding-top: 0vh;
 }
+
+.flg65-left {
+    text-align: left;
+    font-family: var(--christmas23-font-fam);
+    line-height: 1.65rem;
+    font-size: 1.75rem;
+}
+
+.flg65-centre {
+    text-align: center;
+    font-family: var(--christmas23-font-fam);
+    line-height: 1.65rem;
+    font-size: 1.75rem;
+}
+
+.flg65-centre span {
+    font-family: var(--christmas23-font-fam-sec);
+    font-size: initial;
+    color: var(--christmas23-col-acc)
+}
+
+.flg65-right {
+    text-align: right;
+    font-family: var(--christmas23-font-fam);
+    line-height: 1.65rem;
+    font-size: 1.75rem;
+}
+
+.flg65-dblreturn {
+    margin-bottom: 2rem;
+}
+    @media (max-width: 687px) {
+        .flg65-dblreturn {
+            margin-bottom: 7vh;
+
+        }
+    }
+
+.flg65-medium {
+    margin-top: 2rem;
+}
+
+.flg65-bioimg img {
+    width: 10vw;
+}
+    @media (min-width: 480px) {
+        .flg65-bioimg img {
+            width: 20vw
+        }
+    }
+    @media (min-width: 1080px) {
+        .flg65-bioimg img {
+            width: 12vw
+        }
+    }
+    @media (min-width: 1600px) {
+        .flg65-bioimg img {
+            width: 10vw
+        }
+    }
