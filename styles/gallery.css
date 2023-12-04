@@ -57,7 +57,7 @@
 		flex-wrap: wrap;
 		justify-content: space-evenly;
 		flex-direction: column;
-		padding: 2vh 3vw;
+		padding: 0vh 3vw;
 
 		text-transform: uppercase;
 		letter-spacing: 2.5px;
@@ -69,12 +69,13 @@
 			.gal-filter {
 				flex-direction: row;
 				font-size: 1rem;
+				line-height: 0;
 			}
 		}
 
-	.gal-filter li {
-		margin: 0 2vw;
-	}
+	/* .gal-filter li {
+		margin-bottom: 4vh;
+	} */
 
 	.gal-filter li:hover {
 		font-style: italic;
@@ -85,8 +86,7 @@
 		padding-bottom: 4vh;
 
 		width: 100%;
-		height: 50px;
-
+		/* height: 50%; */
 	}
 
 	.gal-choose p {
@@ -102,6 +102,7 @@
 
 			.gal-choose:hover .fil-gal {
 				display: flex;
+				margin: 0;
 			}
 		}
 
@@ -122,7 +123,7 @@
 	.fil-gal {
 		display: none;
 		position: relative;
-		width: 65%;
+		width: 100%;
 	}
 
 	.mediums-list {
@@ -135,7 +136,7 @@
 		display: none;
 		width: 100%;
 		padding-top: 0;
-		margin-bottom: 3vh;
+		padding-bottom: 2vh;
 		
 		border-bottom: solid 4px;
 	}
@@ -149,19 +150,20 @@
 	#med-select {
 		margin-bottom: 0;
 	}
-
-	.show-options {
-		display: flex;
-	}
-
+	
 	.close-selector {
 		color: transparent !important;
 	}
-
+	
 	.sel-selector {
 		font-style: italic;
 		opacity: .55;
 	}
+	
+	.show-options {
+		display: flex;
+	}
+
 
 /* ==== MASONRY GRID ==== */
 	
@@ -366,6 +368,25 @@
 			-webkit-box-shadow: 0px 5px 19px 7px rgba(0,0,0,0.19); 
 			box-shadow: 0px 5px 19px 7px rgba(0,0,0,0.19);
 		}
+
+		.aside-flex {
+			display: flex;
+			flex-direction: column;
+		}
+			@media (min-width: 687px) {
+				.aside-flex {
+					flex-direction: row;
+				}
+			}
+
+		.aside-flex img {
+			max-width: 100%;
+		}
+			@media (min-width: 687px) {
+				.aside-flex img {
+					max-width: 50%;
+				}
+			}
 
 	/* ==== WRITTEN SECTION ==== */
 
