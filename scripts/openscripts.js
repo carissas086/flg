@@ -34,6 +34,8 @@
     function galDrop() {
         document.getElementById("gal-list").classList.toggle("show-options");
         document.getElementById("gal-select").classList.toggle("close-selector");
+
+        console.log("test");
     }
 
     function medDrop() {

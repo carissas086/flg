@@ -30,7 +30,7 @@
 .christmas23-title {
     font-family: var(--christmas23-font-fam);
     font-weight: 400;
-    font-size: 10rem;
+    font-size: 4.5rem;
     color: var(--christmas23-col-pri);
 
     line-height: 4.5rem;
@@ -38,7 +38,7 @@
 }
     @media (min-width: 687px) {
         .christmas23-title {
-            font-size: 5rem;
+            font-size: 10rem;
 
         }
     }
