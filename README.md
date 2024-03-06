@@ -1,8 +1,8 @@
-**CURRENT GALLERY TAG: easter23**
+**CURRENT GALLERY TAG: easter24**
 
 __1 pages__
-__5 galleries__
-__67 artworks__
+__6 galleries__
+__74 artworks__
 
 
 # Fraser Lands Gallery, v1.2
@@ -150,22 +150,22 @@ Gallery tag filters are generated as such: **g-_TAG_**
 ##### Artwork Mediums Filter List
 
 The current artwork mediums filters are as follows:
-- m-arcrylic
-- m-drawing
+- m-mixedmedia
+- m-painting
 - m-photograph
-- m-poetry
-- m-sculpture
 
 These artwork medium filters are set up but not connected:
+- m-arcrylic
 - m-comic
 - m-composite
 - m-digitalart
+- m-drawing
 - m-marker
-- m-mixedmedia
-- m-painting
 - m-pastel
+- m-poetry
 - m-pen
 - m-quilt
+- m-sculpture
 - m-shadowbox
 - m-watercolour
 - m-writing

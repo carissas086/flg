@@ -2,9 +2,9 @@
 
 	var logoFile	= "FLC-logo-cut",
 		logocolour	= "#8f471f",
-		galleryMax	= "67",				// incl christmas 23 (before Kalena Gunn)
-		currGal		= "christmas23",
-		latestGal	= "christmas23";
+		galleryMax	= "74",				// easter24 before duplicate
+		currGal		= "easter24",
+		latestGal	= "easter24";
 
 // =====================
 // ======== FIN ========
@@ -111,6 +111,8 @@ $(document).ready(function() {
 					exSetGal('fall23');
 				} else if (trackId >= 52 && trackId <= 67) {
 					exSetGal('christmas23');
+				} else if (trackId >= 68 && trackId <= 74) {
+					exSetGal('easter24');
 				} else {
 					return;
 				}

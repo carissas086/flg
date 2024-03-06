@@ -5,6 +5,7 @@
         logoaug23       = "#971214";
         logofall23      = "#603B40";
         logochristmas23 = "#8f471f";
+        logoeaster24    = "#5c3e56";
 
     function setCSS(tag) {
         var galStyle        = document.querySelector("#gal-css"),
