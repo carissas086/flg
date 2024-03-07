@@ -1,7 +1,7 @@
 // ==== THINGS TO EDIT ====
 
 	var logoFile	= "FLC-logo-cut",
-		logocolour	= "#8f471f",
+		logocolour	= "#5c3e56",
 		galleryMax	= "74",				// easter24 before duplicate
 		currGal		= "easter24",
 		latestGal	= "easter24";
