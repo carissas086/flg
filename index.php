@@ -37,6 +37,7 @@
 
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
             <section id="landing">
+                <?php include __DIR__ . '/galleries/easter24/easter24head.php'; ?>
                 <?php include __DIR__ . '/galleries/christmas23/christmas23head.php'; ?>
                 <?php include __DIR__ . '/galleries/fall23/fall23head.php'; ?>
                 <?php include __DIR__ . '/galleries/aug23/aug23head.php'; ?>
@@ -56,6 +57,7 @@
 
                             <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
                                 <section class="grid">
+                                    <?php include __DIR__ . '/galleries/easter24/easter24grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/christmas23/christmas23grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/fall23/fall23grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/aug23/aug23grid.php'; ?>
@@ -104,7 +106,7 @@
             </section>
             <section id="about" class="is-flex flex-centers">
                 <div class="about-img">
-                    <img src="images/christmas23-about-banner.jpg" alt="Illustration of Mary reaching up into a beam of light">
+                    <img src="images/easter23-about-banner.jpg" alt="Illustration of Mary reaching up into a beam of light">
                 </div>
                 <div class="about-text">
                     <h3 class="head-font">About Us</h3>
