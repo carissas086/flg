@@ -1,1 +1,1 @@
-<link rel="stylesheet" href="styles/gallery-styles/christmas23.css" id="gal-css">
+<link rel="stylesheet" href="styles/gallery-styles/easter24.css" id="gal-css">

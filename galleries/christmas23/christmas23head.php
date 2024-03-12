@@ -5,7 +5,7 @@
         <h1 class="christmas23-title">Magnificat</h1>
         <p>The term &ldquo;magnificat&rdquo; comes from a latin term, the same term that gave English &ldquo;magnificent&rdquo;. In response to the Christmas story, Mary is in a unique position to praise God. She calls Him magnificent. This Christmas, we will meditate on the glory of God: His brilliance, His magnificence.</p>
     </div>
-    <a href="#galleryhd" class="button">
-        <p>View Gallery</p>
+    <a class="button latest" data-filter-group="reset">
+        <p>Latest Gallery</p>
     </a>
 </section>
