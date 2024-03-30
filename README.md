@@ -2,7 +2,7 @@
 
 __1 pages__
 __6 galleries__
-__74 artworks__
+__77 artworks__
 
 
 # Fraser Lands Gallery, v1.2
@@ -142,8 +142,9 @@ The current lists of gallery tags are as follows:
 - **christmas22** (A Christmas Art Exhibit, Christmas 2022)
 - **easter23** (An Easter Art Exhibit, Easter 2023)
 - **aug23** (God's Covenant Love, Aug 2023)
-- **fall23** (Thriving in Exile, Fall 2023)
+- **fall23** (Thriving in Exile, Daniel 2023)
 - **christmas23** (Magnificat, Christmas 2023)
+- **easter24** (Easter Exhibition, Easter 2024)
 
 Gallery tag filters are generated as such: **g-_TAG_**
 

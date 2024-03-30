@@ -26,7 +26,7 @@
                 data-filter=".g-fall23"
                 onclick="setCSS('fall23');"
                 id="filter-fall23">
-                Fall 2023
+                Daniel 2023
             </li>
             <li
                 data-filter=".g-christmas23"

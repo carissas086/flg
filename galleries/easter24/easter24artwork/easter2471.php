@@ -1,7 +1,7 @@
 <!-- FLG70 -->
 <div class="grid-item g-easter24 m-photograph a-006">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg70">
+        class="tile" id="flg70">
         <img src="images/flg70_thumb.jpg" alt="Photograph of a foggy day, with a residential suburb in the background and coniferous trees in the foregound, and a bird flying under the diffused sunlight">
 
         <!-- ==== FLG70 ASIDE ==== -->

@@ -1,7 +1,7 @@
 <!-- FLG74 -->
 <div class="grid-item g-easter24 m-painting m-arcrylic a-010">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg74">
+        class="tile" id="flg74">
         <img src="images/flg74_thumb.jpg" alt="Abstract acrylic painting with fish in a red sky, and creatures of many colours on the ground">
 
         <!-- ==== FLG74 ASIDE ==== -->

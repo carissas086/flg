@@ -1,7 +1,7 @@
 <!-- FLG75 -->
 <div class="grid-item g-easter24 m-painting m-arcrylic a-026">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg75">
+        class="tile" id="flg75">
         <img src="images/flg75_thumb.jpg" alt="Acrylic painting depicting an angle approaching Mary at the tomb of Jesus">
 
         <!-- ==== FLG75 ASIDE ==== -->
