@@ -1,7 +1,7 @@
 <!-- FLG68 -->
 <div class="grid-item g-easter24 m-watercolour m-painting a-017">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg68">
+        class="tile" id="flg68">
         <img src="images/flg68_thumb.jpg" alt="Watercolour painting of the 3 crosses of the crucifixion on left side and a bright meadow overlooking the sea on the right.">
 
         <!-- ==== FLG68 ASIDE ==== -->

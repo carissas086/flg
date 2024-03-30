@@ -1,7 +1,7 @@
 <!-- FLG73 -->
 <div class="grid-item g-easter24 m-painting a-023">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg73">
+        class="tile" id="flg73">
         <img src="images/flg73_thumb.jpg" alt="6 drawings containing verses and scenes from the Christian theology of easter">
 
         <!-- ==== FLG73 ASIDE ==== -->
