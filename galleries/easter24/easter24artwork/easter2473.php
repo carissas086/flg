@@ -1,7 +1,7 @@
 <!-- FLG72 -->
 <div class="grid-item g-easter24 m-mixedmedia a-023">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg72">
+        class="tile" id="flg72">
         <img src="images/flg72_thumb.jpg" alt="Paper craft of hearts surrounding a wooden butterfly on a cross made of words">
 
         <!-- ==== FLG72 ASIDE ==== -->

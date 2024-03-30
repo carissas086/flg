@@ -1,7 +1,7 @@
 <!-- FLG71 -->
 <div class="grid-item g-easter24 m-arcrylic m-painting a-013">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg71">
+        class="tile" id="flg71">
         <img src="images/flg71_thumb.jpg" alt="Acrylic Painting of Jesus resurrected and rising up">
 
         <!-- ==== FLG71 ASIDE ==== -->

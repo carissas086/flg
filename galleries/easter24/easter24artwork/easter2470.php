@@ -1,7 +1,7 @@
 <!-- FLG69 -->
 <div class="grid-item g-easter24 m-photograph a-007">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile video" id="flg69">
+        class="tile" id="flg69">
         <img src="images/flg69_thumb.jpg" alt="Photo of rock formations at Drumheller Alberta interspersed with short grasses">
 
         <!-- ==== FLG69 ASIDE ==== -->
