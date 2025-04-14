@@ -31,6 +31,14 @@
             }
         }
 
+    p {
+        text-transform: none;
+    }
+
+    .button p {
+        text-transform: uppercase;
+    }
+
     .christmas24-header {
         text-transform: uppercase;
         text-align: center;
