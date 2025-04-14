@@ -37,6 +37,7 @@
 
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
             <section id="landing">
+                <?php include __DIR__ . '/galleries/christmas24/christmas24head.php'; ?>
                 <?php include __DIR__ . '/galleries/easter24/easter24head.php'; ?>
                 <?php include __DIR__ . '/galleries/christmas23/christmas23head.php'; ?>
                 <?php include __DIR__ . '/galleries/fall23/fall23head.php'; ?>
@@ -57,6 +58,7 @@
 
                             <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
                                 <section class="grid">
+                                    <?php include __DIR__ . '/galleries/christmas24/christmas24grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/easter24/easter24grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/christmas23/christmas23grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/fall23/fall23grid.php'; ?>
@@ -91,7 +93,7 @@
                                 </aside>
                         </div>
 
-                    <p class="insta-call">Share your thoughts on your favourite artworks with us! Use the hashtag <a class="hyperlink" href="https://www.instagram.com/explore/tags/fraserlandsgallery/" target="_blank">#FraserLandsGallery</a> on Instagram.</p>
+                    <p class="insta-call">Stay updated on the latest with the gallery by <a class="hyperlink" href="about.php" target="_blank">joining</a> our mailing list!</p>
                     
                 </section>
 

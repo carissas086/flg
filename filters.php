@@ -40,6 +40,12 @@
                 id="filter-easter24">
                 Easter 2024
             </li>
+            <li
+                data-filter=".g-christmas24"
+                onclick="setCSS('christmas24');"
+                id="filter-christmas24">
+                Keep Watch 2024
+            </li>
 
         </ul>
     </div>
