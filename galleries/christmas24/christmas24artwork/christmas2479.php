@@ -1,14 +1,14 @@
-<!-- FLG1 -->
-<div class="grid-item g-christmas24 m-arcrylic m-painting a-001">
+<!-- FLG78 -->
+<div class="grid-item g-christmas24 m-arcrylic m-painting a-029">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile" id="flg1">
-        <img src="images/flg1_thumb.jpg" alt="Arcrylic painting on canvas">
+        class="tile" id="flg78">
+        <img src="images/flg78_thumb.jpg" alt="Arcrylic painting on canvas">
 
-        <!-- ==== FLG1 ASIDE ==== -->
+        <!-- ==== FLG78 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg1.jpg" alt="Arcrylic painting on canvas">
+                        <img src="images/flg78.jpg" alt="Arcrylic painting on canvas">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">
