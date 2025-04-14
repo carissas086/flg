@@ -37,8 +37,8 @@
 <!-- ==== GLOABL NAVIGATION ==== -->
     <div class="is-flex flex-centers" id="top-gn">
         <ul class="gn is-flex">
-            <li><a href="index.php#galleryhd" alt="See Latest Gallery">Gallery</a></li>
-            <li><a href="index.php#ack" alt="About the Fraser Lands Gallery">About</a></li>
+            <li><a href="index.php" alt="See Latest Gallery">Gallery</a></li>
+            <li><a href="about.php" alt="About the Fraser Lands Gallery">About</a></li>
             <!-- <li><a href="artists.php" alt="Meet the artists!">Artists</a></li> -->
         </ul>
     </div>
