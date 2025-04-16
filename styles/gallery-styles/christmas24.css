@@ -1,0 +1,80 @@
+/* ==== HIJACKED FROM A CHRISTMAS ART EXHIBIT
+    background-color: #182945;
+	background-color: #f4bf54;
+==== */
+
+/* ==== LANDING BACKGROUND IMG ==== */
+    .christmas24-intro-img {
+        background-image: url(../../images/christmas22_intro-banner.jpg);
+        background-position: top left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+    }
+
+/* ==== TYPOGRAPHY ==== */
+    .christmas24-title {
+        font-family: poppins, sans-serif;
+        font-weight: 400;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        letter-spacing: .25rem;
+
+        line-height: 4rem;
+        padding: 0 2vw;
+        color: #f4bf54;
+    }
+        @media (min-width: 687px) {
+            .christmas22-title {
+                font-size: 5rem;
+
+            }
+        }
+
+    p {
+        text-transform: none;
+    }
+
+    .button p {
+        text-transform: uppercase;
+    }
+
+    .christmas24-header {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .christmas24-byline {
+        text-align: center;
+    }
+
+/* ==== TEXT COLOURS ==== */
+    .christmas24-intro-img, .hyperlink, .gal-filter li:hover, .is-selected, .aside-text p {
+        color: #fff;
+    }
+        
+    .chrstmas24-title, .gal-filter, .gal-select, .pullout-panel, #toplink, .hyperlink:hover, .button:hover p, .social a:hover, .insta-call {
+        color: #f4bf54;
+    }
+    
+    .gn a, .button, .button a, .button p {
+        color: #182945;
+    }
+
+/* ==== BACKGROUND COLOURS ==== */
+    #top-gn, .button {
+        background-color: #f4bf54;
+    }
+
+    .christmas24-intro-img, #galleryhd, .pullout-panel, .footer {
+        background-color: #182945;
+    }
+
+/* ==== BORDER COLOURS ==== */
+    .mediums-list, .fil-medium {
+        border-color: #f4bf54;
+    }
+    
+    .button:hover {
+        border: #f4bf54 solid 4px;
+    }

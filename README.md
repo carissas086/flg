@@ -1,11 +1,11 @@
 **CURRENT GALLERY TAG: easter24**
 
-__1 pages__
-__6 galleries__
-__77 artworks__
+__2 pages__
+__7 galleries__
+__83 artworks__
 
 
-# Fraser Lands Gallery, v1.2
+# Fraser Lands Gallery, v1.3
 
 __Please note:__
 - Most adjustments should only need to be made in .php partials, and in functions.js. See below for more details
@@ -145,6 +145,7 @@ The current lists of gallery tags are as follows:
 - **fall23** (Thriving in Exile, Daniel 2023)
 - **christmas23** (Magnificat, Christmas 2023)
 - **easter24** (Easter Exhibition, Easter 2024)
+- **christmas24** (Keep Watch, Christmas 2024)
 
 Gallery tag filters are generated as such: **g-_TAG_**
 

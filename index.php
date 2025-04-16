@@ -37,6 +37,7 @@
 
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
             <section id="landing">
+                <?php include __DIR__ . '/galleries/christmas24/christmas24head.php'; ?>
                 <?php include __DIR__ . '/galleries/easter24/easter24head.php'; ?>
                 <?php include __DIR__ . '/galleries/christmas23/christmas23head.php'; ?>
                 <?php include __DIR__ . '/galleries/fall23/fall23head.php'; ?>
@@ -57,6 +58,7 @@
 
                             <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
                                 <section class="grid">
+                                    <?php include __DIR__ . '/galleries/christmas24/christmas24grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/easter24/easter24grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/christmas23/christmas23grid.php'; ?>
                                     <?php include __DIR__ . '/galleries/fall23/fall23grid.php'; ?>
@@ -91,28 +93,10 @@
                                 </aside>
                         </div>
 
-                    <p class="insta-call">Share your thoughts on your favourite artworks with us! Use the hashtag <a class="hyperlink" href="https://www.instagram.com/explore/tags/fraserlandsgallery/" target="_blank">#FraserLandsGallery</a> on Instagram.</p>
+                    <p class="insta-call">Stay updated on the latest with the gallery by <a class="hyperlink" href="about.php" target="_blank">joining</a> our mailing list!</p>
                     
                 </section>
 
-        <!-- ==== ABOUT ==== -->
-            <section id="ack" class="is-flex flex-centers">
-                <!-- <h3>Land Acknowledgement</h3> -->
-                    <div class="italics land-ack">
-                        <p>Fraser Lands Gallery would like to acknowledge that we are seated on the unceded traditional territories of the Musqueam, Squamish and Tsleil-Waututh Nations and their People.</p>
-                        <p>The term unceded means that the land we reside on was never legally given up by its original inhabitants, the First Nations peoples, through treaty or other agreement.</p>
-                        <p>We, Fraser Lands Gallery, recognize this truth alongside the Indigenous peoples who have occupied and stewarded this land since time immemorial.</p>
-                    </div>
-            </section>
-            <section id="about" class="is-flex flex-centers">
-                <div class="about-img">
-                    <img src="images/easter23-about-banner.jpg" alt="Illustration of Mary reaching up into a beam of light">
-                </div>
-                <div class="about-text">
-                    <h3 class="head-font">About Us</h3>
-                    <p>Fraser Lands Gallery is an arts ministry which creates opportunities for our church community to interact with and explore God through art, and provides another means of outreach to our neighbours. The Gallery is always looking for artists to join their team and create artworks for exhibitions and art shows within the Church space, if you are interested, please <a href="mailto:gallery@fraserlands.ca" class="hyperlink force-dark" target="_blank">email us</a> for more details.</p>
-                </div>
-            </section>
         </main>
 
         <!-- ==== FOOTER & Scripts ==== -->
