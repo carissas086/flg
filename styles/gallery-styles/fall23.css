@@ -67,7 +67,7 @@
 }
 
 /* ==== BACKGROUND COLOURS ==== */
-#top-gn, .button {
+.top-gn, .button {
     background-color: var(--fall23-col-pri);
 }
 

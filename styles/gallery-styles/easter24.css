@@ -61,7 +61,7 @@ p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta
 }
 
 /* ==== BACKGROUND COLOURS ==== */
-#top-gn, .button {
+.top-gn, .button {
     background-color: #ffa94d;
 }
 

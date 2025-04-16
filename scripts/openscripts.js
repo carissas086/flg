@@ -45,6 +45,13 @@
         document.getElementById("med-select").classList.toggle("sel-selector");
     }
 
+    function archDrop() {
+        document.getElementById("arch-menu").classList.toggle("show-options");
+    }
+    function archDropClose() {
+        document.getElementById("arch-menu").classList.toggle("show-options");
+    }
+
 // Close the dropdown menu if the user clicks outside of it
 
     window.onclick = function(event) {
