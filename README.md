@@ -2,7 +2,7 @@
 
 __2 pages__
 __7 galleries__
-__77 artworks__
+__83 artworks__
 
 
 # Fraser Lands Gallery, v1.3

@@ -13,12 +13,12 @@
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <h3 class="head-font christmas24-header">Light</h3>
+                        <h3 class="head-font christmas24-header">Broken Beauty, Living Promise</h3>
                         <p class="medium italics bold">Arcrylic Painting</p>
-                        <p>I wanted to capture my relationship with Jesus over my life so far and how the story of his birth draws me in. The dark clouds embody the difficulties I faced in the earlier years of my life. The pink clouds are dots of His outpouring of love towards me and the bright white moon &mdash; the only element with dimension &mdash; is symbolic of his pure goodness and love and how it is the center of my life. My journey continues forward towards the light and freedom.</p>
+                        <p>Imagine the holiest of men to walk among us, shattered and splintered on display for those He was sent to save.</br> Imagine the broken body of the purest man on Earth.</br> Yet still He spurs us on, not to sit in the waiting, but to live with kindness, in faithfulness and in preparation for the return.</br> The icon of a broken rose signifies a sacrifice and a promise made.</br> A promise that survives the body. A promise that reminds us to believe when tomorrow is unclear.</p>
                         <div class="is-flex bio-box">
-                            <img src="images/Allison-Chen_2211.jpg" alt="Photo of Allison Chen">
-                            <p class="byline christmas24-byline">by: Allison  Chen</p>
+                            <img src="images/Seth-Mendoza_2312.jpg" alt="Photo of Seth Mendoza">
+                            <p class="byline christmas24-byline">by: Seth Mendoza</p>
                         </div>
                     </div>
                 </div>
