@@ -54,11 +54,11 @@
 }
 
 /* ==== TEXT COLOURS ==== */
-.hyperlink, .bold, .about-text h3, .head-font, .button:hover p, .about-text p, .force-dark:hover {
+.gn a, .hyperlink, .bold, .about-text h3, .head-font, .button:hover p, .about-text p, .force-dark:hover {
     color: var(--fall23-col-pri);
 }
     
-.gn a, p, .button p, .gal-filter li:hover, .button a, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .insta-call, .insta-call a, .aside-header  {
+p, .button p, .gal-filter li:hover, .button a, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .insta-call, .insta-call a, .aside-header  {
     color: var(--fall23-col-acc);
 }
 
