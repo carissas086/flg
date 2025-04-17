@@ -91,7 +91,7 @@
 
         <!-- ==== FOOTER & Scripts ==== -->
         <?php include __DIR__ . '/footer.php'; ?>
-        <?php include __DIR__ . '/archives/gal24Scripts.php'; ?>
+        <?php include __DIR__ . '/archives/gal24scripts.php'; ?>
 
     </body>
 </html>
