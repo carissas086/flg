@@ -5,7 +5,7 @@
         <h1 class="fall23-title">Thriving in Exile</h1>
         <!-- <p></p> -->
     </div>
-    <a class="button latest" data-filter-group="reset">
+    <!-- <a class="button latest" data-filter-group="reset">
         <p>Latest Gallery</p>
-    </a>
+    </a> -->
 </section>

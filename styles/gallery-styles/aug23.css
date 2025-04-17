@@ -122,11 +122,11 @@ Entry Styles
     color: #971214;
 }
     
-p, .button p, .gal-filter li:hover, .button a, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call, .insta-call a, .aside-header, .byline, .medium  {
+.gn a, p, .button p, .gal-filter li:hover, .button a, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call, .insta-call a, .aside-header, .byline, .medium  {
     color: #ffffff;
 }
 
-.gn a, .aug23-title, .is-selected, .aug23-header, .aug23-header p, .button:hover p, .aug23-verse-box p, .land-ack p, .about-text p {
+.aug23-title, .is-selected, .aug23-header, .aug23-header p, .button:hover p, .aug23-verse-box p, .land-ack p, .about-text p {
     color: #000000;
 }
 

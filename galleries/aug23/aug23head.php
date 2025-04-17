@@ -5,7 +5,7 @@
         <h1 class="aug23-title">God's</br><span class="bold">Convenant Love</span></h1>
         <p>Alongside our church sermon series for the month of August, our artists reflect on the story of Ruth and God's covenental love in the context of family brokenness and suffering.</p>
     </div>
-    <a class="button latest" data-filter-group="reset">
+    <!-- <a class="button latest" data-filter-group="reset">
         <p>Latest Gallery</p>
-    </a>
+    </a> -->
 </section>

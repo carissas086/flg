@@ -20,7 +20,7 @@
                 <link rel="stylesheet" href="styles/gallery.css">
 
             <!-- ==== Gallery Specific Styles ==== -->
-                <?php include __DIR__ . '/galleries/galleryspecstyles.php'; ?>
+            <link rel="stylesheet" href="styles/gallery-styles/christmas23.css" id="gal-css">
 
         <!-- ==== FAVICON LINKS ==== -->
             <?php include __DIR__ . '/favicons.php'; ?>
@@ -95,6 +95,7 @@
 
         <!-- ==== FOOTER & Scripts ==== -->
         <?php include __DIR__ . '/footer.php'; ?>
+        <?php include __DIR__ . '/archives/gal23Scripts.php'; ?>
 
     </body>
 </html>

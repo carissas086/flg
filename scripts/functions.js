@@ -3,8 +3,8 @@
 	var logoFile	= "FLC-logo-cut",
 		logocolour	= "#182945",
 		galleryMax	= "84",				// 77 easter24 before duplicate
-		currGal		= "christmas24",
-		latestGal	= "christmas24";
+		currGal		= "easter25",
+		latestGal	= "easter25";
 
 // =====================
 // ======== FIN ========
@@ -80,9 +80,9 @@ $(document).ready(function() {
 				
 			// ==== STOP AT MIN GALLERY ITEMS
 			
-				if (setId == '1') {
-					cntlPrev.setAttribute('data-id','flg1');
-					cntlNext.setAttribute('data-id','flg2');
+				if (setId == '84') {
+					cntlPrev.setAttribute('data-id','flg84');
+					cntlNext.setAttribute('data-id','flg85');
 					return;
 				} else {
 					cntlPrev.setAttribute('data-id','flg' + setPrev.toString());
@@ -101,25 +101,25 @@ $(document).ready(function() {
 
 				var trackId = Number(setId);
 
-				if (trackId >= 1 && trackId <= 23) {
-					exSetGal('christmas22');
-				} else if (trackId >= 24 && trackId <= 34) {
-					exSetGal('easter23');
-				} else if (trackId >= 35 && trackId <= 47) {
-					exSetGal('aug23');
-				} else if (trackId >= 48 && trackId <= 51) {
-					exSetGal('fall23');
-				} else if (trackId >= 52 && trackId <= 67) {
-					exSetGal('christmas23');
-				} else if (trackId >= 68 && trackId <= 76) {
-					exSetGal('easter24');
-				} else if (trackId == 77) {
-					exSetGal('fall23');
-				} else if (trackId >= 78 && trackId <= 84) {
-					exSetGal('christmas24');
-				} else {
-					return;
-				}
+				// if (trackId >= 1 && trackId <= 23) {
+				// 	exSetGal('christmas22');
+				// } else if (trackId >= 24 && trackId <= 34) {
+				// 	exSetGal('easter23');
+				// } else if (trackId >= 35 && trackId <= 47) {
+				// 	exSetGal('aug23');
+				// } else if (trackId >= 48 && trackId <= 51) {
+				// 	exSetGal('fall23');
+				// } else if (trackId >= 52 && trackId <= 67) {
+				// 	exSetGal('christmas23');
+				// } else if (trackId >= 68 && trackId <= 76) {
+				// 	exSetGal('easter24');
+				// } else if (trackId == 77) {
+				// 	exSetGal('fall23');
+				// } else if (trackId >= 78 && trackId <= 84) {
+				// 	exSetGal('christmas24');
+				// } else {
+				// 	return;
+				// }
 					// BOOKMARK: current function
 
 				function exSetGal(galTag) {
