@@ -1,14 +1,14 @@
-<!-- FLG76 -->
+<!-- FLG85 -->
 <div class="grid-item g-easter24 m-painting m-arcrylic a-002">
     <a href="#" aria-controls="aside" aria-expanded="false"
-        class="tile" id="flg76">
-        <img src="images/flg76_thumb.jpg" alt="Acrylic painting of 2 men shaking hands">
+        class="tile" id="flg85">
+        <img src="images/flg85_thumb.jpg" alt="Acrylic painting of 2 men shaking hands">
 
-        <!-- ==== FLG76 ASIDE ==== -->
+        <!-- ==== FLG85 ASIDE ==== -->
             <div class="visually-hidden">
                 <div class="aside-img">
                     <div class="aside-top">
-                        <img src="images/flg76.jpg" alt="Acrylic painting of 2 men shaking hands">
+                        <img src="images/flg85.jpg" alt="Acrylic painting of 2 men shaking hands">
                     </div>
                 </div>
                 <div class="details panel-box is-flex">

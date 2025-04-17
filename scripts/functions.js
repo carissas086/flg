@@ -2,7 +2,7 @@
 
 	var logoFile	= "FLC-logo-cut",
 		logocolour	= "#182945",
-		galleryMax	= "84",				// 77 easter24 before duplicate
+		galleryMax	= "85",				// setup for easter25
 		currGal		= "easter25",
 		latestGal	= "easter25";
 
@@ -80,9 +80,9 @@ $(document).ready(function() {
 				
 			// ==== STOP AT MIN GALLERY ITEMS
 			
-				if (setId == '84') {
-					cntlPrev.setAttribute('data-id','flg84');
-					cntlNext.setAttribute('data-id','flg85');
+				if (setId == '85') {
+					cntlPrev.setAttribute('data-id','flg85');
+					cntlNext.setAttribute('data-id','flg86');
 					return;
 				} else {
 					cntlPrev.setAttribute('data-id','flg' + setPrev.toString());

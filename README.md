@@ -1,8 +1,8 @@
-**CURRENT GALLERY TAG: easter24**
+**CURRENT GALLERY TAG: easter25**
 
 __5 pages__
-__7 galleries__
-__83 artworks__
+__8 galleries__
+__84 artworks__
 
 
 # Fraser Lands Gallery, v2
