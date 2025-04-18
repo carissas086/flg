@@ -20,7 +20,7 @@
                 <link rel="stylesheet" href="styles/gallery.css">
 
             <!-- ==== Gallery Specific Styles ==== -->
-                <link rel="stylesheet" href="styles/gallery-styles/easter25.css" id="gal-css">
+                <?php include __DIR__ . '/galleries/galleryspecstyles.php'; ?>
 
         <!-- ==== FAVICON LINKS ==== -->
             <?php include __DIR__ . '/favicons.php'; ?>

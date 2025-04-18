@@ -28,7 +28,7 @@ Entry Styles
 /* ==== LANDING BACKGROUND IMG ==== */
 .easter23-intro-img {
     background-image: url(../../images/easter23_banner-wh.jpg);
-    background-position: center bottom;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: screen;

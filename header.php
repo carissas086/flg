@@ -39,7 +39,7 @@
         <ul class="gn is-flex">
             <li><a href="index.php" alt="See Latest Gallery">Gallery</a></li>
             <li>
-                <a href="#"
+                <a
                 onclick="archDrop();"
                 class="arch-trigger"
                 id="arch-trigger"

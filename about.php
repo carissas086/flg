@@ -46,7 +46,7 @@
             </section>
             <section id="about" class="is-flex flex-centers">
                 <div class="about-img">
-                    <img src="images/christmas22-theme-banner.jpg" alt="Illustration of Mary reaching up into a beam of light">
+                    <img src="images/easter25_about-banner.jpg" alt="Illustration of Mary reaching up into a beam of light">
                 </div>
                 <div class="about-text">
                     <h3 class="head-font">About Us</h3>
@@ -63,6 +63,7 @@
 
         <!-- ==== FOOTER & Scripts ==== -->
         <?php include __DIR__ . '/footer.php'; ?>
+        <?php include __DIR__ . '/indexScripts.php'; ?>
 
     </body>
 </html>

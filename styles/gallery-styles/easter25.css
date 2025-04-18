@@ -1,25 +1,31 @@
-/* ==== AN EASTER ART EXHIBIT
-    dark-colour/purple:     #5c3e56;
-	light-colour/orange:    #ffa94d
-        (originally #fc972b, brightened for contrast)
-    accent-colour/pink:     #f56983;
+/* ==== EASTER Series 2025
+    light-green:        #D1D575;
+	dark-green:         #466439;
+	off-white:          #E8E8E8;
 
     font:                   poppins, sans-serif;
 ==== */
 
+:root {
+    --easter25-font-fam: poppins, sans-serif;
+    --easter25-col-pri: #466439;
+    --easter25-col-sec: #D1D575;
+    --easter25-col-acc: #E8E8E8;
+}
+
 /* ==== LANDING BACKGROUND IMG ==== */
-.easter23-intro-img {
-    background-image: url(../../images/easter23_banner-wh.jpg);
-    background-position: center bottom;
+.easter25-intro-img {
+    background-image: url(../../images/easter25_banner.jpg);
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: screen;
-    background-color: #5c3e56;
+    background-color: var(--easter25-col-pri);
 }
 
 /* ==== TYPOGRAPHY ==== */
-.easter23-title {
-    font-family: poppins, sans-serif;
+.easter25-title {
+    font-family: var(--easter25-font-fam);
     font-weight: 400;
     font-size: 3.25rem;
 
@@ -33,51 +39,55 @@
         }
     }
 
-.easter23-header {
+.easter25-header {
     text-transform: uppercase;
     text-align: center;
 }
 
-.easter23-header h3 {
+.easter25-header h3 {
     text-transform: none;
 }
 
-.easter23-header p {
+.easter25-header p {
     text-transform: none;
     font-weight: 500;
 }
 
 /* ==== TEXT COLOURS ==== */
-.hyperlink, .gal-filter li:hover, .is-selected, .byline, .medium, .about-text h3 {
-    color: #f56983;
+.hyperlink, .byline, .medium, .about-text h3, .force-dark {
+    color: var(--easter25-col-pri);
 }
     
 p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call, .aside-header {
-    color: #ffa94d;
+    color: var(--easter25-col-sec);
 }
 
-.gn a, .button p, .button a, .button:hover p, .easter23-title, .easter23-header, .easter23-header p, .easter23-verse-box p, .land-ack p, .about-text p {
-    color: #5c3e56;
+.gn a, .button p, .button a, .button:hover p, .easter25-title, .easter25-header, .easter25-header p, .easter25-verse-box p, .land-ack p, .about-text p {
+    color: var(--easter25-col-pri);
+}
+
+.insta-call a, .is-selected, .gal-filter li:hover {
+    color: var(--easter25-col-acc);
 }
 
 /* ==== BACKGROUND COLOURS ==== */
 .top-gn, .button {
-    background-color: #ffa94d;
+    background-color: var(--easter25-col-acc);
 }
 
 #galleryhd, .footer, .pullout-panel {
-    background-color: #5c3e56;
+    background-color: var(--easter25-col-pri);
 }
 
 /* ==== BORDER COLOURS ==== */
 .mediums-list, .fil-medium {
-    border-color: #ffa94d;
+    border-color: var(--easter25-col-sec);
 }
 
 .button:hover {
-    border: #5c3e56 solid 4px;
+    border: var(--easter25-col-pri) solid 4px;
 }
 
 hr {
-    border: #f56983 solid .25px;
+    border: var(--easter25-col-sec) solid .25px;
 }

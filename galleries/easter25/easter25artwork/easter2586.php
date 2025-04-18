@@ -1,5 +1,5 @@
 <!-- FLG85 -->
-<div class="grid-item g-easter24 m-painting m-arcrylic a-002">
+<div class="grid-item g-easter25 m-painting m-arcrylic a-002">
     <a href="#" aria-controls="aside" aria-expanded="false"
         class="tile" id="flg85">
         <img src="images/flg85_thumb.jpg" alt="Acrylic painting of 2 men shaking hands">
