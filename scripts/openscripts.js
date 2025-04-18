@@ -31,6 +31,20 @@
         };
     }
 
+// ==== SET ARTIST
+
+    function setArt(tag) {
+        var landing         = document.getElementById("landing"),
+            chosenArt        = document.getElementById(tag);
+
+        // hides all other landings, and sets chosen one
+            for (const child of landing.children) {
+                child.classList.add("visually-hidden");
+            };
+            chosenArt.classList.remove("visually-hidden");
+
+    }
+
 // ==== FILTER DROPDOWNS
 
     function galDrop() {

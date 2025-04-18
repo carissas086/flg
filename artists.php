@@ -24,6 +24,10 @@
 
         <!-- ==== FAVICON LINKS ==== -->
             <?php include __DIR__ . '/favicons.php'; ?>
+
+        <!-- ==== SCRIPTS FOR CALLS ==== -->
+            <script type="text/javascript" src="scripts/openscripts.js"></script>
+            
     </head>
     <body>
         <header>
@@ -46,7 +50,32 @@
                     </div>
                 </div>
 
+                <div class="artists-list">
+                    <ul class="is-flex artist-filter fil-art" id="art-list" data-filter-group="artist">
 
+                    <!-- ==== EDIT ARTISTS LIST ==== -->
+                            <!-- <li class="is-selected" data-filter="*">All</li> -->
+                            <img
+                            data-filter=".a-001"
+                            onclick="setArt('a001');"
+                            src="images/Allison-chen_2211.jpg"
+                            style="width: 100px">
+                            
+                    </ul>
+                </div>
+
+                <section id="landing">
+                    <?php include __DIR__ . '/artists/allisonchen.php'; ?>
+
+                    VVV
+
+                    <div class="intro gallery-header is-flex flex-centers visually-hidden" id="a100">
+                        <h4 class="head-font">Allison Chen</h4>
+                    </div>
+
+                </section>
+
+                <!-- FULL GRID -->
 
 
             </section>
@@ -57,7 +86,12 @@
             <!-- <a href="index.php#galleryhd" class="button">
                 <p>View Latest Gallery</p>
             </a> -->
+
         </main>
+
+        <!-- ==== FOOTER & SCRIPTS ==== -->
         <?php include __DIR__ . '/footer.php'; ?>
+        <?php include __DIR__ . '/indexScripts.php'; ?>
+
     </body>
 </html>

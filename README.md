@@ -177,24 +177,24 @@ The current lists of gallery tags are as follows:
 - **christmas23** (Magnificat, Christmas 2023)
 - **easter24** (Easter Exhibition, Easter 2024)
 - **christmas24** (Keep Watch, Christmas 2024)
+- **easter25** (An Easter Exhibition, Easter 2025)
+<!-- - **spring25** (Spiritual Gifts, Spring 2025) -->
 
 Gallery tag filters are generated as such: **g-_TAG_**
 
 ##### Artwork Mediums Filter List
 
 The current artwork mediums filters are as follows:
-- m-mixedmedia
-- m-painting
-- m-photograph
-
-These artwork medium filters are set up but not connected:
 - m-arcrylic
 - m-comic
 - m-composite
 - m-digitalart
 - m-drawing
 - m-marker
+- m-mixedmedia
+- m-painting
 - m-pastel
+- m-photograph
 - m-poetry
 - m-pen
 - m-quilt
