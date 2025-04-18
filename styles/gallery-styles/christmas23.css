@@ -80,7 +80,7 @@ p {
 }
 
 /* ==== BACKGROUND COLOURS ==== */
-#top-gn, .button, .footer {
+.top-gn, .button, .footer {
     background-color: var(--christmas23-col-acc);
 }
 

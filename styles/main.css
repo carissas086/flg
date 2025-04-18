@@ -186,7 +186,7 @@ p {
             }
         }
 
-    #top-gn {
+    .top-gn {
         width: 100vw;
     }
 
@@ -228,6 +228,13 @@ p {
     .gn li:hover {
         font-weight: 700;
     }
+
+    /* ==== Archive Gallery Menu ==== */
+
+        .arch-menu {
+            display: none;
+            margin-top: .25rem;
+        }
 
 /* ==== MAIN ==== */
 
@@ -350,6 +357,6 @@ p {
 
 /* ==== OVERWRITES ==== */
 
-    .force-dark {
+    /* .force-dark {
         color:#000 !important;
-    }
+    } */

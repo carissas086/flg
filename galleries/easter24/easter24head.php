@@ -5,7 +5,7 @@
         <h1 class="easter23-title"><span class="bold">Easter</span> Exhibition</h1>
         <!-- <p>BOOKMARK</p> -->
     </div>
-    <a class="button latest" data-filter-group="reset">
+    <!-- <a class="button latest" data-filter-group="reset">
         <p>Latest Gallery</p>
-    </a>
+    </a> -->
 </section>

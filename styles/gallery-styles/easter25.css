@@ -1,0 +1,93 @@
+/* ==== EASTER Series 2025
+    light-green:        #D1D575;
+	dark-green:         #466439;
+	off-white:          #E8E8E8;
+
+    font:                   poppins, sans-serif;
+==== */
+
+:root {
+    --easter25-font-fam: poppins, sans-serif;
+    --easter25-col-pri: #466439;
+    --easter25-col-sec: #D1D575;
+    --easter25-col-acc: #E8E8E8;
+}
+
+/* ==== LANDING BACKGROUND IMG ==== */
+.easter25-intro-img {
+    background-image: url(../../images/easter25_banner.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-color: var(--easter25-col-pri);
+}
+
+/* ==== TYPOGRAPHY ==== */
+.easter25-title {
+    font-family: var(--easter25-font-fam);
+    font-weight: 400;
+    font-size: 3.25rem;
+
+    line-height: 4rem;
+    padding: 0 2vw;
+}
+    @media (min-width: 687px) {
+        .easter23-title {
+            font-size: 5rem;
+
+        }
+    }
+
+.easter25-header {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.easter25-header h3 {
+    text-transform: none;
+}
+
+.easter25-header p {
+    text-transform: none;
+    font-weight: 500;
+}
+
+/* ==== TEXT COLOURS ==== */
+.hyperlink, .byline, .medium, .about-text h3, .force-dark {
+    color: var(--easter25-col-pri);
+}
+    
+p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call, .aside-header {
+    color: var(--easter25-col-sec);
+}
+
+.gn a, .button p, .button a, .button:hover p, .easter25-title, .easter25-header, .easter25-header p, .easter25-verse-box p, .land-ack p, .about-text p {
+    color: var(--easter25-col-pri);
+}
+
+.insta-call a, .is-selected, .gal-filter li:hover {
+    color: var(--easter25-col-acc);
+}
+
+/* ==== BACKGROUND COLOURS ==== */
+.top-gn, .button {
+    background-color: var(--easter25-col-acc);
+}
+
+#galleryhd, .footer, .pullout-panel {
+    background-color: var(--easter25-col-pri);
+}
+
+/* ==== BORDER COLOURS ==== */
+.mediums-list, .fil-medium {
+    border-color: var(--easter25-col-sec);
+}
+
+.button:hover {
+    border: var(--easter25-col-pri) solid 4px;
+}
+
+hr {
+    border: var(--easter25-col-sec) solid .25px;
+}

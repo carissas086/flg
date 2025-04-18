@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fraser Lands Gallery</title>
+        <title>Fraser Lands Gallery 2023 Archive</title>
 
         <!-- ==== SOCIAL META ==== -->
             <?php include __DIR__ . '/metatags.php'; ?>
@@ -20,7 +20,7 @@
                 <link rel="stylesheet" href="styles/gallery.css">
 
             <!-- ==== Gallery Specific Styles ==== -->
-                <?php include __DIR__ . '/galleries/galleryspecstyles.php'; ?>
+                <link rel="stylesheet" href="styles/gallery-styles/christmas24.css" id="gal-css">
 
         <!-- ==== FAVICON LINKS ==== -->
             <?php include __DIR__ . '/favicons.php'; ?>
@@ -37,14 +37,15 @@
 
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
             <section id="landing">
-                <?php include __DIR__ . '/galleries/easter25/easter25head.php'; ?>
+                <?php include __DIR__ . '/galleries/christmas24/christmas24head.php'; ?>
+                <?php include __DIR__ . '/galleries/easter24/easter24head.php'; ?>
             </section>
                 
 
                 <section id="galleryhd" class="is-flex">
 
                     <!-- ==== FILTERS ==== -->
-                        <?php include __DIR__ . '/filters.php'; ?>
+                        <?php include __DIR__ . '/archives/filters24.php'; ?>
 
                     <!-- ==== CURRENT GALLERY ==== -->
                         <div class="gallery-wrap">
@@ -52,7 +53,8 @@
 
                             <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
                                 <section class="grid">
-                                    <?php include __DIR__ . '/galleries/easter25/easter25grid.php'; ?>
+                                    <?php include __DIR__ . '/galleries/christmas24/christmas24grid.php'; ?>
+                                    <?php include __DIR__ . '/galleries/easter24/easter24grid.php'; ?>
                                 </section>
                             </div>
 
@@ -89,7 +91,7 @@
 
         <!-- ==== FOOTER & Scripts ==== -->
         <?php include __DIR__ . '/footer.php'; ?>
-        <?php include __DIR__ . '/indexScripts.php'; ?>
+        <?php include __DIR__ . '/archives/gal24scripts.php'; ?>
 
     </body>
 </html>
