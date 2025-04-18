@@ -13,7 +13,7 @@
         LOGO COLOUR FUNCTION
     == -->
         <!-- <script src="scripts/functions.js"></script> -->
-        <script src="scripts/gal24cntrl.js"></script>
+        <script src="./scripts/gal24cntrl.js"></script>
         
     <!-- == IMAGES LOADED == -->
         <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
