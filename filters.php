@@ -25,12 +25,13 @@
                 <!-- <li data-filter=".m-drawing">Drawing</li> -->
                 <!-- <li data-filter=".m-digitalart">Digital Art</li> -->
                 <!-- <li data-filter=".m-marker">Marker</li> -->
-                <!-- <li data-filter=".m-mixedmedia">Mixed Media</li> -->
+                <li data-filter=".m-mixedmedia">Mixed Media</li>
                 <li data-filter=".m-painting">Painting</li>
                 <!-- <li data-filter=".m-pastel">Pastel</li> -->
                 <!-- <li data-filter=".m-pen">Pen</li> -->
                 <!-- <li data-filter=".m-photograph">Photograph</li> -->
                 <!-- <li data-filter=".m-poetry">Poetry</li> -->
+                <li data-filter=".m-pottery">Pottery</li>
                 <!-- <li data-filter=".m-quilt">Quilt</li> -->
                 <!-- <li data-filter=".m-sculpture">Sculpture</li> -->
                 <!-- <li data-filter=".m-shadowbox">Shadow Box</li> -->

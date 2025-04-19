@@ -2,7 +2,7 @@
 
 __5 pages__
 __8 galleries__
-__84 artworks__
+__90 artworks__
 
 
 # Fraser Lands Gallery, v2
@@ -194,9 +194,10 @@ The current artwork mediums filters are as follows:
 - m-mixedmedia
 - m-painting
 - m-pastel
+- m-pen
 - m-photograph
 - m-poetry
-- m-pen
+- m-pottery
 - m-quilt
 - m-sculpture
 - m-shadowbox

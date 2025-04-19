@@ -54,11 +54,11 @@
 }
 
 /* ==== TEXT COLOURS ==== */
-.hyperlink, .byline, .medium, .about-text h3, .force-dark {
+.hyperlink, .about-text h3, .force-dark {
     color: var(--easter25-col-pri);
 }
     
-p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call, .aside-header {
+p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta-call, .byline, .medium, .aside-header {
     color: var(--easter25-col-sec);
 }
 
