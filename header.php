@@ -35,10 +35,24 @@
     </div>
 
 <!-- ==== GLOABL NAVIGATION ==== -->
-    <div class="is-flex flex-centers" id="top-gn">
+    <div class="is-flex flex-centers top-gn">
         <ul class="gn is-flex">
             <li><a href="index.php" alt="See Latest Gallery">Gallery</a></li>
-            <li><a href="about.php" alt="About the Fraser Lands Gallery">About</a></li>
+            <li>
+                <a
+                onclick="archDrop();"
+                class="arch-trigger"
+                id="arch-trigger"
+                alt="See Previous Galleries">Archive</a>
+            </li>
             <!-- <li><a href="artists.php" alt="Meet the artists!">Artists</a></li> -->
+            <li><a href="about.php" alt="About the Fraser Lands Gallery">About</a></li>
+        </ul>
+    </div>
+    <div onmouseleave="archDropClose();" class="is-flex flex-centers top-gn arch-menu" id="arch-menu">
+        <ul class="gn is-flex">
+            <li><a href="gal22.php" alt="See Galleries from 2022">2022</a></li>
+            <li><a href="gal23.php" alt="See Galleries from 2023">2023</a></li>
+            <li><a href="gal24.php" alt="See Galleries from 2024">2024</a></li>
         </ul>
     </div>

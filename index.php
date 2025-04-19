@@ -37,13 +37,7 @@
 
             <!-- ==== LANDING SECTION  |  /galleries/TAG/TAGhead.php==== -->
             <section id="landing">
-                <?php include __DIR__ . '/galleries/christmas24/christmas24head.php'; ?>
-                <?php include __DIR__ . '/galleries/easter24/easter24head.php'; ?>
-                <?php include __DIR__ . '/galleries/christmas23/christmas23head.php'; ?>
-                <?php include __DIR__ . '/galleries/fall23/fall23head.php'; ?>
-                <?php include __DIR__ . '/galleries/aug23/aug23head.php'; ?>
-                <?php include __DIR__ . '/galleries/easter23/easter23head.php'; ?>
-                <?php include __DIR__ . '/galleries/christmas22/christmas22head.php'; ?>
+                <?php include __DIR__ . '/galleries/easter25/easter25head.php'; ?>
             </section>
                 
 
@@ -58,13 +52,7 @@
 
                             <!-- ==== ISOTOPE/GALLERY GRID  |  /galleries/TAG/TAG##grid.php -->
                                 <section class="grid">
-                                    <?php include __DIR__ . '/galleries/christmas24/christmas24grid.php'; ?>
-                                    <?php include __DIR__ . '/galleries/easter24/easter24grid.php'; ?>
-                                    <?php include __DIR__ . '/galleries/christmas23/christmas23grid.php'; ?>
-                                    <?php include __DIR__ . '/galleries/fall23/fall23grid.php'; ?>
-                                    <?php include __DIR__ . '/galleries/aug23/aug23grid.php'; ?>
-                                    <?php include __DIR__ . '/galleries/easter23/easter23grid.php'; ?>
-                                    <?php include __DIR__ . '/galleries/christmas22/christmas22grid.php'; ?>
+                                    <?php include __DIR__ . '/galleries/easter25/easter25grid.php'; ?>
                                 </section>
                             </div>
 
@@ -101,6 +89,7 @@
 
         <!-- ==== FOOTER & Scripts ==== -->
         <?php include __DIR__ . '/footer.php'; ?>
+        <?php include __DIR__ . '/indexScripts.php'; ?>
 
     </body>
 </html>

@@ -1,11 +1,11 @@
-**CURRENT GALLERY TAG: easter24**
+**CURRENT GALLERY TAG: easter25**
 
-__2 pages__
-__7 galleries__
-__83 artworks__
+__5 pages__
+__8 galleries__
+__90 artworks__
 
 
-# Fraser Lands Gallery, v1.3
+# Fraser Lands Gallery, v2
 
 __Please note:__
 - Most adjustments should only need to be made in .php partials, and in functions.js. See below for more details
@@ -134,6 +134,37 @@ Reminder: after partial editing is complete, **delete unnecessary sections**.
 
 ---
 
+## ARCHIVES
+
+### **To set new year**
+
+- Duplicate the following files:
+  - gal##.php
+  - archives/filters##.php
+  - archives/gal##scripts.php
+  - scripts/gal##cntrl.js
+- In **gal##.php**, adjust:
+  - css for that year's latest gallery (line 23)
+  - headers for that year's galleries
+  - filter call to **archives/filters##.php**
+  - grids for that year's galleries
+  - footer script call to **/archives/gal24scripts.php**
+- In **filters##/php**
+  - add year to **line3**
+  - add galleries as needed
+  - adjust mediums list as needed
+- In **gal24scripts.php**
+  - call appropriate **gal@@cntrl.js**
+- In **gal##cntrl.js**
+  - set logocolour in **line 4** to that year's latest gallery
+  - set currGal and latestGal to that year's latest gallery
+  - set max and min gallery items starting in **line 82**
+    - min gallery items should stop control from going past the first item for that year
+    - max gallery items should stop control from going past the last item for that year
+  - set trackId limits for setting CSS styling
+
+---
+
 ## TAG & FILTER LISTS
 
 ##### Gallery Tags List
@@ -146,26 +177,27 @@ The current lists of gallery tags are as follows:
 - **christmas23** (Magnificat, Christmas 2023)
 - **easter24** (Easter Exhibition, Easter 2024)
 - **christmas24** (Keep Watch, Christmas 2024)
+- **easter25** (An Easter Exhibition, Easter 2025)
+<!-- - **spring25** (Spiritual Gifts, Spring 2025) -->
 
 Gallery tag filters are generated as such: **g-_TAG_**
 
 ##### Artwork Mediums Filter List
 
 The current artwork mediums filters are as follows:
-- m-mixedmedia
-- m-painting
-- m-photograph
-
-These artwork medium filters are set up but not connected:
 - m-arcrylic
 - m-comic
 - m-composite
 - m-digitalart
 - m-drawing
 - m-marker
+- m-mixedmedia
+- m-painting
 - m-pastel
-- m-poetry
 - m-pen
+- m-photograph
+- m-poetry
+- m-pottery
 - m-quilt
 - m-sculpture
 - m-shadowbox

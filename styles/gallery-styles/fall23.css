@@ -67,8 +67,8 @@
 }
 
 /* ==== BACKGROUND COLOURS ==== */
-#top-gn, .button {
-    background-color: var(--fall23-col-pri);
+.top-gn, .button {
+    background-color: #603B40;
 }
 
 #galleryhd, .footer, .pullout-panel {

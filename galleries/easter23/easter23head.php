@@ -6,7 +6,7 @@
         <h3>Reflecting on the Season of Lent</h3>
         <p>The season of lent marks a time of preparation for Easter weekend. It echoes the Lord's time in the wilderness, and is a time for penitence, fasting, and prayer in preparation for the great feast of the resurrection. This exhibit serves as a companion to our journey through these 40 days. The hope is that by hearing and answering our Saviour's call to repent, we may enter fully into the Easter celebration.</p>
     </div>
-    <a class="button latest" data-filter-group="reset">
+    <!-- <a class="button latest" data-filter-group="reset">
         <p>Latest Gallery</p>
-    </a>
+    </a> -->
 </section>

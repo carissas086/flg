@@ -1,54 +1,18 @@
 <div>
-    <div class="gal-choose is-flex flex-centers">
+    <!-- <div class="gal-choose is-flex flex-centers">
         <p onclick="galDrop();" class="gal-select" id="gal-select">Galleries</p>
-        <ul class="is-flex gal-filter fil-gal" id="gal-list" data-filter-group="gallery">
+        <ul class="is-flex gal-filter fil-gal" id="gal-list" data-filter-group="gallery"> -->
 
         <!-- ==== ADD NEW GALLERIES ==== -->
-            <li
-                data-filter=".g-christmas22"
-                onclick="setCSS('christmas22');"
-                id="filter-christmas22">
-                Christmas 2022
-            </li>
-            <li
-                data-filter=".g-easter23"
-                onclick="setCSS('easter23');"
-                id="filter-easter23">
-                Easter 2023
-            </li>
-            <li
-                data-filter=".g-aug23"
-                onclick="setCSS('aug23');"
-                id="filter-aug23">
-                God's Covenant Love 2023
-            </li>
-            <li
-                data-filter=".g-fall23"
-                onclick="setCSS('fall23');"
-                id="filter-fall23">
-                Daniel 2023
-            </li>
-            <li
-                data-filter=".g-christmas23"
-                onclick="setCSS('christmas23');"
-                id="filter-christmas23">
-                Magnificat 2023
-            </li>
-            <li
-                data-filter=".g-easter24"
-                onclick="setCSS('easter24');"
-                id="filter-easter24">
-                Easter 2024
-            </li>
-            <li
-                data-filter=".g-christmas24"
-                onclick="setCSS('christmas24');"
-                id="filter-christmas24">
-                Keep Watch 2024
+            <!-- <li
+                data-filter=".g-easter25"
+                onclick="setCSS('easter25');"
+                id="filter-easter25">
+                Easter 2025
             </li>
 
         </ul>
-    </div>
+    </div> -->
     <div class="mediums-list">
         <p onclick="medDrop();" class="gal-select" id="med-select">Mediums</p>
         <ul class="is-flex gal-filter fil-medium" id="med-list" data-filter-group="medium">
@@ -61,12 +25,13 @@
                 <!-- <li data-filter=".m-drawing">Drawing</li> -->
                 <!-- <li data-filter=".m-digitalart">Digital Art</li> -->
                 <!-- <li data-filter=".m-marker">Marker</li> -->
-                <!-- <li data-filter=".m-mixedmedia">Mixed Media</li> -->
+                <li data-filter=".m-mixedmedia">Mixed Media</li>
                 <li data-filter=".m-painting">Painting</li>
                 <!-- <li data-filter=".m-pastel">Pastel</li> -->
                 <!-- <li data-filter=".m-pen">Pen</li> -->
                 <!-- <li data-filter=".m-photograph">Photograph</li> -->
                 <!-- <li data-filter=".m-poetry">Poetry</li> -->
+                <li data-filter=".m-pottery">Pottery</li>
                 <!-- <li data-filter=".m-quilt">Quilt</li> -->
                 <!-- <li data-filter=".m-sculpture">Sculpture</li> -->
                 <!-- <li data-filter=".m-shadowbox">Shadow Box</li> -->

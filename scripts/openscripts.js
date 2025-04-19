@@ -31,6 +31,20 @@
         };
     }
 
+// ==== SET ARTIST
+
+    function setArt(tag) {
+        var landing         = document.getElementById("landing"),
+            chosenArt        = document.getElementById(tag);
+
+        // hides all other landings, and sets chosen one
+            for (const child of landing.children) {
+                child.classList.add("visually-hidden");
+            };
+            chosenArt.classList.remove("visually-hidden");
+
+    }
+
 // ==== FILTER DROPDOWNS
 
     function galDrop() {
@@ -43,6 +57,13 @@
     function medDrop() {
         document.getElementById("med-list").classList.toggle("show-options");
         document.getElementById("med-select").classList.toggle("sel-selector");
+    }
+
+    function archDrop() {
+        document.getElementById("arch-menu").classList.toggle("show-options");
+    }
+    function archDropClose() {
+        document.getElementById("arch-menu").classList.toggle("show-options");
     }
 
 // Close the dropdown menu if the user clicks outside of it
