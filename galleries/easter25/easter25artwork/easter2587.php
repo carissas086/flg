@@ -13,7 +13,9 @@
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
+                        <h3 class="head-font aside-header">The Empty Tomb</h3>
                         <p class="medium italics bold">Comic</p>
+                        <p>&ldquo;Even we feel like we belong to an extinct species,</br>we can experience the power of Resurrection!&rdquo;</p>
                         <div class="is-flex bio-box">
                             <img src="images/YC-Chan_2211.jpg" alt="Photo of YC Chan">
                             <p class="byline">by: YC Chan</p>

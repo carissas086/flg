@@ -14,7 +14,10 @@
                 </div>
                 <div class="details panel-box is-flex">
                     <div class="aside-text">
-                        <p class="medium italics bold">Acrylic Painting & Paper Sculpture</p>
+                    <h3 class="head-font aside-header"><span class="bold">&ldquo;Christ has died, Christ is risen, Christ will come again&rdquo;</span>: <span class="italics">Let &ldquo;Your&rdquo; Light Shine</span></h3>
+                    <p class="medium italics bold">Acrylic Painting & Paper Sculpture</p>
+                    <p>Our Father in heaven, May your name be kept holy. May your Kingdom come soon.</br>May your will be done on earth, as it is in heaven.</br>Give us today the food we need, and forgive us our sins, as we have forgiven those who sin against us.</br>And don&apos;t let us yield to temptation, but rescue us from the evil one.</p>
+                    <p class="bold">Amen.</p>
                         <div class="is-flex bio-box">
                             <img src="images/Karen-Lam_2302.jpg" alt="Photo of Karen Anne Lam">
                             <p class="byline">by: Karen Anne Lam</p>
