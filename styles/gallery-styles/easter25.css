@@ -54,7 +54,7 @@
 }
 
 /* ==== TEXT COLOURS ==== */
-.hyperlink, .about-text h3, .force-dark {
+.about-text h3, .force-dark {
     color: var(--easter25-col-pri);
 }
     
@@ -66,7 +66,7 @@ p, .gal-filter, .gal-select, #toplink, .hyperlink:hover, .social a:hover, .insta
     color: var(--easter25-col-pri);
 }
 
-.insta-call a, .is-selected, .gal-filter li:hover {
+.hyperlink, .insta-call a, .is-selected, .gal-filter li:hover {
     color: var(--easter25-col-acc);
 }
 
