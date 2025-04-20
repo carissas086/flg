@@ -5,7 +5,7 @@ __8 galleries__
 __90 artworks__
 
 
-# Fraser Lands Gallery, v2
+# Fraser Lands Gallery, v2.1
 
 __Please note:__
 - Most adjustments should only need to be made in .php partials, and in functions.js. See below for more details
